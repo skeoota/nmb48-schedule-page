@@ -209,6 +209,28 @@ async function loadMemberDatabase() {
     }
 }
 
+function findClosestPerformance(schedules) {
+    if (!schedules || schedules.length === 0) return null;
+
+    const now = new Date();
+    const todayStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+
+    // 1. Exact match for today
+    const todayShows = schedules.filter(s => s.date === todayStr);
+    if (todayShows.length > 0) {
+        return todayShows[0];
+    }
+
+    // 2. Upcoming shows from today onwards
+    const upcomingShows = schedules.filter(s => s.date > todayStr);
+    if (upcomingShows.length > 0) {
+        return upcomingShows[0];
+    }
+
+    // 3. Closest past show (last one in the past)
+    return schedules[schedules.length - 1];
+}
+
 async function loadMonthlySchedule(year, month) {
     const container = document.getElementById("timeline-container");
     container.innerHTML = `<div class="loading-text">${t("searchPlaceholder")}</div>`;
@@ -229,9 +251,19 @@ async function loadMonthlySchedule(year, month) {
 
     renderTimeline();
 
-    // Select first show by default if available on desktop
-    if (currentMonthlySchedules.length > 0 && window.innerWidth > 1024) {
-        showPerformanceDetail(currentMonthlySchedules[0].id, false);
+    // Select closest performance (today or next upcoming)
+    const closestShow = findClosestPerformance(currentMonthlySchedules);
+    if (closestShow) {
+        if (window.innerWidth > 1024) {
+            showPerformanceDetail(closestShow.id, false);
+        }
+        // Auto scroll to closest show in timeline
+        setTimeout(() => {
+            const targetEl = document.querySelector(`.perf-item-link[onclick*="${closestShow.id}"]`);
+            if (targetEl) {
+                targetEl.scrollIntoView({ behavior: "smooth", block: "center" });
+            }
+        }, 150);
     } else {
         renderDetailPlaceholder();
     }
@@ -365,6 +397,9 @@ function renderTimeline() {
         groupedByDate[d].push(show);
     }
 
+    const now = new Date();
+    const todayStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+
     let html = "";
     for (const [dateStr, shows] of Object.entries(groupedByDate)) {
         const dateObj = new Date(dateStr);
@@ -372,15 +407,20 @@ function renderTimeline() {
         const dayOfWeekIdx = dateObj.getDay(); // 0 = Sun, 6 = Sat
         const dayOfWeekStr = shows[0].day_of_week || ["日", "月", "火", "水", "木", "金", "土"][dayOfWeekIdx];
 
+        const isToday = dateStr === todayStr;
+        let todayClass = isToday ? "is-today" : "";
+        let todayBadgeHTML = isToday ? `<span class="today-label-badge">${t("today")}</span>` : "";
+
         let weekdayClass = "";
         if (dayOfWeekIdx === 0) weekdayClass = "sun sunday";
         else if (dayOfWeekIdx === 6) weekdayClass = "sat saturday";
 
         html += `
-            <div class="timeline-day">
-                <div class="day-num ${weekdayClass}">
+            <div class="timeline-day ${todayClass}">
+                <div class="day-num ${weekdayClass} ${isToday ? 'is-today-badge' : ''}">
                     <span>${dayNum}</span>
                     <span class="weekday ${weekdayClass}">(${dayOfWeekStr})</span>
+                    ${todayBadgeHTML}
                 </div>
                 <div class="day-content">
         `;
