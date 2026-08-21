@@ -1,0 +1,19 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMB48 Theater Schedule & Member Portal</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=1.0.0">
+    <script src="app.js?v=1.0.0" defer></script>
+</head>
+<body>
+
+<!-- Mobile Drawer Overlay -->
+<div class="drawer-overlay" id="drawer-overlay" onclick="closeMobileDrawer()"></div>
+
+<div class="app-container">
+    <!-- Left Sidebar: Member Profile Panel -->
+    <aside class="left-panel" id="left-panel">
+        <button class="drawer-close-btn" id="drawer-close-btn" onclick="closeMobileDrawer()">&times;</button>
+        <div id="left-panel-content">
+            <!-- Dynamic Profile Details Rendered Here -->
+        </div>
+    </aside>
+
+    <!-- Right Main Panel -->
+    <main class="main-panel">
+        <!-- Header Navigation -->
+        <header class="header-nav">
+            <div class="brand-logo-wrapper">
+                <span class="brand-logo">NMB48</span>
+                <span class="brand-sub">THEATER PORTAL</span>
+            </div>
+
+            <div class="nav-controls">
+                <button class="nav-btn" onclick="changeMonth(-1)" id="btn-prev-month">&lt;</button>
+                <div class="month-select-container">
+                    <select id="year-select" onchange="handleSelectDateChange()" class="month-select-dropdown"></select>
+                    <select id="month-select" onchange="handleSelectDateChange()" class="month-select-dropdown"></select>
+                </div>
+                <button class="nav-btn" onclick="changeMonth(1)" id="btn-next-month">&gt;</button>
+                <button class="nav-btn today-btn" onclick="goToToday()" id="btn-today">오늘</button>
+            </div>
+
+            <div class="lang-select-wrapper">
+                <select id="lang-select" onchange="switchLanguage(this.value)">
+                    <option value="ko">한국어 (KO)</option>
+                    <option value="ja">日本語 (JA)</option>
+                    <option value="en">English (EN)</option>
+                </select>
+            </div>
+        </header>
+
+        <!-- Tab Menu -->
+        <nav class="tab-menu-container">
+            <button class="tab-menu-btn active" id="tab-btn-schedule" onclick="switchViewMode('schedule')">극장 스케줄</button>
+            <button class="tab-menu-btn" id="tab-btn-profiles" onclick="switchViewMode('profiles')">멤버 프로필</button>
+        </nav>
+
+        <!-- View 1: Schedule Timeline & Detail Panel -->
+        <div class="content-area" id="schedule-view-area">
+            <!-- Timeline Wrapper -->
+            <div class="timeline-wrapper">
+                <div class="timeline-search-wrapper">
+                    <input type="text" id="timeline-search-input" oninput="handleSearchInput(this.value)" placeholder="공연명, 출연 멤버, 생탄제 검색...">
+                    <button class="search-clear-btn" id="search-clear-btn" onclick="clearSearchInput()">&times;</button>
+                </div>
+                
+                <div class="timeline-container" id="timeline-container">
+                    <div class="loading-text">데이터를 불러오는 중입니다...</div>
+                </div>
+            </div>
+
+            <!-- Performance Detail Panel -->
+            <div class="detail-panel" id="detail-panel">
+                <div class="detail-panel-header">
+                    <button class="detail-back-btn" id="detail-back-btn" onclick="closeDetailPanel()">&larr; 목록으로</button>
+                    <span class="detail-panel-title">공연 상세 정보</span>
+                </div>
+                <div class="detail-wrapper" id="detail-wrapper">
+                    <!-- Dynamic Detail Content -->
+                </div>
+            </div>
+        </div>
+
+        <!-- View 2: Member Profiles Grid -->
+        <div class="profiles-view-wrapper" id="profiles-view-area" style="display: none;">
+            <!-- Grouped by Regular / Research / Graduated Members -->
+        </div>
+    </main>
+</div>
+
+</body>
+</html>
