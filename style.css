@@ -1010,14 +1010,17 @@ body {
 }
 
 @media (max-width: 1024px) {
+    /* Layout Adjustments */
     .left-panel {
         position: fixed;
         top: 0;
         left: -100%;
-        width: 85%;
+        width: 88%;
         max-width: 360px;
+        height: 100vh;
         z-index: 2000;
-        box-shadow: 4px 0 24px rgba(0,0,0,0.2);
+        padding: 20px 16px 40px 16px;
+        box-shadow: 4px 0 24px rgba(0,0,0,0.25);
     }
 
     .left-panel.drawer-active {
@@ -1025,26 +1028,162 @@ body {
     }
 
     .drawer-close-btn {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: absolute;
-        top: 16px;
-        right: 16px;
-        background: none;
+        top: 14px;
+        right: 14px;
+        width: 32px;
+        height: 32px;
+        background: #f1f3f5;
         border: none;
-        font-size: 24px;
-        color: var(--text-muted);
+        border-radius: 50%;
+        font-size: 20px;
+        color: var(--text-main);
         cursor: pointer;
-        z-index: 60;
+        z-index: 100;
     }
 
+    .profile-sticky-header {
+        margin: -20px -16px 14px -16px;
+        padding: 16px;
+    }
+
+    .profile-sticky-header .profile-name {
+        font-size: 20px;
+    }
+
+    .profile-img-wrapper {
+        width: 145px;
+        height: 184px;
+    }
+
+    .details-table th {
+        width: 36%;
+        font-size: 12px;
+        padding: 5px 6px;
+    }
+
+    .details-table td {
+        font-size: 12px;
+        padding: 5px 6px;
+    }
+
+    /* Content Area & Header */
     .content-area {
         flex-direction: column;
     }
 
+    .header-nav {
+        padding: 8px 12px;
+        gap: 6px;
+    }
+
+    .brand-logo-wrapper {
+        gap: 4px;
+    }
+
+    .brand-logo {
+        font-size: 17px;
+    }
+
+    .brand-sub {
+        display: none;
+    }
+
+    .nav-controls {
+        gap: 4px;
+    }
+
+    .nav-btn {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+
+    .month-select-dropdown {
+        font-size: 13px;
+        padding: 5px 6px;
+    }
+
+    .lang-select-wrapper select {
+        font-size: 11.5px;
+        padding: 5px 4px;
+    }
+
+    /* Tab Menu */
+    .tab-menu-container {
+        padding: 6px 12px 0 12px;
+        gap: 4px;
+    }
+
+    .tab-menu-btn {
+        flex: 1;
+        text-align: center;
+        padding: 8px 0;
+        font-size: 13.5px;
+    }
+
+    /* Timeline Section */
     .timeline-wrapper {
         border-right: none;
     }
 
+    .timeline-search-wrapper {
+        padding: 8px 12px;
+    }
+
+    .timeline-search-wrapper input {
+        font-size: 13px;
+        padding: 7px 32px 7px 12px;
+    }
+
+    .timeline-container {
+        padding: 10px 12px 24px 12px;
+    }
+
+    .timeline-day {
+        gap: 10px;
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+    }
+
+    .timeline-day.is-today {
+        padding: 8px;
+    }
+
+    .day-num {
+        width: 44px;
+        min-width: 44px;
+        font-size: 17px;
+    }
+
+    .day-num .weekday {
+        font-size: 10.5px;
+    }
+
+    .today-label-badge {
+        font-size: 8.5px;
+        padding: 1px 5px;
+    }
+
+    .perf-item-link {
+        padding: 10px 12px;
+        gap: 5px;
+    }
+
+    .day-title {
+        font-size: 14px;
+        line-height: 1.35;
+    }
+
+    .day-cast-summary {
+        font-size: 12px;
+        line-height: 1.45;
+        color: #495057;
+    }
+
+    /* Mobile Sliding Detail Panel */
     .detail-panel {
         position: fixed;
         top: 0;
@@ -1052,6 +1191,7 @@ body {
         width: 100%;
         height: 100vh;
         z-index: 1800;
+        box-shadow: -4px 0 24px rgba(0,0,0,0.2);
         transition: right var(--transition-normal);
     }
 
@@ -1061,13 +1201,134 @@ body {
 
     .detail-panel-header {
         display: flex;
-    }
-
-    .header-nav {
         padding: 10px 14px;
+        background: #ffffff;
+        border-bottom: 1px solid var(--border-color);
     }
 
-    .brand-sub {
-        display: none;
+    .detail-back-btn {
+        padding: 6px 12px;
+        font-size: 12.5px;
+        background: #f1f3f5;
+        border: 1px solid #dee2e6;
+    }
+
+    .detail-panel-title {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .detail-wrapper {
+        padding: 16px 14px 40px 14px;
+    }
+
+    .detail-show-title {
+        font-size: 18px;
+        line-height: 1.35;
+        margin-bottom: 12px;
+    }
+
+    .detail-meta-box {
+        gap: 6px;
+        margin-bottom: 14px;
+    }
+
+    .detail-meta-item {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    /* FANY Ticket Sale Cards on Mobile */
+    .ticket-section-box {
+        padding: 12px;
+        margin-bottom: 16px;
+    }
+
+    .ticket-sale-card {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+        padding: 10px 12px;
+    }
+
+    .ticket-sale-info {
+        gap: 2px;
+    }
+
+    .ticket-sale-name {
+        font-size: 12.5px;
+    }
+
+    .ticket-sale-period {
+        font-size: 11px;
+    }
+
+    .ticket-sale-btn {
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+        font-size: 12.5px;
+    }
+
+    /* Cast Grid on Mobile */
+    .cast-grid-title {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .cast-grid {
+        grid-template-columns: repeat(auto-fill, minmax(76px, 1fr));
+        gap: 8px;
+    }
+
+    .member-mini-card {
+        padding: 6px 4px;
+    }
+
+    .member-mini-card .mini-card-img {
+        width: 58px;
+        height: 74px;
+        margin-bottom: 4px;
+    }
+
+    .member-mini-card .card-name {
+        font-size: 11px;
+    }
+
+    /* Profiles Tab on Mobile */
+    .profiles-view-wrapper {
+        padding: 14px 12px 30px 12px;
+    }
+
+    .member-group-section {
+        margin-bottom: 24px;
+    }
+
+    .member-group-title {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .profiles-grid {
+        grid-template-columns: repeat(auto-fill, minmax(92px, 1fr));
+        gap: 10px;
+    }
+
+    .profile-grid-card {
+        padding: 8px 6px;
+    }
+
+    .profile-grid-card .grid-img {
+        width: 76px;
+        height: 96px;
+        margin-bottom: 6px;
+    }
+
+    .profile-grid-card .grid-name {
+        font-size: 12px;
+    }
+
+    .profile-grid-card .grid-yomi {
+        font-size: 9px;
     }
 }
