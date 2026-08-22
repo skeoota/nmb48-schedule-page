@@ -1,0 +1,993 @@
+{
+    "NMB48": {
+        "ドラフト3期": [
+            {
+                "name": {
+                    "ja": "泉綾乃",
+                    "ko": "이즈미 아야노",
+                    "en": "Ayano Izumi"
+                },
+                "penlight": {
+                    "ja": [
+                        "緑",
+                        "白"
+                    ],
+                    "ko": [
+                        "초록",
+                        "흰색"
+                    ],
+                    "en": [
+                        "Green",
+                        "White"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "塩月希依音",
+                    "ko": "시오츠키 케이토",
+                    "en": "Keito Shiotsuki"
+                },
+                "penlight": {
+                    "ja": [
+                        "薄ピンク",
+                        "紫"
+                    ],
+                    "ko": [
+                        "연한 핑크",
+                        "보라"
+                    ],
+                    "en": [
+                        "Light Pink",
+                        "Purple"
+                    ]
+                }
+            }
+        ],
+        "6期": [
+            {
+                "name": {
+                    "ja": "新澤菜央",
+                    "ko": "신자와 나오",
+                    "en": "Nao Shinzawa"
+                },
+                "penlight": {
+                    "ja": [
+                        "濃いピンク",
+                        "濃いピンク"
+                    ],
+                    "ko": [
+                        "진한 핑크",
+                        "진한 핑크"
+                    ],
+                    "en": [
+                        "Dark Pink",
+                        "Dark Pink"
+                    ]
+                }
+            }
+        ],
+        "7期": [
+            {
+                "name": {
+                    "ja": "平山真衣",
+                    "ko": "히라야마 마이",
+                    "en": "Mai Hirayama"
+                },
+                "penlight": {
+                    "ja": [
+                        "赤",
+                        "青"
+                    ],
+                    "ko": [
+                        "빨강",
+                        "파랑"
+                    ],
+                    "en": [
+                        "Red",
+                        "Blue"
+                    ]
+                }
+            }
+        ],
+        "8期": [
+            {
+                "name": {
+                    "ja": "池帆乃香",
+                    "ko": "이케 호노카",
+                    "en": "Honoka Ike"
+                },
+                "penlight": {
+                    "ja": [
+                        "ライトグリーン",
+                        "白"
+                    ],
+                    "ko": [
+                        "연두",
+                        "흰색"
+                    ],
+                    "en": [
+                        "Light Green",
+                        "White"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "黒島咲花",
+                    "ko": "쿠로시마 사쿠라",
+                    "en": "Sakura Kuroshima"
+                },
+                "penlight": {
+                    "ja": [
+                        "オレンジ",
+                        "水色"
+                    ],
+                    "ko": [
+                        "주황",
+                        "하늘색"
+                    ],
+                    "en": [
+                        "Orange",
+                        "Light Blue"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "坂下真心",
+                    "ko": "사카시타 마코",
+                    "en": "Mako Sakashita"
+                },
+                "penlight": {
+                    "ja": [
+                        "青",
+                        "青"
+                    ],
+                    "ko": [
+                        "파랑",
+                        "파랑"
+                    ],
+                    "en": [
+                        "Blue",
+                        "Blue"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "坂田心咲",
+                    "ko": "사카타 미사키",
+                    "en": "Misaki Sakata"
+                },
+                "penlight": {
+                    "ja": [
+                        "ピンク",
+                        "薄ピンク"
+                    ],
+                    "ko": [
+                        "핑크",
+                        "연한 핑크"
+                    ],
+                    "en": [
+                        "Pink",
+                        "Light Pink"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "桜田彩叶",
+                    "ko": "사쿠라다 아야카",
+                    "en": "Ayaka Sakurada"
+                },
+                "penlight": {
+                    "ja": [
+                        "薄ピンク",
+                        "水色"
+                    ],
+                    "ko": [
+                        "연한 핑크",
+                        "하늘색"
+                    ],
+                    "en": [
+                        "Light Pink",
+                        "Light Blue"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "龍本弥生",
+                    "ko": "타츠모토 야요이",
+                    "en": "Yayoi Tatsumoto"
+                },
+                "penlight": {
+                    "ja": [
+                        "薄ピンク",
+                        "オレンジ"
+                    ],
+                    "ko": [
+                        "연한 핑크",
+                        "주황"
+                    ],
+                    "en": [
+                        "Light Pink",
+                        "Orange"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "福野杏実",
+                    "ko": "후쿠노 아미",
+                    "en": "Ami Fukuno"
+                },
+                "penlight": {
+                    "ja": [
+                        "赤",
+                        "水色"
+                    ],
+                    "ko": [
+                        "빨강",
+                        "하늘색"
+                    ],
+                    "en": [
+                        "Red",
+                        "Light Blue"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "松岡さくら",
+                    "ko": "마츠오카 사쿠라",
+                    "en": "Sakura Matsuoka"
+                },
+                "penlight": {
+                    "ja": [
+                        "薄ピンク",
+                        "黄"
+                    ],
+                    "ko": [
+                        "연한 핑크",
+                        "노랑"
+                    ],
+                    "en": [
+                        "Light Pink",
+                        "Yellow"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "松本海日菜",
+                    "ko": "마츠모토 미히나",
+                    "en": "Mihina Matsumoto"
+                },
+                "penlight": {
+                    "ja": [
+                        "黄",
+                        "黄"
+                    ],
+                    "ko": [
+                        "노랑",
+                        "노랑"
+                    ],
+                    "en": [
+                        "Yellow",
+                        "Yellow"
+                    ]
+                }
+            }
+        ],
+        "9期": [
+            {
+                "name": {
+                    "ja": "青原優花",
+                    "ko": "아오바라 유카",
+                    "en": "Yuka Aobara"
+                },
+                "penlight": {
+                    "ja": [
+                        "緑",
+                        "濃いピンク"
+                    ],
+                    "ko": [
+                        "초록",
+                        "진한 핑크"
+                    ],
+                    "en": [
+                        "Green",
+                        "Dark Pink"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "池田典愛",
+                    "ko": "이케다 텐나",
+                    "en": "Tenna Ikeda"
+                },
+                "penlight": {
+                    "ja": [
+                        "青",
+                        "紫"
+                    ],
+                    "ko": [
+                        "파랑",
+                        "보라"
+                    ],
+                    "en": [
+                        "Blue",
+                        "Purple"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "板垣心和",
+                    "ko": "이타가키 코요리",
+                    "en": "Koyori Itagaki"
+                },
+                "penlight": {
+                    "ja": [
+                        "薄ピンク",
+                        "紫"
+                    ],
+                    "ko": [
+                        "연한 핑크",
+                        "보라"
+                    ],
+                    "en": [
+                        "Light Pink",
+                        "Purple"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "衣笠彩実",
+                    "ko": "키누가사 아야미",
+                    "en": "Ayami Kinugasa"
+                },
+                "penlight": {
+                    "ja": [
+                        "白"
+                    ],
+                    "ko": [
+                        "흰색"
+                    ],
+                    "en": [
+                        "White"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "田中美空",
+                    "ko": "타나카 미소라",
+                    "en": "Misora Tanaka"
+                },
+                "penlight": {
+                    "ja": [
+                        "黄",
+                        "紫"
+                    ],
+                    "ko": [
+                        "노랑",
+                        "보라"
+                    ],
+                    "en": [
+                        "Yellow",
+                        "Purple"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "西島梨央",
+                    "ko": "니시지마 리오",
+                    "en": "Rio Nishijima"
+                },
+                "penlight": {
+                    "ja": [
+                        "青",
+                        "白"
+                    ],
+                    "ko": [
+                        "파랑",
+                        "흰색"
+                    ],
+                    "en": [
+                        "Blue",
+                        "White"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "西田帆花",
+                    "ko": "니시다 호노카",
+                    "en": "Honoka Nishida"
+                },
+                "penlight": {
+                    "ja": [
+                        "緑",
+                        "緑"
+                    ],
+                    "ko": [
+                        "초록",
+                        "초록"
+                    ],
+                    "en": [
+                        "Green",
+                        "Green"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "芳賀礼",
+                    "ko": "하가 레이",
+                    "en": "Rei Haga"
+                },
+                "penlight": {
+                    "ja": [
+                        "濃いピンク"
+                    ],
+                    "ko": [
+                        "진한 핑크"
+                    ],
+                    "en": [
+                        "Dark Pink"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "宮本杏海",
+                    "ko": "미야모토 아미",
+                    "en": "Ami Miyamoto"
+                },
+                "penlight": {
+                    "ja": [
+                        "濃いピンク",
+                        "白"
+                    ],
+                    "ko": [
+                        "진한 핑크",
+                        "흰색"
+                    ],
+                    "en": [
+                        "Dark Pink",
+                        "White"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "吉見純音",
+                    "ko": "요시미 아야네",
+                    "en": "Ayane Yoshimi"
+                },
+                "penlight": {
+                    "ja": [
+                        "濃いピンク",
+                        "青"
+                    ],
+                    "ko": [
+                        "진한 핑크",
+                        "파랑"
+                    ],
+                    "en": [
+                        "Dark Pink",
+                        "Blue"
+                    ]
+                }
+            }
+        ],
+        "10期": [
+            {
+                "name": {
+                    "ja": "石山千尋",
+                    "ko": "이시야마 치히로",
+                    "en": "Chihiro Ishiyama"
+                },
+                "penlight": {
+                    "ja": [
+                        "オレンジ",
+                        "濃いピンク"
+                    ],
+                    "ko": [
+                        "주황",
+                        "진한 핑크"
+                    ],
+                    "en": [
+                        "Orange",
+                        "Dark Pink"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "内田愛彩",
+                    "ko": "우치다 아이샤",
+                    "en": "Aisha Uchida"
+                },
+                "penlight": {
+                    "ja": [
+                        "赤",
+                        "白"
+                    ],
+                    "ko": [
+                        "빨강",
+                        "흰색"
+                    ],
+                    "en": [
+                        "Red",
+                        "White"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "木根彩呂花",
+                    "ko": "키네 이로하",
+                    "en": "Iroha Kine"
+                },
+                "penlight": {
+                    "ja": [
+                        "薄ピンク",
+                        "薄ピンク"
+                    ],
+                    "ko": [
+                        "연한 핑크",
+                        "연한 핑크"
+                    ],
+                    "en": [
+                        "Light Pink",
+                        "Light Pink"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "澁谷愛紗南",
+                    "ko": "시부야 아사나",
+                    "en": "Asana Shibuya"
+                },
+                "penlight": {
+                    "ja": [
+                        "薄ピンク",
+                        "白"
+                    ],
+                    "ko": [
+                        "연한 핑크",
+                        "흰색"
+                    ],
+                    "en": [
+                        "Light Pink",
+                        "White"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "高橋ことね",
+                    "ko": "타카하시 코토네",
+                    "en": "Kotone Takahashi"
+                },
+                "penlight": {
+                    "ja": [
+                        "黄",
+                        "水色"
+                    ],
+                    "ko": [
+                        "노랑",
+                        "하늘색"
+                    ],
+                    "en": [
+                        "Yellow",
+                        "Light Blue"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "竹田京加",
+                    "ko": "타케다 쿄카",
+                    "en": "Kyoka Takeda"
+                },
+                "penlight": {
+                    "ja": [
+                        "オレンジ",
+                        "緑"
+                    ],
+                    "ko": [
+                        "주황",
+                        "초록"
+                    ],
+                    "en": [
+                        "Orange",
+                        "Green"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "田中ミリア",
+                    "ko": "타나카 미리아",
+                    "en": "Miria Tanaka"
+                },
+                "penlight": {
+                    "ja": [
+                        "ライトグリーン",
+                        "青"
+                    ],
+                    "ko": [
+                        "연두",
+                        "파랑"
+                    ],
+                    "en": [
+                        "Light Green",
+                        "Blue"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "中川朋香",
+                    "ko": "나카가와 토모카",
+                    "en": "Tomoka Nakagawa"
+                },
+                "penlight": {
+                    "ja": [
+                        "オレンジ",
+                        "黄"
+                    ],
+                    "ko": [
+                        "주황",
+                        "노랑"
+                    ],
+                    "en": [
+                        "Orange",
+                        "Yellow"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "三鴨くるみ",
+                    "ko": "미카모 쿠루미",
+                    "en": "Kurumi Mikamo"
+                },
+                "penlight": {
+                    "ja": [
+                        "赤",
+                        "紫"
+                    ],
+                    "ko": [
+                        "빨강",
+                        "보라"
+                    ],
+                    "en": [
+                        "Red",
+                        "Purple"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "宮崎紗衣",
+                    "ko": "미야자키 사에",
+                    "en": "Sae Miyazaki"
+                },
+                "penlight": {
+                    "ja": [
+                        "オレンジ",
+                        "オレンジ"
+                    ],
+                    "ko": [
+                        "주황",
+                        "주황"
+                    ],
+                    "en": [
+                        "Orange",
+                        "Orange"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "宮原心音",
+                    "ko": "미야하라 코논",
+                    "en": "Konon Miyahara"
+                },
+                "penlight": {
+                    "ja": [
+                        "赤",
+                        "赤"
+                    ],
+                    "ko": [
+                        "빨강",
+                        "빨강"
+                    ],
+                    "en": [
+                        "Red",
+                        "Red"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "村井悠莉",
+                    "ko": "무라이 유우리",
+                    "en": "Yuuri Murai"
+                },
+                "penlight": {
+                    "ja": [
+                        "紫",
+                        "白"
+                    ],
+                    "ko": [
+                        "보라",
+                        "흰색"
+                    ],
+                    "en": [
+                        "Purple",
+                        "White"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "山口美桜",
+                    "ko": "야마구치 미오",
+                    "en": "Mio Yamaguchi"
+                },
+                "penlight": {
+                    "ja": [
+                        "薄ピンク",
+                        "ライトグリーン"
+                    ],
+                    "ko": [
+                        "연한 핑크",
+                        "연두"
+                    ],
+                    "en": [
+                        "Light Pink",
+                        "Light Green"
+                    ]
+                }
+            }
+        ],
+        "11期": [
+            {
+                "name": {
+                    "ja": "岡腰星来",
+                    "ko": "오카고시 세이라",
+                    "en": "Seira Okagoshi"
+                },
+                "penlight": {
+                    "ja": [
+                        "緑",
+                        "青"
+                    ],
+                    "ko": [
+                        "초록",
+                        "파랑"
+                    ],
+                    "en": [
+                        "Green",
+                        "Blue"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "赤松昊",
+                    "ko": "아카마츠 소라",
+                    "en": "Sora Akamatsu"
+                },
+                "penlight": {
+                    "ja": [
+                        "濃いピンク",
+                        "紫"
+                    ],
+                    "ko": [
+                        "진한 핑크",
+                        "보라"
+                    ],
+                    "en": [
+                        "Dark Pink",
+                        "Purple"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "桜井ひまり",
+                    "ko": "사쿠라이 히마리",
+                    "en": "Himari Sakurai"
+                },
+                "penlight": {
+                    "ja": [
+                        "黄"
+                    ],
+                    "ko": [
+                        "노랑"
+                    ],
+                    "en": [
+                        "Yellow"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "善家侑莉花",
+                    "ko": "젠케 유리카",
+                    "en": "Yurika Zenke"
+                },
+                "penlight": {
+                    "ja": [
+                        "緑",
+                        "紫"
+                    ],
+                    "ko": [
+                        "초록",
+                        "보라"
+                    ],
+                    "en": [
+                        "Green",
+                        "Purple"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "高橋樹奈",
+                    "ko": "타카하시 주나",
+                    "en": "Juna Takahashi"
+                },
+                "penlight": {
+                    "ja": [
+                        "赤",
+                        "ライトグリーン"
+                    ],
+                    "ko": [
+                        "빨강",
+                        "연두"
+                    ],
+                    "en": [
+                        "Red",
+                        "Light Green"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "田中れい",
+                    "ko": "타나카 레이",
+                    "en": "Rei Tanaka"
+                },
+                "penlight": {
+                    "ja": [
+                        "薄ピンク",
+                        "赤"
+                    ],
+                    "ko": [
+                        "연한 핑크",
+                        "빨강"
+                    ],
+                    "en": [
+                        "Light Pink",
+                        "Red"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "谷口詩乃",
+                    "ko": "타니구치 시노",
+                    "en": "Shino Taniguchi"
+                },
+                "penlight": {
+                    "ja": [
+                        "ライトグリーン",
+                        "緑"
+                    ],
+                    "ko": [
+                        "연두",
+                        "초록"
+                    ],
+                    "en": [
+                        "Light Green",
+                        "Green"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "西住美咲妃",
+                    "ko": "니시즈미 미사키",
+                    "en": "Misaki Nishizumi"
+                },
+                "penlight": {
+                    "ja": [
+                        "水色",
+                        "青"
+                    ],
+                    "ko": [
+                        "하늘색",
+                        "파랑"
+                    ],
+                    "en": [
+                        "Light Blue",
+                        "Blue"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "福原琴美",
+                    "ko": "후쿠하라 코토미",
+                    "en": "Kotomi Fukuhara"
+                },
+                "penlight": {
+                    "ja": [
+                        "薄ピンク"
+                    ],
+                    "ko": [
+                        "연한 핑크"
+                    ],
+                    "en": [
+                        "Light Pink"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "藪内陽花",
+                    "ko": "야부우치 히나타",
+                    "en": "Hinata Yabuuchi"
+                },
+                "penlight": {
+                    "ja": [
+                        "水色",
+                        "紫"
+                    ],
+                    "ko": [
+                        "하늘색",
+                        "보라"
+                    ],
+                    "en": [
+                        "Light Blue",
+                        "Purple"
+                    ]
+                }
+            },
+            {
+                "name": {
+                    "ja": "和田承子",
+                    "ko": "와다 코토네",
+                    "en": "Kotone Wada"
+                },
+                "penlight": {
+                    "ja": [
+                        "水色",
+                        "水色"
+                    ],
+                    "ko": [
+                        "하늘색",
+                        "하늘색"
+                    ],
+                    "en": [
+                        "Light Blue",
+                        "Light Blue"
+                    ]
+                }
+            }
+        ]
+    }
+}
