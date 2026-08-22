@@ -13,27 +13,27 @@
     "image_url": "https://spn.nmb48.com/image/profile/01_aobara_yuka_fKeo2nd9.jpg",
     "lightstick": {
       "colors": [
-        "#FF1493",
-        "#00C800"
+        "#00C800",
+        "#FF1493"
       ],
       "color_names": {
         "ko": [
-          "딥핑크",
-          "초록"
+          "초록",
+          "진한 핑크"
         ],
         "ja": [
-          "濃いピンク",
-          "緑"
+          "緑",
+          "濃いピンク"
         ],
         "en": [
-          "Deep Pink",
-          "Green"
+          "Green",
+          "Dark Pink"
         ]
       },
       "color_str": {
-        "ko": "딥핑크 × 초록",
-        "ja": "濃いピンク × 緑",
-        "en": "Deep Pink × Green"
+        "ko": "초록 × 진한 핑크",
+        "ja": "緑 × 濃いピンク",
+        "en": "Green × Dark Pink"
       }
     },
     "profile": {
@@ -69,7 +69,7 @@
         "url": "https://aobarayuka-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:17"
+    "updated_at": "2026-08-22 22:58:57"
   },
   {
     "id": "ike_honoka_8ba7d98e",
@@ -85,27 +85,27 @@
     "image_url": "https://spn.nmb48.com/image/profile/ike_honoka.jpg",
     "lightstick": {
       "colors": [
-        "#87CEEB",
+        "#00C800",
         "#FFFFFF"
       ],
       "color_names": {
         "ko": [
-          "소라",
+          "연두",
           "흰색"
         ],
         "ja": [
-          "水色",
+          "ライトグリーン",
           "白"
         ],
         "en": [
-          "Light Blue",
+          "Light Green",
           "White"
         ]
       },
       "color_str": {
-        "ko": "소라 × 흰색",
-        "ja": "水色 × 白",
-        "en": "Light Blue × White"
+        "ko": "연두 × 흰색",
+        "ja": "ライトグリーン × 白",
+        "en": "Light Green × White"
       }
     },
     "profile": {
@@ -141,7 +141,7 @@
         "url": "https://ikehonoka-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:17"
+    "updated_at": "2026-08-22 22:58:57"
   },
   {
     "id": "ikeda_tenna_b664d319",
@@ -157,27 +157,27 @@
     "image_url": "https://spn.nmb48.com/image/profile/03_ikeda_tenna_fKeo2nd9.jpg",
     "lightstick": {
       "colors": [
-        "#7B4DA0",
-        "#0066CC"
+        "#0066CC",
+        "#7B4DA0"
       ],
       "color_names": {
         "ko": [
-          "보라",
-          "파랑"
+          "파랑",
+          "보라"
         ],
         "ja": [
-          "紫",
-          "青"
+          "青",
+          "紫"
         ],
         "en": [
-          "Purple",
-          "Blue"
+          "Blue",
+          "Purple"
         ]
       },
       "color_str": {
-        "ko": "보라 × 파랑",
-        "ja": "紫 × 青",
-        "en": "Purple × Blue"
+        "ko": "파랑 × 보라",
+        "ja": "青 × 紫",
+        "en": "Blue × Purple"
       }
     },
     "profile": {
@@ -209,7 +209,7 @@
         "url": "https://ikedatenna-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:18"
+    "updated_at": "2026-08-22 22:58:58"
   },
   {
     "id": "ishiyama_chihiro_764a26dd",
@@ -225,27 +225,27 @@
     "image_url": "https://spn.nmb48.com/image/profile/01_ishiyama_chihiro_fKeo2nd9.jpg",
     "lightstick": {
       "colors": [
-        "#FF1493",
-        "#EDA900"
+        "#EDA900",
+        "#FF1493"
       ],
       "color_names": {
         "ko": [
-          "딥핑크",
-          "오렌지"
+          "주황",
+          "진한 핑크"
         ],
         "ja": [
-          "濃いピンク",
-          "オレンジ"
+          "オレンジ",
+          "濃いピンク"
         ],
         "en": [
-          "Deep Pink",
-          "Orange"
+          "Orange",
+          "Dark Pink"
         ]
       },
       "color_str": {
-        "ko": "딥핑크 × 오렌지",
-        "ja": "濃いピンク × オレンジ",
-        "en": "Deep Pink × Orange"
+        "ko": "주황 × 진한 핑크",
+        "ja": "オレンジ × 濃いピンク",
+        "en": "Orange × Dark Pink"
       }
     },
     "profile": {
@@ -260,7 +260,7 @@
       "将来の夢": "たくさんの人に笑顔を届けられるアイドル！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:18"
+    "updated_at": "2026-08-22 22:58:58"
   },
   {
     "id": "izumi_ayano_449f220f",
@@ -276,27 +276,27 @@
     "image_url": "https://spn.nmb48.com/image/profile/izumi_ayano.jpg",
     "lightstick": {
       "colors": [
-        "#FFFFFF",
-        "#00C800"
+        "#00C800",
+        "#FFFFFF"
       ],
       "color_names": {
         "ko": [
-          "흰색",
-          "초록"
+          "초록",
+          "흰색"
         ],
         "ja": [
-          "白",
-          "緑"
+          "緑",
+          "白"
         ],
         "en": [
-          "White",
-          "Green"
+          "Green",
+          "White"
         ]
       },
       "color_str": {
-        "ko": "흰색 × 초록",
-        "ja": "白 × 緑",
-        "en": "White × Green"
+        "ko": "초록 × 흰색",
+        "ja": "緑 × 白",
+        "en": "Green × White"
       }
     },
     "profile": {
@@ -336,7 +336,7 @@
         "url": "https://izumiayano-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:19"
+    "updated_at": "2026-08-22 22:58:59"
   },
   {
     "id": "itagaki_koyori_9c921151",
@@ -357,7 +357,7 @@
       ],
       "color_names": {
         "ko": [
-          "연핑크",
+          "연한 핑크",
           "보라"
         ],
         "ja": [
@@ -370,7 +370,7 @@
         ]
       },
       "color_str": {
-        "ko": "연핑크 × 보라",
+        "ko": "연한 핑크 × 보라",
         "ja": "薄ピンク × 紫",
         "en": "Light Pink × Purple"
       }
@@ -404,7 +404,7 @@
         "url": "https://www.showroom-live.com/r/48_KOYORI_ITAGAKI"
       }
     ],
-    "updated_at": "2026-08-22 22:22:20"
+    "updated_at": "2026-08-22 22:58:59"
   },
   {
     "id": "uchida_aisha_c556d182",
@@ -455,7 +455,7 @@
       "将来の夢": "人に寄り添える癒し系アイドル"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:20"
+    "updated_at": "2026-08-22 22:59:00"
   },
   {
     "id": "okagoshi_seira_173a7799",
@@ -471,27 +471,27 @@
     "image_url": "https://spn.nmb48.com/image/profile/02_okagoshi_seira_fKeo2nd9.jpg",
     "lightstick": {
       "colors": [
-        "#0066CC",
-        "#00C800"
+        "#00C800",
+        "#0066CC"
       ],
       "color_names": {
         "ko": [
-          "파랑",
-          "초록"
+          "초록",
+          "파랑"
         ],
         "ja": [
-          "青",
-          "緑"
+          "緑",
+          "青"
         ],
         "en": [
-          "Blue",
-          "Green"
+          "Green",
+          "Blue"
         ]
       },
       "color_str": {
-        "ko": "파랑 × 초록",
-        "ja": "青 × 緑",
-        "en": "Blue × Green"
+        "ko": "초록 × 파랑",
+        "ja": "緑 × 青",
+        "en": "Green × Blue"
       }
     },
     "profile": {
@@ -506,7 +506,7 @@
       "将来の夢": "NMB48のセンター。マルチタレントになりたい"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:21"
+    "updated_at": "2026-08-22 22:59:01"
   },
   {
     "id": "kinugasa_ayami_0b95ac10",
@@ -522,27 +522,23 @@
     "image_url": "https://spn.nmb48.com/image/profile/05_kinugasa_ayami_fKeo2nd9.jpg",
     "lightstick": {
       "colors": [
-        "#FFFFFF",
         "#FFFFFF"
       ],
       "color_names": {
         "ko": [
-          "흰색",
           "흰색"
         ],
         "ja": [
-          "白",
           "白"
         ],
         "en": [
-          "White",
           "White"
         ]
       },
       "color_str": {
-        "ko": "흰색 × 흰색",
-        "ja": "白 × 白",
-        "en": "White × White"
+        "ko": "흰색",
+        "ja": "白",
+        "en": "White"
       }
     },
     "profile": {
@@ -578,7 +574,7 @@
         "url": "https://kinugasaayami-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:21"
+    "updated_at": "2026-08-22 22:59:01"
   },
   {
     "id": "kine_iroha_5de22a82",
@@ -599,8 +595,8 @@
       ],
       "color_names": {
         "ko": [
-          "연핑크",
-          "연핑크"
+          "연한 핑크",
+          "연한 핑크"
         ],
         "ja": [
           "薄ピンク",
@@ -612,7 +608,7 @@
         ]
       },
       "color_str": {
-        "ko": "연핑크 × 연핑크",
+        "ko": "연한 핑크 × 연한 핑크",
         "ja": "薄ピンク × 薄ピンク",
         "en": "Light Pink × Light Pink"
       }
@@ -629,7 +625,7 @@
       "将来の夢": "女優"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:22"
+    "updated_at": "2026-08-22 22:59:02"
   },
   {
     "id": "kuroshima_sakura_163a8bc9",
@@ -645,27 +641,27 @@
     "image_url": "https://spn.nmb48.com/image/profile/kuroshima_sakura.jpg",
     "lightstick": {
       "colors": [
-        "#87CEEB",
-        "#EDA900"
+        "#EDA900",
+        "#87CEEB"
       ],
       "color_names": {
         "ko": [
-          "소라",
-          "오렌지"
+          "주황",
+          "하늘색"
         ],
         "ja": [
-          "水色",
-          "オレンジ"
+          "オレンジ",
+          "水色"
         ],
         "en": [
-          "Light Blue",
-          "Orange"
+          "Orange",
+          "Light Blue"
         ]
       },
       "color_str": {
-        "ko": "소라 × 오렌지",
-        "ja": "水色 × オレンジ",
-        "en": "Light Blue × Orange"
+        "ko": "주황 × 하늘색",
+        "ja": "オレンジ × 水色",
+        "en": "Orange × Light Blue"
       }
     },
     "profile": {
@@ -701,7 +697,7 @@
         "url": "https://kuroshimasakura-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:22"
+    "updated_at": "2026-08-22 22:59:02"
   },
   {
     "id": "sakashita_mako_eace6ab1",
@@ -781,7 +777,7 @@
         "url": "https://sakashitamako-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:23"
+    "updated_at": "2026-08-22 22:59:03"
   },
   {
     "id": "sakata_misaki_38cb0d10",
@@ -797,27 +793,27 @@
     "image_url": "https://spn.nmb48.com/image/profile/sakata_misaki.jpg",
     "lightstick": {
       "colors": [
-        "#FF1493",
+        "#FFC0CB",
         "#FFB6C1"
       ],
       "color_names": {
         "ko": [
-          "딥핑크",
-          "연핑크"
+          "핑크",
+          "연한 핑크"
         ],
         "ja": [
-          "濃いピンク",
+          "ピンク",
           "薄ピンク"
         ],
         "en": [
-          "Deep Pink",
+          "Pink",
           "Light Pink"
         ]
       },
       "color_str": {
-        "ko": "딥핑크 × 연핑크",
-        "ja": "濃いピンク × 薄ピンク",
-        "en": "Deep Pink × Light Pink"
+        "ko": "핑크 × 연한 핑크",
+        "ja": "ピンク × 薄ピンク",
+        "en": "Pink × Light Pink"
       }
     },
     "profile": {
@@ -857,7 +853,7 @@
         "url": "https://sakatamisaki-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:23"
+    "updated_at": "2026-08-22 22:59:03"
   },
   {
     "id": "sakurada_ayaka_0f654b92",
@@ -878,8 +874,8 @@
       ],
       "color_names": {
         "ko": [
-          "연핑크",
-          "소라"
+          "연한 핑크",
+          "하늘색"
         ],
         "ja": [
           "薄ピンク",
@@ -891,7 +887,7 @@
         ]
       },
       "color_str": {
-        "ko": "연핑크 × 소라",
+        "ko": "연한 핑크 × 하늘색",
         "ja": "薄ピンク × 水色",
         "en": "Light Pink × Light Blue"
       }
@@ -929,7 +925,7 @@
         "url": "https://sakuradaayaka-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:24"
+    "updated_at": "2026-08-22 22:59:04"
   },
   {
     "id": "shiotsuki_keito_6c5554d2",
@@ -945,27 +941,27 @@
     "image_url": "https://spn.nmb48.com/image/profile/shiotsuki_keito.jpg",
     "lightstick": {
       "colors": [
-        "#FF1493",
+        "#FFB6C1",
         "#7B4DA0"
       ],
       "color_names": {
         "ko": [
-          "딥핑크",
+          "연한 핑크",
           "보라"
         ],
         "ja": [
-          "濃いピンク",
+          "薄ピンク",
           "紫"
         ],
         "en": [
-          "Deep Pink",
+          "Light Pink",
           "Purple"
         ]
       },
       "color_str": {
-        "ko": "딥핑크 × 보라",
-        "ja": "濃いピンク × 紫",
-        "en": "Deep Pink × Purple"
+        "ko": "연한 핑크 × 보라",
+        "ja": "薄ピンク × 紫",
+        "en": "Light Pink × Purple"
       }
     },
     "profile": {
@@ -1005,7 +1001,7 @@
         "url": "https://shiotsukikeito-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:24"
+    "updated_at": "2026-08-22 22:59:04"
   },
   {
     "id": "shibuya_asana_97969ded",
@@ -1026,7 +1022,7 @@
       ],
       "color_names": {
         "ko": [
-          "연핑크",
+          "연한 핑크",
           "흰색"
         ],
         "ja": [
@@ -1039,7 +1035,7 @@
         ]
       },
       "color_str": {
-        "ko": "연핑크 × 흰색",
+        "ko": "연한 핑크 × 흰색",
         "ja": "薄ピンク × 白",
         "en": "Light Pink × White"
       }
@@ -1056,7 +1052,7 @@
       "将来の夢": "NMB48といえば「澁谷愛紗南だよね！」と言って頂けるような存在になること"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:25"
+    "updated_at": "2026-08-22 22:59:05"
   },
   {
     "id": "shinzawa_nao_e5dbe82d",
@@ -1077,22 +1073,22 @@
       ],
       "color_names": {
         "ko": [
-          "딥핑크",
-          "딥핑크"
+          "진한 핑크",
+          "진한 핑크"
         ],
         "ja": [
           "濃いピンク",
           "濃いピンク"
         ],
         "en": [
-          "Deep Pink",
-          "Deep Pink"
+          "Dark Pink",
+          "Dark Pink"
         ]
       },
       "color_str": {
-        "ko": "딥핑크 × 딥핑크",
+        "ko": "진한 핑크 × 진한 핑크",
         "ja": "濃いピンク × 濃いピンク",
-        "en": "Deep Pink × Deep Pink"
+        "en": "Dark Pink × Dark Pink"
       }
     },
     "profile": {
@@ -1132,7 +1128,7 @@
         "url": "https://shinzawanao-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:25"
+    "updated_at": "2026-08-22 22:59:05"
   },
   {
     "id": "takahashi_kotone_5c194c42",
@@ -1154,7 +1150,7 @@
       "color_names": {
         "ko": [
           "노랑",
-          "소라"
+          "하늘색"
         ],
         "ja": [
           "黄",
@@ -1166,7 +1162,7 @@
         ]
       },
       "color_str": {
-        "ko": "노랑 × 소라",
+        "ko": "노랑 × 하늘색",
         "ja": "黄 × 水色",
         "en": "Yellow × Light Blue"
       }
@@ -1183,7 +1179,7 @@
       "将来の夢": "キラキラアイドルになって有名になる！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:26"
+    "updated_at": "2026-08-22 22:59:06"
   },
   {
     "id": "takeda_kyoka_15efbecb",
@@ -1204,7 +1200,7 @@
       ],
       "color_names": {
         "ko": [
-          "오렌지",
+          "주황",
           "초록"
         ],
         "ja": [
@@ -1217,7 +1213,7 @@
         ]
       },
       "color_str": {
-        "ko": "오렌지 × 초록",
+        "ko": "주황 × 초록",
         "ja": "オレンジ × 緑",
         "en": "Orange × Green"
       }
@@ -1234,7 +1230,7 @@
       "将来の夢": "ソロコンサート！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:26"
+    "updated_at": "2026-08-22 22:59:06"
   },
   {
     "id": "tatsumoto_yayoi_8c564fd8",
@@ -1255,8 +1251,8 @@
       ],
       "color_names": {
         "ko": [
-          "연핑크",
-          "오렌지"
+          "연한 핑크",
+          "주황"
         ],
         "ja": [
           "薄ピンク",
@@ -1268,7 +1264,7 @@
         ]
       },
       "color_str": {
-        "ko": "연핑크 × 오렌지",
+        "ko": "연한 핑크 × 주황",
         "ja": "薄ピンク × オレンジ",
         "en": "Light Pink × Orange"
       }
@@ -1306,7 +1302,7 @@
         "url": "https://tatsumotoyayoi-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:27"
+    "updated_at": "2026-08-22 22:59:07"
   },
   {
     "id": "tanaka_misora_9ad35a72",
@@ -1322,27 +1318,27 @@
     "image_url": "https://spn.nmb48.com/image/profile/08_tanaka_misora_fKeo2nd9.jpg",
     "lightstick": {
       "colors": [
-        "#7B4DA0",
-        "#FFD700"
+        "#FFD700",
+        "#7B4DA0"
       ],
       "color_names": {
         "ko": [
-          "보라",
-          "노랑"
+          "노랑",
+          "보라"
         ],
         "ja": [
-          "紫",
-          "黄"
+          "黄",
+          "紫"
         ],
         "en": [
-          "Purple",
-          "Yellow"
+          "Yellow",
+          "Purple"
         ]
       },
       "color_str": {
-        "ko": "보라 × 노랑",
-        "ja": "紫 × 黄",
-        "en": "Purple × Yellow"
+        "ko": "노랑 × 보라",
+        "ja": "黄 × 紫",
+        "en": "Yellow × Purple"
       }
     },
     "profile": {
@@ -1378,7 +1374,7 @@
         "url": "https://tanakamisora-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:27"
+    "updated_at": "2026-08-22 22:59:07"
   },
   {
     "id": "tanaka_miria_dd56eb4e",
@@ -1394,27 +1390,27 @@
     "image_url": "https://spn.nmb48.com/image/profile/08_tanaka_miria_fKeo2nd9.jpg",
     "lightstick": {
       "colors": [
-        "#0066CC",
-        "#A4E468"
+        "#00C800",
+        "#0066CC"
       ],
       "color_names": {
         "ko": [
-          "파랑",
-          "연두"
+          "연두",
+          "파랑"
         ],
         "ja": [
-          "青",
-          "黄緑"
+          "ライトグリーン",
+          "青"
         ],
         "en": [
-          "Blue",
-          "Light Green"
+          "Light Green",
+          "Blue"
         ]
       },
       "color_str": {
-        "ko": "파랑 × 연두",
-        "ja": "青 × 黄緑",
-        "en": "Blue × Light Green"
+        "ko": "연두 × 파랑",
+        "ja": "ライトグリーン × 青",
+        "en": "Light Green × Blue"
       }
     },
     "profile": {
@@ -1429,7 +1425,7 @@
       "将来の夢": "女優選抜メンバーになる"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:28"
+    "updated_at": "2026-08-22 22:59:08"
   },
   {
     "id": "nakagawa_tomoka_e788642d",
@@ -1450,7 +1446,7 @@
       ],
       "color_names": {
         "ko": [
-          "오렌지",
+          "주황",
           "노랑"
         ],
         "ja": [
@@ -1463,7 +1459,7 @@
         ]
       },
       "color_str": {
-        "ko": "오렌지 × 노랑",
+        "ko": "주황 × 노랑",
         "ja": "オレンジ × 黄",
         "en": "Orange × Yellow"
       }
@@ -1480,7 +1476,7 @@
       "将来の夢": "NMB48のセンターになる和歌山の星になる"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:28"
+    "updated_at": "2026-08-22 22:59:08"
   },
   {
     "id": "nishijima_rio_eeea8286",
@@ -1552,7 +1548,7 @@
         "url": "https://nishijimario-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:29"
+    "updated_at": "2026-08-22 22:59:09"
   },
   {
     "id": "nishida_honoka_205dea6d",
@@ -1624,7 +1620,7 @@
         "url": "https://nishidahonoka-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:29"
+    "updated_at": "2026-08-22 22:59:09"
   },
   {
     "id": "haga_rei_bf498d20",
@@ -1640,27 +1636,23 @@
     "image_url": "https://spn.nmb48.com/image/profile/13_haga_rei_fKeo2nd9.jpg",
     "lightstick": {
       "colors": [
-        "#FF1493",
         "#FF1493"
       ],
       "color_names": {
         "ko": [
-          "딥핑크",
-          "딥핑크"
+          "진한 핑크"
         ],
         "ja": [
-          "濃いピンク",
           "濃いピンク"
         ],
         "en": [
-          "Deep Pink",
-          "Deep Pink"
+          "Dark Pink"
         ]
       },
       "color_str": {
-        "ko": "딥핑크 × 딥핑크",
-        "ja": "濃いピンク × 濃いピンク",
-        "en": "Deep Pink × Deep Pink"
+        "ko": "진한 핑크",
+        "ja": "濃いピンク",
+        "en": "Dark Pink"
       }
     },
     "profile": {
@@ -1696,7 +1688,7 @@
         "url": "https://www.showroom-live.com/r/48_REI_HAGA\n"
       }
     ],
-    "updated_at": "2026-08-22 22:22:30"
+    "updated_at": "2026-08-22 22:59:10"
   },
   {
     "id": "hirayama_mai_a5f8e922",
@@ -1772,7 +1764,7 @@
         "url": "https://hirayamamai-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:30"
+    "updated_at": "2026-08-22 22:59:10"
   },
   {
     "id": "fukuno_ami_73e60458",
@@ -1794,7 +1786,7 @@
       "color_names": {
         "ko": [
           "빨강",
-          "소라"
+          "하늘색"
         ],
         "ja": [
           "赤",
@@ -1806,7 +1798,7 @@
         ]
       },
       "color_str": {
-        "ko": "빨강 × 소라",
+        "ko": "빨강 × 하늘색",
         "ja": "赤 × 水色",
         "en": "Red × Light Blue"
       }
@@ -1848,7 +1840,7 @@
         "url": "https://fukunoami-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:31"
+    "updated_at": "2026-08-22 22:59:11"
   },
   {
     "id": "matsuoka_sakura_791781d4",
@@ -1869,7 +1861,7 @@
       ],
       "color_names": {
         "ko": [
-          "연핑크",
+          "연한 핑크",
           "노랑"
         ],
         "ja": [
@@ -1882,7 +1874,7 @@
         ]
       },
       "color_str": {
-        "ko": "연핑크 × 노랑",
+        "ko": "연한 핑크 × 노랑",
         "ja": "薄ピンク × 黄",
         "en": "Light Pink × Yellow"
       }
@@ -1920,7 +1912,7 @@
         "url": "https://matsuokasakura-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:32"
+    "updated_at": "2026-08-22 22:59:11"
   },
   {
     "id": "matsumoto_mihina_7256d406",
@@ -1988,7 +1980,7 @@
         "url": "https://matsumotomihina-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:32"
+    "updated_at": "2026-08-22 22:59:12"
   },
   {
     "id": "mikamo_kurumi_8dba0323",
@@ -2039,7 +2031,7 @@
       "将来の夢": "NMB48で京セラドームでライブをする！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:33"
+    "updated_at": "2026-08-22 22:59:13"
   },
   {
     "id": "miyazaki_sae_293fa59f",
@@ -2060,8 +2052,8 @@
       ],
       "color_names": {
         "ko": [
-          "오렌지",
-          "오렌지"
+          "주황",
+          "주황"
         ],
         "ja": [
           "オレンジ",
@@ -2073,7 +2065,7 @@
         ]
       },
       "color_str": {
-        "ko": "오렌지 × 오렌지",
+        "ko": "주황 × 주황",
         "ja": "オレンジ × オレンジ",
         "en": "Orange × Orange"
       }
@@ -2090,7 +2082,7 @@
       "将来の夢": "センターになる！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:33"
+    "updated_at": "2026-08-22 22:59:13"
   },
   {
     "id": "miyahara_konon_f484463b",
@@ -2141,7 +2133,7 @@
       "将来の夢": "たくさんの人に夢や希望を与えられる女優になる"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:34"
+    "updated_at": "2026-08-22 22:59:14"
   },
   {
     "id": "miyamoto_ami_d1832929",
@@ -2162,7 +2154,7 @@
       ],
       "color_names": {
         "ko": [
-          "딥핑크",
+          "진한 핑크",
           "흰색"
         ],
         "ja": [
@@ -2170,14 +2162,14 @@
           "白"
         ],
         "en": [
-          "Deep Pink",
+          "Dark Pink",
           "White"
         ]
       },
       "color_str": {
-        "ko": "딥핑크 × 흰색",
+        "ko": "진한 핑크 × 흰색",
         "ja": "濃いピンク × 白",
-        "en": "Deep Pink × White"
+        "en": "Dark Pink × White"
       }
     },
     "profile": {
@@ -2213,7 +2205,7 @@
         "url": "https://miyamotoami-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:34"
+    "updated_at": "2026-08-22 22:59:14"
   },
   {
     "id": "yamaguchi_mio_768539d7",
@@ -2229,27 +2221,27 @@
     "image_url": "https://spn.nmb48.com/image/profile/15_yamaguchi_mio_fKeo2nd9.jpg",
     "lightstick": {
       "colors": [
-        "#A4E468",
-        "#FFB6C1"
+        "#FFB6C1",
+        "#00C800"
       ],
       "color_names": {
         "ko": [
-          "연두",
-          "연핑크"
+          "연한 핑크",
+          "연두"
         ],
         "ja": [
-          "黄緑",
-          "薄ピンク"
+          "薄ピンク",
+          "ライトグリーン"
         ],
         "en": [
-          "Light Green",
-          "Light Pink"
+          "Light Pink",
+          "Light Green"
         ]
       },
       "color_str": {
-        "ko": "연두 × 연핑크",
-        "ja": "黄緑 × 薄ピンク",
-        "en": "Light Green × Light Pink"
+        "ko": "연한 핑크 × 연두",
+        "ja": "薄ピンク × ライトグリーン",
+        "en": "Light Pink × Light Green"
       }
     },
     "profile": {
@@ -2264,7 +2256,7 @@
       "将来の夢": "NMB48でセンターになる"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:35"
+    "updated_at": "2026-08-22 22:59:15"
   },
   {
     "id": "murai_yuuri_8c05dd83",
@@ -2315,7 +2307,7 @@
       "将来の夢": "選抜メンバーになって歌番組に出演する"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:35"
+    "updated_at": "2026-08-22 22:59:15"
   },
   {
     "id": "yoshimi_ayane_66185c47",
@@ -2336,7 +2328,7 @@
       ],
       "color_names": {
         "ko": [
-          "딥핑크",
+          "진한 핑크",
           "파랑"
         ],
         "ja": [
@@ -2344,14 +2336,14 @@
           "青"
         ],
         "en": [
-          "Deep Pink",
+          "Dark Pink",
           "Blue"
         ]
       },
       "color_str": {
-        "ko": "딥핑크 × 파랑",
+        "ko": "진한 핑크 × 파랑",
         "ja": "濃いピンク × 青",
-        "en": "Deep Pink × Blue"
+        "en": "Dark Pink × Blue"
       }
     },
     "profile": {
@@ -2383,7 +2375,7 @@
         "url": "https://yoshimiayane-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:22:36"
+    "updated_at": "2026-08-22 22:59:16"
   },
   {
     "id": "akamatsu_sora_bef4eef4",
@@ -2404,7 +2396,7 @@
       ],
       "color_names": {
         "ko": [
-          "딥핑크",
+          "진한 핑크",
           "보라"
         ],
         "ja": [
@@ -2412,14 +2404,14 @@
           "紫"
         ],
         "en": [
-          "Deep Pink",
+          "Dark Pink",
           "Purple"
         ]
       },
       "color_str": {
-        "ko": "딥핑크 × 보라",
+        "ko": "진한 핑크 × 보라",
         "ja": "濃いピンク × 紫",
-        "en": "Deep Pink × Purple"
+        "en": "Dark Pink × Purple"
       }
     },
     "profile": {
@@ -2434,7 +2426,7 @@
       "将来の夢": "女優やモデルなどさまざまなところで活躍できるアイドルになってたくさんの人に知ってもらうこと！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:36"
+    "updated_at": "2026-08-22 22:59:16"
   },
   {
     "id": "sakurai_himari_7b66be04",
@@ -2450,27 +2442,23 @@
     "image_url": "https://spn.nmb48.com/image/profile/03_sakurai_himari_fKeo2nd9.jpg",
     "lightstick": {
       "colors": [
-        "#FFD700",
         "#FFD700"
       ],
       "color_names": {
         "ko": [
-          "노랑",
           "노랑"
         ],
         "ja": [
-          "黄",
           "黄"
         ],
         "en": [
-          "Yellow",
           "Yellow"
         ]
       },
       "color_str": {
-        "ko": "노랑 × 노랑",
-        "ja": "黄 × 黄",
-        "en": "Yellow × Yellow"
+        "ko": "노랑",
+        "ja": "黄",
+        "en": "Yellow"
       }
     },
     "profile": {
@@ -2485,7 +2473,7 @@
       "将来の夢": "NMB48で全国ツアーをする！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:37"
+    "updated_at": "2026-08-22 22:59:17"
   },
   {
     "id": "zenke_yurika_e8979f20",
@@ -2536,7 +2524,7 @@
       "将来の夢": "国民的アイドルになること。誰かの憧れの存在になりたい。"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:37"
+    "updated_at": "2026-08-22 22:59:17"
   },
   {
     "id": "takahashi_juna_b8719149",
@@ -2553,7 +2541,7 @@
     "lightstick": {
       "colors": [
         "#FF0000",
-        "#A4E468"
+        "#00C800"
       ],
       "color_names": {
         "ko": [
@@ -2562,7 +2550,7 @@
         ],
         "ja": [
           "赤",
-          "黄緑"
+          "ライトグリーン"
         ],
         "en": [
           "Red",
@@ -2571,7 +2559,7 @@
       },
       "color_str": {
         "ko": "빨강 × 연두",
-        "ja": "赤 × 黄緑",
+        "ja": "赤 × ライトグリーン",
         "en": "Red × Light Green"
       }
     },
@@ -2587,7 +2575,7 @@
       "将来の夢": "いろんな場所でたくさんの人に元気を与えられるアイドル"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:38"
+    "updated_at": "2026-08-22 22:59:18"
   },
   {
     "id": "tanaka_rei_c3015de1",
@@ -2603,27 +2591,27 @@
     "image_url": "https://spn.nmb48.com/image/profile/06_tanaka_rei_fKeo2nd9.jpg",
     "lightstick": {
       "colors": [
-        "#FF0000",
-        "#FFB6C1"
+        "#FFB6C1",
+        "#FF0000"
       ],
       "color_names": {
         "ko": [
-          "빨강",
-          "연핑크"
+          "연한 핑크",
+          "빨강"
         ],
         "ja": [
-          "赤",
-          "薄ピンク"
+          "薄ピンク",
+          "赤"
         ],
         "en": [
-          "Red",
-          "Light Pink"
+          "Light Pink",
+          "Red"
         ]
       },
       "color_str": {
-        "ko": "빨강 × 연핑크",
-        "ja": "赤 × 薄ピンク",
-        "en": "Red × Light Pink"
+        "ko": "연한 핑크 × 빨강",
+        "ja": "薄ピンク × 赤",
+        "en": "Light Pink × Red"
       }
     },
     "profile": {
@@ -2638,7 +2626,7 @@
       "将来の夢": "日ハム（野球）の始球式に出たい"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:38"
+    "updated_at": "2026-08-22 22:59:18"
   },
   {
     "id": "taniguchi_shino_1e0d3b69",
@@ -2655,26 +2643,26 @@
     "lightstick": {
       "colors": [
         "#00C800",
-        "#A4E468"
+        "#00C800"
       ],
       "color_names": {
         "ko": [
-          "초록",
-          "연두"
+          "연두",
+          "초록"
         ],
         "ja": [
-          "緑",
-          "黄緑"
+          "ライトグリーン",
+          "緑"
         ],
         "en": [
-          "Green",
-          "Light Green"
+          "Light Green",
+          "Green"
         ]
       },
       "color_str": {
-        "ko": "초록 × 연두",
-        "ja": "緑 × 黄緑",
-        "en": "Green × Light Green"
+        "ko": "연두 × 초록",
+        "ja": "ライトグリーン × 緑",
+        "en": "Light Green × Green"
       }
     },
     "profile": {
@@ -2689,7 +2677,7 @@
       "将来の夢": "たくさんの人に「NMB48にいて良かった」と思ってもらえるようなメンバーになりたい"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:39"
+    "updated_at": "2026-08-22 22:59:19"
   },
   {
     "id": "nishizumi_misaki_eb59e4c9",
@@ -2705,27 +2693,27 @@
     "image_url": "https://spn.nmb48.com/image/profile/08_nishizumi_misaki_fKeo2nd9.jpg",
     "lightstick": {
       "colors": [
-        "#0066CC",
-        "#87CEEB"
+        "#87CEEB",
+        "#0066CC"
       ],
       "color_names": {
         "ko": [
-          "파랑",
-          "소라"
+          "하늘색",
+          "파랑"
         ],
         "ja": [
-          "青",
-          "水色"
+          "水色",
+          "青"
         ],
         "en": [
-          "Blue",
-          "Light Blue"
+          "Light Blue",
+          "Blue"
         ]
       },
       "color_str": {
-        "ko": "파랑 × 소라",
-        "ja": "青 × 水色",
-        "en": "Blue × Light Blue"
+        "ko": "하늘색 × 파랑",
+        "ja": "水色 × 青",
+        "en": "Light Blue × Blue"
       }
     },
     "profile": {
@@ -2740,7 +2728,7 @@
       "将来の夢": "たくさんの人に愛されるアイドル！センターに立つこと！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:39"
+    "updated_at": "2026-08-22 22:59:19"
   },
   {
     "id": "fukuhara_kotomi_c00a9850",
@@ -2756,27 +2744,23 @@
     "image_url": "https://spn.nmb48.com/image/profile/09_fukuhara_kotomi_fKeo2nd9.jpg",
     "lightstick": {
       "colors": [
-        "#FFB6C1",
         "#FFB6C1"
       ],
       "color_names": {
         "ko": [
-          "연핑크",
-          "연핑크"
+          "연한 핑크"
         ],
         "ja": [
-          "薄ピンク",
           "薄ピンク"
         ],
         "en": [
-          "Light Pink",
           "Light Pink"
         ]
       },
       "color_str": {
-        "ko": "연핑크 × 연핑크",
-        "ja": "薄ピンク × 薄ピンク",
-        "en": "Light Pink × Light Pink"
+        "ko": "연한 핑크",
+        "ja": "薄ピンク",
+        "en": "Light Pink"
       }
     },
     "profile": {
@@ -2791,7 +2775,7 @@
       "将来の夢": "ことみんを見てると笑顔になるわー！と言ってもらえるようなアイドル"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:40"
+    "updated_at": "2026-08-22 22:59:20"
   },
   {
     "id": "yabuuchi_hinata_13809c00",
@@ -2812,7 +2796,7 @@
       ],
       "color_names": {
         "ko": [
-          "소라",
+          "하늘색",
           "보라"
         ],
         "ja": [
@@ -2825,7 +2809,7 @@
         ]
       },
       "color_str": {
-        "ko": "소라 × 보라",
+        "ko": "하늘색 × 보라",
         "ja": "水色 × 紫",
         "en": "Light Blue × Purple"
       }
@@ -2842,7 +2826,7 @@
       "将来の夢": "紅白歌合戦に出場したい"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:40"
+    "updated_at": "2026-08-22 22:59:20"
   },
   {
     "id": "wada_kotone_0de2410c",
@@ -2863,8 +2847,8 @@
       ],
       "color_names": {
         "ko": [
-          "소라",
-          "소라"
+          "하늘색",
+          "하늘색"
         ],
         "ja": [
           "水色",
@@ -2876,7 +2860,7 @@
         ]
       },
       "color_str": {
-        "ko": "소라 × 소라",
+        "ko": "하늘색 × 하늘색",
         "ja": "水色 × 水色",
         "en": "Light Blue × Light Blue"
       }
@@ -2893,6 +2877,6 @@
       "将来の夢": "誰かの心の拠り所になれるアイドル"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:22:41"
+    "updated_at": "2026-08-22 22:59:21"
   }
 ]

@@ -28,7 +28,7 @@ from bs4 import BeautifulSoup
 
 BASE_URL = "https://spn.nmb48.com"
 MEMBER_LIST_URL = f"{BASE_URL}/feature/member"
-LIGHTSTICK_JS_URL = "https://48group-lightstick.netlify.app/assets/index-D21vROdc.js"
+PENLIGHT_FILE_PATH = "penlight.json"
 DATA_FILE_PATH = "member.json"
 
 HEADERS = {
@@ -40,97 +40,136 @@ HEADERS = {
     "Accept-Language": "ja,ko-KR;q=0.9,ko;q=0.8,en-US;q=0.7,en;q=0.6",
 }
 
-COLOR_MAP_NAME_TO_HEX = {
-    "흰색": "#FFFFFF", "빨강": "#FF0000", "레드": "#FF0000", "오렌지": "#EDA900", "노랑": "#FFD700",
-    "옐로우": "#FFD700", "보라": "#7B4DA0", "퍼플": "#7B4DA0", "연보라": "#926EAE", "라벤더": "#926EAE",
-    "초록": "#00C800", "그린": "#00C800", "에메랄드그린": "#009473", "레몬 옐로우": "#FFF44F",
-    "라이트 블루": "#87CEEB", "소라": "#87CEEB", "블루": "#0066CC", "파랑": "#0066CC",
-    "딥핑크": "#FF1493", "핫핑크": "#FF69B4", "연핑크": "#FFB6C1", "라이트 핑크": "#FFB6C1",
+COLOR_MAP_KO = {
+    "흰색": "#FFFFFF", "화이트": "#FFFFFF", "빨강": "#FF0000", "레드": "#FF0000",
+    "오렌지": "#EDA900", "주황": "#EDA900", "노랑": "#FFD700", "옐로우": "#FFD700",
+    "보라": "#7B4DA0", "퍼플": "#7B4DA0", "연보라": "#926EAE", "라벤더": "#926EAE",
+    "연한 보라": "#926EAE", "연한보라": "#926EAE",
+    "초록": "#00C800", "그린": "#00C800", "에메랄드그린": "#009473", "에메랄드": "#009473",
+    "레몬 옐로우": "#FFF44F", "레몬": "#FFF44F", "레몬옐로우": "#FFF44F",
+    "라이트 블루": "#87CEEB", "소라": "#87CEEB", "하늘": "#87CEEB", "하늘색": "#87CEEB", "물색": "#87CEEB",
+    "블루": "#0066CC", "파랑": "#0066CC",
+    "딥핑크": "#FF1493", "진한 핑크": "#FF1493", "진한핑크": "#FF1493", "핫핑크": "#FF69B4",
+    "연핑크": "#FFB6C1", "연한 핑크": "#FFB6C1", "연한핑크": "#FFB6C1", "라이트 핑크": "#FFB6C1",
     "핑크": "#FFC0CB", "연두": "#A4E468", "검정": "#222222", "블랙": "#222222"
 }
 
-HEX_TO_LANG_NAMES = {
-    "#FFFFFF": {"ko": "흰색", "ja": "白", "en": "White"},
-    "#FF0000": {"ko": "빨강", "ja": "赤", "en": "Red"},
-    "#EDA900": {"ko": "오렌지", "ja": "オレンジ", "en": "Orange"},
-    "#FFD700": {"ko": "노랑", "ja": "黄", "en": "Yellow"},
-    "#FFF44F": {"ko": "레몬 옐로우", "ja": "レモンイエロー", "en": "Lemon Yellow"},
-    "#7B4DA0": {"ko": "보라", "ja": "紫", "en": "Purple"},
-    "#926EAE": {"ko": "연보라", "ja": "薄紫", "en": "Light Purple"},
-    "#00C800": {"ko": "초록", "ja": "緑", "en": "Green"},
-    "#009473": {"ko": "에메랄드그린", "ja": "エメラルドグリーン", "en": "Emerald Green"},
-    "#87CEEB": {"ko": "소라", "ja": "水色", "en": "Light Blue"},
-    "#0066CC": {"ko": "파랑", "ja": "青", "en": "Blue"},
-    "#FF1493": {"ko": "딥핑크", "ja": "濃いピンク", "en": "Deep Pink"},
-    "#FF69B4": {"ko": "핫핑크", "ja": "ホットピンク", "en": "Hot Pink"},
-    "#FFB6C1": {"ko": "연핑크", "ja": "薄ピンク", "en": "Light Pink"},
-    "#FFC0CB": {"ko": "핑크", "ja": "ピンク", "en": "Pink"},
-    "#A4E468": {"ko": "연두", "ja": "黄緑", "en": "Light Green"},
-    "#222222": {"ko": "검정", "ja": "黒", "en": "Black"},
-    "#FFA500": {"ko": "오렌지", "ja": "オレンジ", "en": "Orange"},
-    "#FFFF00": {"ko": "노랑", "ja": "黄", "en": "Yellow"},
-    "#008000": {"ko": "초록", "ja": "緑", "en": "Green"},
-    "#ADFF2F": {"ko": "연두", "ja": "黄緑", "en": "Light Green"},
+COLOR_MAP_JA = {
+    "白": "#FFFFFF", "ホワイト": "#FFFFFF", "赤": "#FF0000", "レッド": "#FF0000",
+    "オレンジ": "#EDA900", "黄": "#FFD700", "イエロー": "#FFD700",
+    "紫": "#7B4DA0", "パープル": "#7B4DA0", "薄紫": "#926EAE", "ラベンダー": "#926EAE",
+    "緑": "#00C800", "グリーン": "#00C800", "エメラルドグリーン": "#009473",
+    "レモンイエロー": "#FFF44F", "水色": "#87CEEB", "ライトブルー": "#87CEEB",
+    "青": "#0066CC", "ブルー": "#0066CC", "濃いピンク": "#FF1493", "ホットピンク": "#FF69B4",
+    "薄ピンク": "#FFB6C1", "ライトピンク": "#FFB6C1", "ピンク": "#FFC0CB",
+    "黄緑": "#A4E468", "黒": "#222222", "ブラック": "#222222"
+}
+
+COLOR_MAP_EN = {
+    "white": "#FFFFFF", "red": "#FF0000", "orange": "#EDA900", "yellow": "#FFD700",
+    "purple": "#7B4DA0", "light purple": "#926EAE", "lavender": "#926EAE",
+    "green": "#00C800", "emerald green": "#009473", "lemon yellow": "#FFF44F",
+    "light blue": "#87CEEB", "blue": "#0066CC", "deep pink": "#FF1493", "dark pink": "#FF1493",
+    "hot pink": "#FF69B4", "light pink": "#FFB6C1", "pink": "#FFC0CB",
+    "light green": "#A4E468", "black": "#222222"
 }
 
 
-def fetch_nmb48_lightstick_data(session: requests.Session) -> Dict[str, Dict[str, Any]]:
+def resolve_color_hex(color_name: str) -> str:
+    """Resolve HEX code from color name in KO, JA, or EN."""
+    c = color_name.strip()
+    if c.startswith("#"):
+        return c.upper()
+    if c in COLOR_MAP_KO:
+        return COLOR_MAP_KO[c]
+    if c in COLOR_MAP_JA:
+        return COLOR_MAP_JA[c]
+    c_lower = c.lower()
+    if c_lower in COLOR_MAP_EN:
+        return COLOR_MAP_EN[c_lower]
+    # Fuzzy match
+    for k, v in COLOR_MAP_KO.items():
+        if k in c:
+            return v
+    for k, v in COLOR_MAP_JA.items():
+        if k in c:
+            return v
+    return "#FFFFFF"
+
+
+def load_penlight_json_data(file_path: str = PENLIGHT_FILE_PATH) -> Dict[str, Dict[str, Any]]:
     """
-    Fetch and parse NMB48 member lightstick colors from 48group-lightstick JS asset.
+    Load and parse NMB48 member lightstick colors from penlight.json.
     Returns lookup map keyed by normalized Japanese member name, Korean name, and English name.
     """
-    print(f"[*] 팬라이트(펜라이트) 데이터 수집 중: {LIGHTSTICK_JS_URL}")
+    print(f"[*] 팬라이트(펜라이트) 데이터 로드 중: {file_path}")
     lightstick_map: Dict[str, Dict[str, Any]] = {}
 
+    if not os.path.exists(file_path):
+        print(f"[!] '{file_path}' 파일이 존재하지 않습니다.")
+        return lightstick_map
+
     try:
-        res = session.get(LIGHTSTICK_JS_URL, timeout=15)
-        res.raise_for_status()
-        text = res.text
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
 
-        # Find all member objects with group:"NMB48"
-        matches = re.findall(
-            r'\{id:"(nmb-[^"]+)",(?:[^}]*?)name:\{ko:"([^"]+)",en:"([^"]+)",ja:"([^"]+)"\},colors:\[([^\]]+)\]',
-            text,
-        )
+        nmb_groups = data.get("NMB48", {})
+        total_members_found = 0
 
-        for m_id, name_ko, name_en, name_ja, colors_raw in matches:
-            hex_colors = [c.strip().strip('"').strip("'").upper() for c in colors_raw.split(",") if c.strip()]
+        for gen_name, members in nmb_groups.items():
+            if not isinstance(members, list):
+                continue
+            for m in members:
+                name_info = m.get("name", {})
+                name_ja = name_info.get("ja", "").strip()
+                name_ko = name_info.get("ko", "").strip()
+                name_en = name_info.get("en", "").strip()
 
-            # Localized color names
-            ko_names = [HEX_TO_LANG_NAMES.get(c, {}).get("ko", c) for c in hex_colors]
-            ja_names = [HEX_TO_LANG_NAMES.get(c, {}).get("ja", c) for c in hex_colors]
-            en_names = [HEX_TO_LANG_NAMES.get(c, {}).get("en", c) for c in hex_colors]
+                penlight_info = m.get("penlight", {})
+                ja_colors = penlight_info.get("ja", [])
+                ko_colors = penlight_info.get("ko", [])
+                en_colors = penlight_info.get("en", [])
 
-            lightstick_info = {
-                "colors": hex_colors,
-                "color_names": {
-                    "ko": ko_names,
-                    "ja": ja_names,
-                    "en": en_names,
-                },
-                "color_str": {
-                    "ko": " × ".join(ko_names),
-                    "ja": " × ".join(ja_names),
-                    "en": " × ".join(en_names),
-                },
-            }
+                # Derive HEX colors
+                hex_colors = []
+                for idx, c_ja in enumerate(ja_colors):
+                    hex_code = resolve_color_hex(c_ja)
+                    if hex_code == "#FFFFFF" and idx < len(ko_colors):
+                        hex_code = resolve_color_hex(ko_colors[idx])
+                    hex_colors.append(hex_code)
 
-            clean_ja = re.sub(r"\s+", "", name_ja)
-            # Fix known typos in JS asset (e.g. 木根彩呂화 -> 木根彩呂花, 澁谷愛紗남 -> 澁谷愛紗南)
-            fixed_ja = clean_ja.replace("화", "花").replace("남", "南")
-            lightstick_map[clean_ja] = lightstick_info
-            lightstick_map[fixed_ja] = lightstick_info
+                lightstick_record = {
+                    "colors": hex_colors,
+                    "color_names": {
+                        "ko": ko_colors,
+                        "ja": ja_colors,
+                        "en": en_colors,
+                    },
+                    "color_str": {
+                        "ko": " × ".join(ko_colors),
+                        "ja": " × ".join(ja_colors),
+                        "en": " × ".join(en_colors),
+                    },
+                }
 
-            clean_ko = re.sub(r"\s+", "", name_ko)
-            lightstick_map[clean_ko] = lightstick_info
+                if name_ja:
+                    clean_ja = re.sub(r"\s+", "", name_ja)
+                    lightstick_map[clean_ja] = lightstick_record
 
-            clean_en = re.sub(r"[^a-z0-9]+", "", name_en.lower())
-            lightstick_map[clean_en] = lightstick_info
+                if name_ko:
+                    clean_ko = re.sub(r"\s+", "", name_ko)
+                    lightstick_map[clean_ko] = lightstick_record
 
-        print(f"[*] 팬라이트 데이터에서 NMB48 멤버 {len(matches)}명의 색상 정보를 추출했습니다.")
+                if name_en:
+                    clean_en = re.sub(r"[^a-z0-9]+", "", name_en.lower())
+                    lightstick_map[clean_en] = lightstick_record
+
+                total_members_found += 1
+
+        print(f"[*] 'penlight.json'에서 NMB48 멤버 {total_members_found}명의 펜라이트 데이터를 성공적으로 로드했습니다.")
 
     except Exception as e:
-        print(f"[!] 팬라이트 데이터 수집 실패: {e}")
+        print(f"[!] 'penlight.json' 로드 중 오류 발생: {e}")
 
     return lightstick_map
 
@@ -293,8 +332,8 @@ def scrape_and_update(output_file: str = DATA_FILE_PATH, delay: float = 0.3) -> 
 
     session = create_session()
 
-    # 2. Fetch Lightstick colors database from 48group-lightstick
-    lightstick_db = fetch_nmb48_lightstick_data(session)
+    # 2. Load Lightstick colors database from penlight.json
+    lightstick_db = load_penlight_json_data(PENLIGHT_FILE_PATH)
 
     print(f"\n[*] 멤버 목록 페이지 요청 중: {MEMBER_LIST_URL}")
 
