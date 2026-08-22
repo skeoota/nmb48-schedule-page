@@ -28,6 +28,7 @@ from bs4 import BeautifulSoup
 
 BASE_URL = "https://spn.nmb48.com"
 MEMBER_LIST_URL = f"{BASE_URL}/feature/member"
+LIGHTSTICK_JS_URL = "https://48group-lightstick.netlify.app/assets/index-D21vROdc.js"
 DATA_FILE_PATH = "member.json"
 
 HEADERS = {
@@ -38,6 +39,100 @@ HEADERS = {
     ),
     "Accept-Language": "ja,ko-KR;q=0.9,ko;q=0.8,en-US;q=0.7,en;q=0.6",
 }
+
+COLOR_MAP_NAME_TO_HEX = {
+    "흰색": "#FFFFFF", "빨강": "#FF0000", "레드": "#FF0000", "오렌지": "#EDA900", "노랑": "#FFD700",
+    "옐로우": "#FFD700", "보라": "#7B4DA0", "퍼플": "#7B4DA0", "연보라": "#926EAE", "라벤더": "#926EAE",
+    "초록": "#00C800", "그린": "#00C800", "에메랄드그린": "#009473", "레몬 옐로우": "#FFF44F",
+    "라이트 블루": "#87CEEB", "소라": "#87CEEB", "블루": "#0066CC", "파랑": "#0066CC",
+    "딥핑크": "#FF1493", "핫핑크": "#FF69B4", "연핑크": "#FFB6C1", "라이트 핑크": "#FFB6C1",
+    "핑크": "#FFC0CB", "연두": "#A4E468", "검정": "#222222", "블랙": "#222222"
+}
+
+HEX_TO_LANG_NAMES = {
+    "#FFFFFF": {"ko": "흰색", "ja": "白", "en": "White"},
+    "#FF0000": {"ko": "빨강", "ja": "赤", "en": "Red"},
+    "#EDA900": {"ko": "오렌지", "ja": "オレンジ", "en": "Orange"},
+    "#FFD700": {"ko": "노랑", "ja": "黄", "en": "Yellow"},
+    "#FFF44F": {"ko": "레몬 옐로우", "ja": "レモンイエロー", "en": "Lemon Yellow"},
+    "#7B4DA0": {"ko": "보라", "ja": "紫", "en": "Purple"},
+    "#926EAE": {"ko": "연보라", "ja": "薄紫", "en": "Light Purple"},
+    "#00C800": {"ko": "초록", "ja": "緑", "en": "Green"},
+    "#009473": {"ko": "에메랄드그린", "ja": "エメラルドグリーン", "en": "Emerald Green"},
+    "#87CEEB": {"ko": "소라", "ja": "水色", "en": "Light Blue"},
+    "#0066CC": {"ko": "파랑", "ja": "青", "en": "Blue"},
+    "#FF1493": {"ko": "딥핑크", "ja": "濃いピンク", "en": "Deep Pink"},
+    "#FF69B4": {"ko": "핫핑크", "ja": "ホットピンク", "en": "Hot Pink"},
+    "#FFB6C1": {"ko": "연핑크", "ja": "薄ピンク", "en": "Light Pink"},
+    "#FFC0CB": {"ko": "핑크", "ja": "ピンク", "en": "Pink"},
+    "#A4E468": {"ko": "연두", "ja": "黄緑", "en": "Light Green"},
+    "#222222": {"ko": "검정", "ja": "黒", "en": "Black"},
+    "#FFA500": {"ko": "오렌지", "ja": "オレンジ", "en": "Orange"},
+    "#FFFF00": {"ko": "노랑", "ja": "黄", "en": "Yellow"},
+    "#008000": {"ko": "초록", "ja": "緑", "en": "Green"},
+    "#ADFF2F": {"ko": "연두", "ja": "黄緑", "en": "Light Green"},
+}
+
+
+def fetch_nmb48_lightstick_data(session: requests.Session) -> Dict[str, Dict[str, Any]]:
+    """
+    Fetch and parse NMB48 member lightstick colors from 48group-lightstick JS asset.
+    Returns lookup map keyed by normalized Japanese member name, Korean name, and English name.
+    """
+    print(f"[*] 팬라이트(펜라이트) 데이터 수집 중: {LIGHTSTICK_JS_URL}")
+    lightstick_map: Dict[str, Dict[str, Any]] = {}
+
+    try:
+        res = session.get(LIGHTSTICK_JS_URL, timeout=15)
+        res.raise_for_status()
+        text = res.text
+
+        # Find all member objects with group:"NMB48"
+        matches = re.findall(
+            r'\{id:"(nmb-[^"]+)",(?:[^}]*?)name:\{ko:"([^"]+)",en:"([^"]+)",ja:"([^"]+)"\},colors:\[([^\]]+)\]',
+            text,
+        )
+
+        for m_id, name_ko, name_en, name_ja, colors_raw in matches:
+            hex_colors = [c.strip().strip('"').strip("'").upper() for c in colors_raw.split(",") if c.strip()]
+
+            # Localized color names
+            ko_names = [HEX_TO_LANG_NAMES.get(c, {}).get("ko", c) for c in hex_colors]
+            ja_names = [HEX_TO_LANG_NAMES.get(c, {}).get("ja", c) for c in hex_colors]
+            en_names = [HEX_TO_LANG_NAMES.get(c, {}).get("en", c) for c in hex_colors]
+
+            lightstick_info = {
+                "colors": hex_colors,
+                "color_names": {
+                    "ko": ko_names,
+                    "ja": ja_names,
+                    "en": en_names,
+                },
+                "color_str": {
+                    "ko": " × ".join(ko_names),
+                    "ja": " × ".join(ja_names),
+                    "en": " × ".join(en_names),
+                },
+            }
+
+            clean_ja = re.sub(r"\s+", "", name_ja)
+            # Fix known typos in JS asset (e.g. 木根彩呂화 -> 木根彩呂花, 澁谷愛紗남 -> 澁谷愛紗南)
+            fixed_ja = clean_ja.replace("화", "花").replace("남", "南")
+            lightstick_map[clean_ja] = lightstick_info
+            lightstick_map[fixed_ja] = lightstick_info
+
+            clean_ko = re.sub(r"\s+", "", name_ko)
+            lightstick_map[clean_ko] = lightstick_info
+
+            clean_en = re.sub(r"[^a-z0-9]+", "", name_en.lower())
+            lightstick_map[clean_en] = lightstick_info
+
+        print(f"[*] 팬라이트 데이터에서 NMB48 멤버 {len(matches)}명의 색상 정보를 추출했습니다.")
+
+    except Exception as e:
+        print(f"[!] 팬라이트 데이터 수집 실패: {e}")
+
+    return lightstick_map
 
 
 def create_session() -> requests.Session:
@@ -197,7 +292,11 @@ def scrape_and_update(output_file: str = DATA_FILE_PATH, delay: float = 0.3) -> 
     existing_members = load_existing_members(output_file)
 
     session = create_session()
-    print(f"[*] 멤버 목록 페이지 요청 중: {MEMBER_LIST_URL}")
+
+    # 2. Fetch Lightstick colors database from 48group-lightstick
+    lightstick_db = fetch_nmb48_lightstick_data(session)
+
+    print(f"\n[*] 멤버 목록 페이지 요청 중: {MEMBER_LIST_URL}")
 
     try:
         response = session.get(MEMBER_LIST_URL, timeout=15)
@@ -209,7 +308,7 @@ def scrape_and_update(output_file: str = DATA_FILE_PATH, delay: float = 0.3) -> 
 
     soup = BeautifulSoup(response.text, "lxml")
 
-    # 2. Select member list elements: section.section--detail.page--member ul.list--profile li
+    # 3. Select member list elements: section.section--detail.page--member ul.list--profile li
     member_elements = soup.select("section.section--detail.page--member ul.list--profile li")
     print(f"[*] {len(member_elements)}개의 멤버 항목을 발견했습니다.")
 
@@ -251,9 +350,24 @@ def scrape_and_update(output_file: str = DATA_FILE_PATH, delay: float = 0.3) -> 
         # Thumbnail image
         thumb_img_url = extract_image_url(a_tag)
 
-        print(f"[{idx:02d}/{len(member_elements):02d}] 파싱 중: {cleaned_name} ({yomi}) - 구분: {member_type} [ID: {member_id}]")
+        # Match lightstick color data
+        clean_name_key = re.sub(r"\s+", "", cleaned_name)
+        clean_yomi_key = re.sub(r"[^a-z0-9]+", "", yomi.lower())
+        lightstick_info = (
+            lightstick_db.get(clean_name_key)
+            or lightstick_db.get(clean_yomi_key)
+            or None
+        )
 
-        # 3. Fetch detail page
+        lightstick_display = (
+            f" [팬라이트: {lightstick_info['color_str']['ko']}]"
+            if lightstick_info
+            else ""
+        )
+
+        print(f"[{idx:02d}/{len(member_elements):02d}] 파싱 중: {cleaned_name} ({yomi}) - 구분: {member_type}{lightstick_display} [ID: {member_id}]")
+
+        # 4. Fetch detail page
         detail_info = parse_member_detail(session, detail_url)
 
         # Merge with any existing custom data
@@ -271,6 +385,7 @@ def scrape_and_update(output_file: str = DATA_FILE_PATH, delay: float = 0.3) -> 
             "detail_url": detail_url,
             "thumbnail_url": thumb_img_url,
             "image_url": detail_info.get("image_url") or thumb_img_url,
+            "lightstick": lightstick_info,
             "profile": detail_info.get("profile", {}),
             "sns": detail_info.get("sns", []),
             "updated_at": time.strftime("%Y-%m-%d %H:%M:%S"),

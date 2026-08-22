@@ -37,6 +37,7 @@ const i18n = {
         accordionDetail: "프로필 상세 정보",
         personalSchedule: "{month}월 출연 공연 ({count}회)",
         noPersonalSchedule: "이번 달 예정된 출연 공연이 없습니다.",
+        lightstick: "팬라이트 색상",
         nickname: "닉네임",
         birthday: "생년월일",
         bloodType: "혈액형",
@@ -75,6 +76,7 @@ const i18n = {
         accordionDetail: "プロフィール詳細情報",
         personalSchedule: "{month}月 出演公演 ({count}回)",
         noPersonalSchedule: "今月の出演予定公演はありません。",
+        lightstick: "ペンライトカラー",
         nickname: "ニックネーム",
         birthday: "生年月日",
         bloodType: "血液型",
@@ -113,6 +115,7 @@ const i18n = {
         accordionDetail: "Member Profile Details",
         personalSchedule: "Shows in Month {month} ({count} shows)",
         noPersonalSchedule: "No scheduled shows this month.",
+        lightstick: "Lightstick Colors",
         nickname: "Nickname",
         birthday: "Birthday",
         bloodType: "Blood Type",
@@ -131,6 +134,87 @@ const i18n = {
         favoriteRemove: "Remove from Favorites"
     }
 };
+
+// Lightstick Color Mappings & Converters
+const mo = {
+    흰색: "#FFFFFF", 빨강: "#FF0000", 레드: "#FF0000", 오렌지: "#EDA900", 노랑: "#FFD700",
+    옐로우: "#FFD700", 보라: "#7B4DA0", 퍼플: "#7B4DA0", 연보라: "#926EAE", 라벤더: "#926EAE",
+    초록: "#00C800", 그린: "#00C800", 에메랄드그린: "#009473", "레몬 옐로우": "#FFF44F",
+    "라이트 블루": "#87CEEB", 소라: "#87CEEB", 블루: "#0066CC", 파랑: "#0066CC",
+    딥핑크: "#FF1493", 핫핑크: "#FF69B4", 연핑크: "#FFB6C1", "라이트 핑크": "#FFB6C1",
+    핑크: "#FFC0CB", 연두: "#A4E468"
+};
+
+const va = {
+    "#FFFFFF": { ko: "흰색", ja: "白", en: "White" },
+    "#FF0000": { ko: "빨강", ja: "赤", en: "Red" },
+    "#EDA900": { ko: "오렌지", ja: "オレンジ", en: "Orange" },
+    "#FFD700": { ko: "노랑", ja: "黄", en: "Yellow" },
+    "#FFF44F": { ko: "레몬 옐로우", ja: "レモンイエロー", en: "Lemon Yellow" },
+    "#7B4DA0": { ko: "보라", ja: "紫", en: "Purple" },
+    "#926EAE": { ko: "연보라", ja: "薄紫", en: "Light Purple" },
+    "#00C800": { ko: "초록", ja: "緑", en: "Green" },
+    "#009473": { ko: "에메랄드그린", ja: "エメラルドグリーン", en: "Emerald Green" },
+    "#87CEEB": { ko: "소라", ja: "水色", en: "Light Blue" },
+    "#0066CC": { ko: "파랑", ja: "青", en: "Blue" },
+    "#FF1493": { ko: "딥핑크", ja: "濃いピンク", en: "Deep Pink" },
+    "#FF69B4": { ko: "핫핑크", ja: "ホットピンク", en: "Hot Pink" },
+    "#FFB6C1": { ko: "연핑크", ja: "薄ピンク", en: "Light Pink" },
+    "#FFC0CB": { ko: "핑크", ja: "ピンク", en: "Pink" },
+    "#A4E468": { ko: "연두", ja: "黄緑", en: "Light Green" },
+    "#222222": { ko: "검정", ja: "黒", en: "Black" },
+    "#FFA500": { ko: "오렌지", ja: "オレンジ", en: "Orange" },
+    "#FFFF00": { ko: "노랑", ja: "黄", en: "Yellow" },
+    "#008000": { ko: "초록", ja: "緑", en: "Green" },
+    "#ADFF2F": { ko: "연두", ja: "黄緑", en: "Light Green" }
+};
+
+function po(o) {
+    if (!o) return "#FFFFFF";
+    const i = o.trim();
+    if (i.startsWith("#")) return i;
+    const s = i.replace(/\s+/g, "").replace(/[\(\[\{\)\]\}]/g, ""),
+        x = [
+            { keys: ["에메랄드", "에메란드"], hex: "#009473" },
+            { keys: ["레몬옐로우", "레몬"], hex: "#FFF44F" },
+            { keys: ["라이트블루", "소라"], hex: "#87CEEB" },
+            { keys: ["라이트핑크", "연핑크"], hex: "#FFB6C1" },
+            { keys: ["딥핑크"], hex: "#FF1493" },
+            { keys: ["핫핑크"], hex: "#FF69B4" },
+            { keys: ["핑크"], hex: "#FFC0CB" },
+            { keys: ["연보라", "라벤더"], hex: "#926EAE" },
+            { keys: ["보라", "퍼플"], hex: "#7B4DA0" },
+            { keys: ["연두", "옐로우그린"], hex: "#A4E468" },
+            { keys: ["옐로우", "노랑"], hex: "#FFD700" },
+            { keys: ["오렌지"], hex: "#EDA900" },
+            { keys: ["초록", "그린"], hex: "#00C800" },
+            { keys: ["빨강", "레드"], hex: "#FF0000" },
+            { keys: ["흰색", "화이트"], hex: "#FFFFFF" },
+            { keys: ["파랑", "블루"], hex: "#0066CC" },
+            { keys: ["검정", "블랙"], hex: "#222222" }
+        ];
+    for (const c of x) {
+        for (const n of c.keys) {
+            if (s.includes(n)) return c.hex;
+        }
+    }
+    const m = mo[i];
+    return m || o;
+}
+
+function Bt(o, i) {
+    if (!o) return "";
+    let s = o.trim();
+    if (!s.startsWith("#")) s = po(s);
+    const x = s.toUpperCase().trim();
+    const m = va[x];
+    if (m) return m[i] || m.ko;
+    if (i === "ko") {
+        const c = Object.entries(mo).find(([n, C]) => C.toUpperCase() === x);
+        if (c) return c[0];
+    }
+    return o;
+}
 
 function t(key, params = {}) {
     let text = (i18n[currentLang] && i18n[currentLang][key]) || i18n["ko"][key] || key;
@@ -562,11 +646,25 @@ function showPerformanceDetail(perfId, forceOpenMobile = true) {
                 const isFav = savedFav === m.id;
                 const favBadgeHTML = isFav ? `<span class="mini-card-fav-badge">★</span>` : "";
 
+                let miniLightstickBadgeHTML = "";
+                if (m.lightstick && m.lightstick.colors && m.lightstick.colors.length > 0) {
+                    const colorNames = m.lightstick.colors.map(c => Bt(c, currentLang)).join(" × ");
+                    miniLightstickBadgeHTML = `
+                        <div class="mini-card-lightstick-badge" title="${colorNames}">
+                            <div class="mini-card-color-dots">
+                                ${m.lightstick.colors.map(c => `<span class="mini-color-dot" style="background-color:${c}; border:1px solid ${c === '#FFFFFF' ? '#ced4da' : c};"></span>`).join("")}
+                            </div>
+                            <span class="mini-color-text">${colorNames}</span>
+                        </div>
+                    `;
+                }
+
                 castGridHTML += `
                     <div class="member-mini-card" onclick="selectMember('${m.id}', true)">
                         ${favBadgeHTML}
                         <img src="${m.thumbnail_url || m.image_url}" alt="${m.name}" class="mini-card-img" onerror="this.src='https://placehold.co/100x125/fae8c8/333333?text=${m.name}'">
                         <span class="card-name">${m.name}</span>
+                        ${miniLightstickBadgeHTML}
                     </div>
                 `;
             } else {
@@ -656,11 +754,40 @@ function selectMember(memberId, forceOpenDrawer = true) {
         `;
     }
 
+    // Lightstick Header and Table info
+    let lightstickHeaderHTML = "";
+    let lightstickTableRowHTML = "";
+    if (member.lightstick && member.lightstick.colors && member.lightstick.colors.length > 0) {
+        const colors = member.lightstick.colors;
+        const colorDots = colors.map(c => `<span class="profile-card-color-dot" style="background-color:${c}; border:1px solid ${c === '#FFFFFF' ? '#ced4da' : c};"></span>`).join("");
+        const localizedNames = colors.map(c => Bt(c, currentLang)).join(" × ");
+
+        lightstickHeaderHTML = `
+            <div class="profile-card-colors">
+                <div class="color-dots-group">${colorDots}</div>
+                <span class="color-text-label">${localizedNames}</span>
+            </div>
+        `;
+
+        lightstickTableRowHTML = `
+            <tr>
+                <th>${t("lightstick")}</th>
+                <td>
+                    <div class="lightstick-cell-val">
+                        <div class="color-dots-group">${colorDots}</div>
+                        <span class="color-text-val">${localizedNames}</span>
+                    </div>
+                </td>
+            </tr>
+        `;
+    }
+
     // Detail Profile Table
     const p = member.profile || {};
     const detailsTableHTML = `
         <table class="details-table">
             <tbody>
+                ${lightstickTableRowHTML}
                 ${p["生年月日"] ? `<tr><th>${t("birthday")}</th><td>${p["生年月日"]}</td></tr>` : ""}
                 ${p["血液型"] ? `<tr><th>${t("bloodType")}</th><td>${p["血液型"]}</td></tr>` : ""}
                 ${p["出身地"] ? `<tr><th>${t("birthplace")}</th><td>${p["出身地"]}</td></tr>` : ""}
@@ -698,6 +825,7 @@ function selectMember(memberId, forceOpenDrawer = true) {
             </div>
             <div class="profile-yomi">${member.yomi || ""}</div>
             ${p["ニックネーム"] ? `<div class="profile-nickname-badge">🏷️ ${p["ニックネーム"]}</div>` : ""}
+            ${lightstickHeaderHTML}
         </div>
 
         <div class="profile-card">
@@ -808,12 +936,25 @@ function renderProfilesView() {
             const isFav = savedFav === m.id;
             const favBadgeHTML = isFav ? `<span class="mini-card-fav-badge" style="font-size:16px;">★</span>` : "";
 
+            let gridColorDotsHTML = "";
+            if (m.lightstick && m.lightstick.colors && m.lightstick.colors.length > 0) {
+                const colorDots = m.lightstick.colors.map(c => `<span class="mini-color-dot" style="background-color:${c}; border:1px solid ${c === '#FFFFFF' ? '#ced4da' : c};"></span>`).join("");
+                const localizedNames = m.lightstick.colors.map(c => Bt(c, currentLang)).join(" × ");
+                gridColorDotsHTML = `
+                    <div class="grid-card-color-bar">
+                        <div class="color-dots-group">${colorDots}</div>
+                        <span class="grid-color-name">${localizedNames}</span>
+                    </div>
+                `;
+            }
+
             return `
                 <div class="profile-grid-card" onclick="selectMember('${m.id}', true)">
                     ${favBadgeHTML}
                     <img src="${m.thumbnail_url || m.image_url}" alt="${m.name}" class="grid-img" onerror="this.src='https://placehold.co/100x126/fae8c8/333333?text=${m.name}'">
                     <span class="grid-name">${m.name}</span>
                     <span class="grid-yomi">${m.yomi || ""}</span>
+                    ${gridColorDotsHTML}
                 </div>
             `;
         }).join("");
