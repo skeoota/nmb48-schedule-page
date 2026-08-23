@@ -651,7 +651,7 @@
         "sales_name": "一般発売",
         "period_start": "2026/08/23(日) 10:00",
         "period_end": "2026/08/24(月) 16:00",
-        "status": "先着発売前",
+        "status": "先着発売中",
         "url": "https://ticket.fany.lol/reception/64018/51256"
       },
       {
@@ -722,7 +722,7 @@
         "sales_name": "一般発売",
         "period_start": "2026/08/23(日) 10:00",
         "period_end": "2026/08/25(火) 16:00",
-        "status": "先着発売前",
+        "status": "先着発売中",
         "url": "https://ticket.fany.lol/reception/64029/51257"
       },
       {
@@ -793,7 +793,7 @@
         "sales_name": "一般発売",
         "period_start": "2026/08/23(日) 10:00",
         "period_end": "2026/08/26(水) 16:00",
-        "status": "先着発売前",
+        "status": "先着発売中",
         "url": "https://ticket.fany.lol/reception/64030/51258"
       },
       {
@@ -864,7 +864,7 @@
         "sales_name": "一般発売",
         "period_start": "2026/08/23(日) 10:00",
         "period_end": "2026/08/27(木) 16:00",
-        "status": "先着発売前",
+        "status": "先着発売中",
         "url": "https://ticket.fany.lol/reception/64031/51260"
       },
       {
@@ -931,22 +931,6 @@
     "fany_performance_id": 51248,
     "ticket_sales": [
       {
-        "sales_id": 63960,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/08/21(金) 12:00",
-        "period_end": "2026/08/23(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/63960/51248"
-      },
-      {
-        "sales_id": 63961,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/08/21(金) 12:00",
-        "period_end": "2026/08/23(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/63961/51248"
-      },
-      {
         "sales_id": 63962,
         "sales_name": "一般発売",
         "period_start": "2026/08/26(水) 10:00",
@@ -961,6 +945,22 @@
         "period_end": "2026/08/19(水) 12:00",
         "status": "抽選受付終了",
         "url": "https://ticket.fany.lol/reception/63959/51248"
+      },
+      {
+        "sales_id": 63960,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/08/21(金) 12:00",
+        "period_end": "2026/08/23(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/63960/51248"
+      },
+      {
+        "sales_id": 63961,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/08/21(金) 12:00",
+        "period_end": "2026/08/23(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/63961/51248"
       }
     ]
   },
@@ -1013,22 +1013,6 @@
     "fany_performance_id": 51249,
     "ticket_sales": [
       {
-        "sales_id": 64009,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/08/21(金) 12:00",
-        "period_end": "2026/08/23(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/64009/51249"
-      },
-      {
-        "sales_id": 64011,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/08/21(金) 12:00",
-        "period_end": "2026/08/23(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/64011/51249"
-      },
-      {
         "sales_id": 64013,
         "sales_name": "一般発売",
         "period_start": "2026/08/26(水) 10:00",
@@ -1043,6 +1027,22 @@
         "period_end": "2026/08/19(水) 12:00",
         "status": "抽選受付終了",
         "url": "https://ticket.fany.lol/reception/64007/51249"
+      },
+      {
+        "sales_id": 64009,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/08/21(金) 12:00",
+        "period_end": "2026/08/23(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/64009/51249"
+      },
+      {
+        "sales_id": 64011,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/08/21(金) 12:00",
+        "period_end": "2026/08/23(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/64011/51249"
       }
     ]
   },
@@ -1095,22 +1095,6 @@
     "fany_performance_id": 51250,
     "ticket_sales": [
       {
-        "sales_id": 64010,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/08/21(金) 12:00",
-        "period_end": "2026/08/23(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/64010/51250"
-      },
-      {
-        "sales_id": 64012,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/08/21(金) 12:00",
-        "period_end": "2026/08/23(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/64012/51250"
-      },
-      {
         "sales_id": 64014,
         "sales_name": "一般発売",
         "period_start": "2026/08/26(水) 10:00",
@@ -1125,6 +1109,22 @@
         "period_end": "2026/08/19(水) 12:00",
         "status": "抽選受付終了",
         "url": "https://ticket.fany.lol/reception/64008/51250"
+      },
+      {
+        "sales_id": 64010,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/08/21(金) 12:00",
+        "period_end": "2026/08/23(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/64010/51250"
+      },
+      {
+        "sales_id": 64012,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/08/21(金) 12:00",
+        "period_end": "2026/08/23(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/64012/51250"
       }
     ]
   },
@@ -1169,14 +1169,6 @@
     "fany_performance_id": 51226,
     "ticket_sales": [
       {
-        "sales_id": 63877,
-        "sales_name": "NMB48 Mobile抽選先行",
-        "period_start": "2026/08/21(金) 12:00",
-        "period_end": "2026/08/23(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/63877/51226"
-      },
-      {
         "sales_id": 63878,
         "sales_name": "●FANY IDプレミアムメンバー抽選先行",
         "period_start": "2026/08/25(火) 12:00",
@@ -1199,6 +1191,14 @@
         "period_end": "2026/08/31(月) 16:00",
         "status": "先着発売前",
         "url": "https://ticket.fany.lol/reception/63880/51226"
+      },
+      {
+        "sales_id": 63877,
+        "sales_name": "NMB48 Mobile抽選先行",
+        "period_start": "2026/08/21(金) 12:00",
+        "period_end": "2026/08/23(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/63877/51226"
       }
     ]
   }
