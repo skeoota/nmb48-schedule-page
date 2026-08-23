@@ -37,6 +37,7 @@ const i18n = {
         accordionDetail: "프로필 상세 정보",
         personalSchedule: "{month}월 출연 공연 ({count}회)",
         noPersonalSchedule: "이번 달 예정된 출연 공연이 없습니다.",
+        generation: "기수",
         lightstick: "팬라이트 색상",
         nickname: "닉네임",
         birthday: "생년월일",
@@ -76,6 +77,7 @@ const i18n = {
         accordionDetail: "プロフィール詳細情報",
         personalSchedule: "{month}月 出演公演 ({count}回)",
         noPersonalSchedule: "今月の出演予定公演はありません。",
+        generation: "加入期",
         lightstick: "ペンライトカラー",
         nickname: "ニックネーム",
         birthday: "生年月日",
@@ -115,6 +117,7 @@ const i18n = {
         accordionDetail: "Member Profile Details",
         personalSchedule: "Shows in Month {month} ({count} shows)",
         noPersonalSchedule: "No scheduled shows this month.",
+        generation: "Generation",
         lightstick: "Lightstick Colors",
         nickname: "Nickname",
         birthday: "Birthday",
@@ -744,6 +747,11 @@ function selectMember(memberId, forceOpenDrawer = true) {
     if (member.is_graduated || member.member_type === "졸업생") badgeClass = "graduated";
     else if (member.member_type === "연구생") badgeClass = "kenkyusei";
 
+    let genName = "";
+    if (member.generation && member.generation.name) {
+        genName = member.generation.name[currentLang] || member.generation.name["ko"] || member.generation.raw;
+    }
+
     // SNS Buttons
     let snsHTML = "";
     if (member.sns && member.sns.length > 0) {
@@ -759,7 +767,7 @@ function selectMember(memberId, forceOpenDrawer = true) {
     let lightstickTableRowHTML = "";
     if (member.lightstick && member.lightstick.colors && member.lightstick.colors.length > 0) {
         const colors = member.lightstick.colors;
-        const colorDots = colors.map(c => `<span class="profile-card-color-dot" style="background-color:${c}; border:1px solid ${c === '#FFFFFF' ? '#ced4da' : c};"></span>`).join("");
+        const colorDots = colors.map(c => `<span class="profile-card-color-dot" style="background-color:${c}; border:1px solid ${c === '#FFFFFF' ? '#ced4da' : c};"></span>`).join("") ;
         const localizedNames = colors.map(c => Bt(c, currentLang)).join(" × ");
 
         lightstickHeaderHTML = `
@@ -787,6 +795,7 @@ function selectMember(memberId, forceOpenDrawer = true) {
     const detailsTableHTML = `
         <table class="details-table">
             <tbody>
+                ${genName ? `<tr><th>${t("generation")}</th><td><strong>${genName}</strong></td></tr>` : ""}
                 ${lightstickTableRowHTML}
                 ${p["生年月日"] ? `<tr><th>${t("birthday")}</th><td>${p["生年月日"]}</td></tr>` : ""}
                 ${p["血液型"] ? `<tr><th>${t("bloodType")}</th><td>${p["血液型"]}</td></tr>` : ""}
@@ -817,6 +826,17 @@ function selectMember(memberId, forceOpenDrawer = true) {
         personalScheduleHTML = `<div style="font-size:12.5px; color:#868e96; padding:8px 4px;">${t("noPersonalSchedule")}</div>`;
     }
 
+    let typeName = member.member_type || member.status || "";
+    if (member.is_graduated || member.member_type === "졸업생") {
+        typeName = t("graduatedMembers");
+    } else if (member.member_type === "연구생" || member.status === "研究生") {
+        typeName = t("researchStudents");
+    } else if (member.member_type === "정규생" || member.status === "正規生") {
+        typeName = t("regularMembers");
+    }
+
+    const badgeLabel = genName ? `${genName} · ${typeName}` : typeName;
+
     leftPanelContent.innerHTML = `
         <div class="profile-sticky-header">
             <div class="profile-name">
@@ -832,7 +852,7 @@ function selectMember(memberId, forceOpenDrawer = true) {
             <div class="profile-img-wrapper">
                 <img src="${member.image_url || member.thumbnail_url}" alt="${member.name}" onerror="this.src='https://placehold.co/170x215/fae8c8/333333?text=${member.name}'">
             </div>
-            <div class="profile-badge ${badgeClass}">${member.member_type || member.status}</div>
+            <div class="profile-badge ${badgeClass}">${badgeLabel}</div>
             ${snsHTML}
         </div>
 
@@ -918,16 +938,40 @@ function closeMobileDrawer() {
 }
 
 // --------------------------------------------------------------------------
-// View 2: Member Profiles Grid View
+// View 2: Member Profiles Grid View (Grouped by Generation)
 // --------------------------------------------------------------------------
 
 function renderProfilesView() {
     const container = document.getElementById("profiles-view-area");
     if (!container || !memberDatabase) return;
 
-    const regularMembers = memberDatabase.filter(m => !m.is_graduated && m.member_type !== "연구생");
-    const kenkyuseiMembers = memberDatabase.filter(m => !m.is_graduated && m.member_type === "연구생");
+    // Active members vs Graduated
+    const activeMembers = memberDatabase.filter(m => !m.is_graduated && m.member_type !== "졸업생");
     const graduatedMembers = memberDatabase.filter(m => m.is_graduated || m.member_type === "졸업생");
+
+    // Group active members by generation
+    const genMap = {}; // { genKey: { order, raw, name: {...}, members: [] } }
+
+    for (const m of activeMembers) {
+        const gen = m.generation || {
+            order: 999,
+            raw: "기타",
+            name: { ko: "기타", ja: "その他", en: "Other" }
+        };
+        const key = gen.raw || "기타";
+        if (!genMap[key]) {
+            genMap[key] = {
+                order: gen.order !== undefined ? gen.order : 999,
+                raw: key,
+                name: gen.name || { ko: key, ja: key, en: key },
+                members: []
+            };
+        }
+        genMap[key].members.push(m);
+    }
+
+    // Sort generation groups ascending (e.g. D3 -> 6 -> 7 -> 8 -> 9 -> 10 -> 11)
+    const sortedGenKeys = Object.keys(genMap).sort((a, b) => genMap[a].order - genMap[b].order);
 
     function renderGroup(title, members) {
         if (!members || members.length === 0) return "";
@@ -948,9 +992,13 @@ function renderProfilesView() {
                 `;
             }
 
+            const isKenkyusei = m.member_type === "연구생";
+            const kenkyuseiTagHTML = isKenkyusei ? `<span class="grid-kenkyusei-tag">${t("researchStudents")}</span>` : "";
+
             return `
                 <div class="profile-grid-card" onclick="selectMember('${m.id}', true)">
                     ${favBadgeHTML}
+                    ${kenkyuseiTagHTML}
                     <img src="${m.thumbnail_url || m.image_url}" alt="${m.name}" class="grid-img" onerror="this.src='https://placehold.co/100x126/fae8c8/333333?text=${m.name}'">
                     <span class="grid-name">${m.name}</span>
                     <span class="grid-yomi">${m.yomi || ""}</span>
@@ -970,11 +1018,18 @@ function renderProfilesView() {
         `;
     }
 
-    container.innerHTML = `
-        ${renderGroup(t("regularMembers"), regularMembers)}
-        ${renderGroup(t("researchStudents"), kenkyuseiMembers)}
-        ${renderGroup(t("graduatedMembers"), graduatedMembers)}
-    `;
+    let sectionsHTML = "";
+    for (const key of sortedGenKeys) {
+        const group = genMap[key];
+        const title = group.name[currentLang] || group.name["ko"] || group.raw;
+        sectionsHTML += renderGroup(title, group.members);
+    }
+
+    if (graduatedMembers.length > 0) {
+        sectionsHTML += renderGroup(t("graduatedMembers"), graduatedMembers);
+    }
+
+    container.innerHTML = sectionsHTML;
 }
 
 // --------------------------------------------------------------------------

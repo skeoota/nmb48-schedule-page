@@ -1090,6 +1090,20 @@ body {
     box-shadow: var(--shadow-md);
 }
 
+.grid-kenkyusei-tag {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background: #2a9d8f;
+    color: #ffffff;
+    font-size: 9.5px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 4px;
+    z-index: 2;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
 .profile-grid-card .grid-img {
     width: 100px;
     height: 126px;

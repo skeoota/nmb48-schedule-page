@@ -74,6 +74,111 @@ COLOR_MAP_EN = {
     "light green": "#A4E468", "black": "#222222"
 }
 
+GENERATION_INFO_MAP = {
+    "ドラフト3期": {
+        "raw": "ドラフト3期",
+        "name": {
+            "ja": "ドラフト3期生",
+            "ko": "드래프트 3기생",
+            "en": "Draft 3rd Gen",
+        },
+        "order": 3.5,
+    },
+    "6期": {
+        "raw": "6期",
+        "name": {
+            "ja": "6期生",
+            "ko": "6기생",
+            "en": "6th Gen",
+        },
+        "order": 6,
+    },
+    "7期": {
+        "raw": "7期",
+        "name": {
+            "ja": "7期生",
+            "ko": "7기생",
+            "en": "7th Gen",
+        },
+        "order": 7,
+    },
+    "8期": {
+        "raw": "8期",
+        "name": {
+            "ja": "8期生",
+            "ko": "8기생",
+            "en": "8th Gen",
+        },
+        "order": 8,
+    },
+    "9期": {
+        "raw": "9期",
+        "name": {
+            "ja": "9期生",
+            "ko": "9기생",
+            "en": "9th Gen",
+        },
+        "order": 9,
+    },
+    "10期": {
+        "raw": "10期",
+        "name": {
+            "ja": "10期生",
+            "ko": "10기생",
+            "en": "10th Gen",
+        },
+        "order": 10,
+    },
+    "11期": {
+        "raw": "11期",
+        "name": {
+            "ja": "11期生",
+            "ko": "11기생",
+            "en": "11th Gen",
+        },
+        "order": 11,
+    },
+}
+
+
+def get_generation_info(gen_name: str) -> Dict[str, Any]:
+    """Normalize and enrich generation name with multilingual names and sort order."""
+    if not gen_name:
+        return {
+            "raw": "",
+            "name": {"ja": "その他", "ko": "기타", "en": "Other"},
+            "order": 999,
+        }
+
+    gen_clean = gen_name.strip()
+    if gen_clean in GENERATION_INFO_MAP:
+        return GENERATION_INFO_MAP[gen_clean]
+
+    # Pattern fallback
+    num_match = re.search(r"(\d+)", gen_clean)
+    num = int(num_match.group(1)) if num_match else 99
+
+    if "ドラフト" in gen_clean or "Draft" in gen_clean or "D" in gen_clean:
+        return {
+            "raw": gen_clean,
+            "name": {
+                "ja": f"ドラフト{num}期生",
+                "ko": f"드래프트 {num}기생",
+                "en": f"Draft {num}th Gen",
+            },
+            "order": num + 0.5,
+        }
+
+    return {
+        "raw": gen_clean,
+        "name": {
+            "ja": f"{num}期生" if num != 99 else gen_clean,
+            "ko": f"{num}기생" if num != 99 else gen_clean,
+            "en": f"{num}th Gen" if num != 99 else gen_clean,
+        },
+        "order": num,
+    }
+
 
 def resolve_color_hex(color_name: str) -> str:
     """Resolve HEX code from color name in KO, JA, or EN."""
@@ -99,15 +204,15 @@ def resolve_color_hex(color_name: str) -> str:
 
 def load_penlight_json_data(file_path: str = PENLIGHT_FILE_PATH) -> Dict[str, Dict[str, Any]]:
     """
-    Load and parse NMB48 member lightstick colors from penlight.json.
+    Load and parse NMB48 member lightstick colors & generations from penlight.json.
     Returns lookup map keyed by normalized Japanese member name, Korean name, and English name.
     """
-    print(f"[*] 팬라이트(펜라이트) 데이터 로드 중: {file_path}")
-    lightstick_map: Dict[str, Dict[str, Any]] = {}
+    print(f"[*] 팬라이트(펜라이트) 및 기수 데이터 로드 중: {file_path}")
+    penlight_data_map: Dict[str, Dict[str, Any]] = {}
 
     if not os.path.exists(file_path):
         print(f"[!] '{file_path}' 파일이 존재하지 않습니다.")
-        return lightstick_map
+        return penlight_data_map
 
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -119,6 +224,9 @@ def load_penlight_json_data(file_path: str = PENLIGHT_FILE_PATH) -> Dict[str, Di
         for gen_name, members in nmb_groups.items():
             if not isinstance(members, list):
                 continue
+
+            gen_info = get_generation_info(gen_name)
+
             for m in members:
                 name_info = m.get("name", {})
                 name_ja = name_info.get("ja", "").strip()
@@ -138,40 +246,43 @@ def load_penlight_json_data(file_path: str = PENLIGHT_FILE_PATH) -> Dict[str, Di
                         hex_code = resolve_color_hex(ko_colors[idx])
                     hex_colors.append(hex_code)
 
-                lightstick_record = {
-                    "colors": hex_colors,
-                    "color_names": {
-                        "ko": ko_colors,
-                        "ja": ja_colors,
-                        "en": en_colors,
-                    },
-                    "color_str": {
-                        "ko": " × ".join(ko_colors),
-                        "ja": " × ".join(ja_colors),
-                        "en": " × ".join(en_colors),
+                member_penlight_record = {
+                    "generation": gen_info,
+                    "lightstick": {
+                        "colors": hex_colors,
+                        "color_names": {
+                            "ko": ko_colors,
+                            "ja": ja_colors,
+                            "en": en_colors,
+                        },
+                        "color_str": {
+                            "ko": " × ".join(ko_colors),
+                            "ja": " × ".join(ja_colors),
+                            "en": " × ".join(en_colors),
+                        },
                     },
                 }
 
                 if name_ja:
                     clean_ja = re.sub(r"\s+", "", name_ja)
-                    lightstick_map[clean_ja] = lightstick_record
+                    penlight_data_map[clean_ja] = member_penlight_record
 
                 if name_ko:
                     clean_ko = re.sub(r"\s+", "", name_ko)
-                    lightstick_map[clean_ko] = lightstick_record
+                    penlight_data_map[clean_ko] = member_penlight_record
 
                 if name_en:
                     clean_en = re.sub(r"[^a-z0-9]+", "", name_en.lower())
-                    lightstick_map[clean_en] = lightstick_record
+                    penlight_data_map[clean_en] = member_penlight_record
 
                 total_members_found += 1
 
-        print(f"[*] 'penlight.json'에서 NMB48 멤버 {total_members_found}명의 펜라이트 데이터를 성공적으로 로드했습니다.")
+        print(f"[*] 'penlight.json'에서 NMB48 멤버 {total_members_found}명의 펜라이트/기수 데이터를 성공적으로 로드했습니다.")
 
     except Exception as e:
         print(f"[!] 'penlight.json' 로드 중 오류 발생: {e}")
 
-    return lightstick_map
+    return penlight_data_map
 
 
 def create_session() -> requests.Session:
@@ -389,22 +500,26 @@ def scrape_and_update(output_file: str = DATA_FILE_PATH, delay: float = 0.3) -> 
         # Thumbnail image
         thumb_img_url = extract_image_url(a_tag)
 
-        # Match lightstick color data
+        # Match lightstick & generation data from penlight.json
         clean_name_key = re.sub(r"\s+", "", cleaned_name)
         clean_yomi_key = re.sub(r"[^a-z0-9]+", "", yomi.lower())
-        lightstick_info = (
+        penlight_entry = (
             lightstick_db.get(clean_name_key)
             or lightstick_db.get(clean_yomi_key)
             or None
         )
 
+        lightstick_info = penlight_entry.get("lightstick") if penlight_entry else None
+        generation_info = penlight_entry.get("generation") if penlight_entry else None
+
+        gen_display = f" [기수: {generation_info['name']['ko']}]" if generation_info else ""
         lightstick_display = (
             f" [팬라이트: {lightstick_info['color_str']['ko']}]"
             if lightstick_info
             else ""
         )
 
-        print(f"[{idx:02d}/{len(member_elements):02d}] 파싱 중: {cleaned_name} ({yomi}) - 구분: {member_type}{lightstick_display} [ID: {member_id}]")
+        print(f"[{idx:02d}/{len(member_elements):02d}] 파싱 중: {cleaned_name} ({yomi}) - 구분: {member_type}{gen_display}{lightstick_display} [ID: {member_id}]")
 
         # 4. Fetch detail page
         detail_info = parse_member_detail(session, detail_url)
@@ -420,6 +535,7 @@ def scrape_and_update(output_file: str = DATA_FILE_PATH, delay: float = 0.3) -> 
             "yomi": yomi,
             "member_type": member_type,
             "status": status_category,
+            "generation": generation_info,
             "is_graduated": False,
             "detail_url": detail_url,
             "thumbnail_url": thumb_img_url,

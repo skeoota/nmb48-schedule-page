@@ -7,6 +7,15 @@
     "yomi": "AOBARA YUKA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "9期",
+      "name": {
+        "ja": "9期生",
+        "ko": "9기생",
+        "en": "9th Gen"
+      },
+      "order": 9
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_aobara_yuka",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/01_aobara_yuka_fKeo2nd9.jpg",
@@ -69,7 +78,7 @@
         "url": "https://aobarayuka-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:58:57"
+    "updated_at": "2026-08-23 16:50:56"
   },
   {
     "id": "ike_honoka_8ba7d98e",
@@ -79,6 +88,15 @@
     "yomi": "IKE HONOKA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "8期",
+      "name": {
+        "ja": "8期生",
+        "ko": "8기생",
+        "en": "8th Gen"
+      },
+      "order": 8
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_ike_honoka",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/ike_honoka.jpg",
@@ -141,7 +159,7 @@
         "url": "https://ikehonoka-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:58:57"
+    "updated_at": "2026-08-23 16:50:56"
   },
   {
     "id": "ikeda_tenna_b664d319",
@@ -151,6 +169,15 @@
     "yomi": "IKEDA TENNA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "9期",
+      "name": {
+        "ja": "9期生",
+        "ko": "9기생",
+        "en": "9th Gen"
+      },
+      "order": 9
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_ikeda_tenna",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/03_ikeda_tenna_fKeo2nd9.jpg",
@@ -209,7 +236,7 @@
         "url": "https://ikedatenna-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:58:58"
+    "updated_at": "2026-08-23 16:50:57"
   },
   {
     "id": "ishiyama_chihiro_764a26dd",
@@ -219,6 +246,15 @@
     "yomi": "ISHIYAMA CHIHIRO",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "10期",
+      "name": {
+        "ja": "10期生",
+        "ko": "10기생",
+        "en": "10th Gen"
+      },
+      "order": 10
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_ishiyama_chihiro",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/01_ishiyama_chihiro_fKeo2nd9.jpg",
@@ -260,7 +296,7 @@
       "将来の夢": "たくさんの人に笑顔を届けられるアイドル！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:58:58"
+    "updated_at": "2026-08-23 16:50:57"
   },
   {
     "id": "izumi_ayano_449f220f",
@@ -270,6 +306,15 @@
     "yomi": "IZUMI AYANO",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "ドラフト3期",
+      "name": {
+        "ja": "ドラフト3期生",
+        "ko": "드래프트 3기생",
+        "en": "Draft 3rd Gen"
+      },
+      "order": 3.5
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_izumi_ayano",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/izumi_ayano.jpg",
@@ -336,7 +381,7 @@
         "url": "https://izumiayano-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:58:59"
+    "updated_at": "2026-08-23 16:50:58"
   },
   {
     "id": "itagaki_koyori_9c921151",
@@ -346,6 +391,15 @@
     "yomi": "ITAGAKI KOYORI",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "9期",
+      "name": {
+        "ja": "9期生",
+        "ko": "9기생",
+        "en": "9th Gen"
+      },
+      "order": 9
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_itagaki_koyori",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/04_itagaki_koyori_fKeo2nd9.jpg",
@@ -404,7 +458,7 @@
         "url": "https://www.showroom-live.com/r/48_KOYORI_ITAGAKI"
       }
     ],
-    "updated_at": "2026-08-22 22:58:59"
+    "updated_at": "2026-08-23 16:50:58"
   },
   {
     "id": "uchida_aisha_c556d182",
@@ -414,6 +468,15 @@
     "yomi": "UCHIDA AISHA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "10期",
+      "name": {
+        "ja": "10期生",
+        "ko": "10기생",
+        "en": "10th Gen"
+      },
+      "order": 10
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_uchida_aisha",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/03_uchida_aisha_fKeo2nd9.jpg",
@@ -455,7 +518,7 @@
       "将来の夢": "人に寄り添える癒し系アイドル"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:00"
+    "updated_at": "2026-08-23 16:50:59"
   },
   {
     "id": "okagoshi_seira_173a7799",
@@ -465,6 +528,15 @@
     "yomi": "OKAGOSHI SEIRA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "11期",
+      "name": {
+        "ja": "11期生",
+        "ko": "11기생",
+        "en": "11th Gen"
+      },
+      "order": 11
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_okagoshi_seira",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/02_okagoshi_seira_fKeo2nd9.jpg",
@@ -506,7 +578,7 @@
       "将来の夢": "NMB48のセンター。マルチタレントになりたい"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:01"
+    "updated_at": "2026-08-23 16:50:59"
   },
   {
     "id": "kinugasa_ayami_0b95ac10",
@@ -516,6 +588,15 @@
     "yomi": "KINUGASA AYAMI",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "9期",
+      "name": {
+        "ja": "9期生",
+        "ko": "9기생",
+        "en": "9th Gen"
+      },
+      "order": 9
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_kinugasa_ayami",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/05_kinugasa_ayami_fKeo2nd9.jpg",
@@ -574,7 +655,7 @@
         "url": "https://kinugasaayami-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:01"
+    "updated_at": "2026-08-23 16:51:00"
   },
   {
     "id": "kine_iroha_5de22a82",
@@ -584,6 +665,15 @@
     "yomi": "KINE IROHA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "10期",
+      "name": {
+        "ja": "10期生",
+        "ko": "10기생",
+        "en": "10th Gen"
+      },
+      "order": 10
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_kine_iroha",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/04_kine_iroha_fKeo2nd9.jpg",
@@ -625,7 +715,7 @@
       "将来の夢": "女優"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:02"
+    "updated_at": "2026-08-23 16:51:00"
   },
   {
     "id": "kuroshima_sakura_163a8bc9",
@@ -635,6 +725,15 @@
     "yomi": "KUROSHIMA SAKURA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "8期",
+      "name": {
+        "ja": "8期生",
+        "ko": "8기생",
+        "en": "8th Gen"
+      },
+      "order": 8
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_kuroshima_sakura",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/kuroshima_sakura.jpg",
@@ -697,7 +796,7 @@
         "url": "https://kuroshimasakura-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:02"
+    "updated_at": "2026-08-23 16:51:01"
   },
   {
     "id": "sakashita_mako_eace6ab1",
@@ -707,6 +806,15 @@
     "yomi": "SAKASHITA MAKO",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "8期",
+      "name": {
+        "ja": "8期生",
+        "ko": "8기생",
+        "en": "8th Gen"
+      },
+      "order": 8
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_sakashita_mako",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/sakashita_mako.jpg",
@@ -777,7 +885,7 @@
         "url": "https://sakashitamako-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:03"
+    "updated_at": "2026-08-23 16:51:01"
   },
   {
     "id": "sakata_misaki_38cb0d10",
@@ -787,6 +895,15 @@
     "yomi": "SAKATA MISAKI",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "8期",
+      "name": {
+        "ja": "8期生",
+        "ko": "8기생",
+        "en": "8th Gen"
+      },
+      "order": 8
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_sakata_misaki",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/sakata_misaki.jpg",
@@ -853,7 +970,7 @@
         "url": "https://sakatamisaki-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:03"
+    "updated_at": "2026-08-23 16:51:02"
   },
   {
     "id": "sakurada_ayaka_0f654b92",
@@ -863,6 +980,15 @@
     "yomi": "SAKURADA AYAKA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "8期",
+      "name": {
+        "ja": "8期生",
+        "ko": "8기생",
+        "en": "8th Gen"
+      },
+      "order": 8
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_sakurada_ayaka",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/sakurada_ayaka.jpg",
@@ -925,7 +1051,7 @@
         "url": "https://sakuradaayaka-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:04"
+    "updated_at": "2026-08-23 16:51:02"
   },
   {
     "id": "shiotsuki_keito_6c5554d2",
@@ -935,6 +1061,15 @@
     "yomi": "SHIOTSUKI KEITO",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "ドラフト3期",
+      "name": {
+        "ja": "ドラフト3期生",
+        "ko": "드래프트 3기생",
+        "en": "Draft 3rd Gen"
+      },
+      "order": 3.5
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_shiotsuki_keito",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/shiotsuki_keito.jpg",
@@ -1001,7 +1136,7 @@
         "url": "https://shiotsukikeito-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:04"
+    "updated_at": "2026-08-23 16:51:03"
   },
   {
     "id": "shibuya_asana_97969ded",
@@ -1011,6 +1146,15 @@
     "yomi": "SHIBUYA ASANA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "10期",
+      "name": {
+        "ja": "10期生",
+        "ko": "10기생",
+        "en": "10th Gen"
+      },
+      "order": 10
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_shibuya_asana",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/05_shibuya_asana_fKeo2nd9.jpg",
@@ -1052,7 +1196,7 @@
       "将来の夢": "NMB48といえば「澁谷愛紗南だよね！」と言って頂けるような存在になること"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:05"
+    "updated_at": "2026-08-23 16:51:03"
   },
   {
     "id": "shinzawa_nao_e5dbe82d",
@@ -1062,6 +1206,15 @@
     "yomi": "SHINZAWA NAO",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "6期",
+      "name": {
+        "ja": "6期生",
+        "ko": "6기생",
+        "en": "6th Gen"
+      },
+      "order": 6
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_shinzawa_nao",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/shinzawa_nao.jpg",
@@ -1128,7 +1281,7 @@
         "url": "https://shinzawanao-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:05"
+    "updated_at": "2026-08-23 16:51:04"
   },
   {
     "id": "takahashi_kotone_5c194c42",
@@ -1138,6 +1291,15 @@
     "yomi": "TAKAHASHI KOTONE",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "10期",
+      "name": {
+        "ja": "10期生",
+        "ko": "10기생",
+        "en": "10th Gen"
+      },
+      "order": 10
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_takahashi_kotone",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/06_takahashi_kotone_fKeo2nd9.jpg",
@@ -1179,7 +1341,7 @@
       "将来の夢": "キラキラアイドルになって有名になる！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:06"
+    "updated_at": "2026-08-23 16:51:04"
   },
   {
     "id": "takeda_kyoka_15efbecb",
@@ -1189,6 +1351,15 @@
     "yomi": "TAKEDA KYOKA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "10期",
+      "name": {
+        "ja": "10期生",
+        "ko": "10기생",
+        "en": "10th Gen"
+      },
+      "order": 10
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_takeda_kyoka",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/07_takeda_kyoka_fKeo2nd9.jpg",
@@ -1230,7 +1401,7 @@
       "将来の夢": "ソロコンサート！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:06"
+    "updated_at": "2026-08-23 16:51:05"
   },
   {
     "id": "tatsumoto_yayoi_8c564fd8",
@@ -1240,6 +1411,15 @@
     "yomi": "TATSUMOTO YAYOI",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "8期",
+      "name": {
+        "ja": "8期生",
+        "ko": "8기생",
+        "en": "8th Gen"
+      },
+      "order": 8
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_tatsumoto_yayoi",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/tatsumoto_yayoi.jpg",
@@ -1302,7 +1482,7 @@
         "url": "https://tatsumotoyayoi-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:07"
+    "updated_at": "2026-08-23 16:51:06"
   },
   {
     "id": "tanaka_misora_9ad35a72",
@@ -1312,6 +1492,15 @@
     "yomi": "TANAKA MISORA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "9期",
+      "name": {
+        "ja": "9期生",
+        "ko": "9기생",
+        "en": "9th Gen"
+      },
+      "order": 9
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_tanaka_misora",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/08_tanaka_misora_fKeo2nd9.jpg",
@@ -1374,7 +1563,7 @@
         "url": "https://tanakamisora-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:07"
+    "updated_at": "2026-08-23 16:51:06"
   },
   {
     "id": "tanaka_miria_dd56eb4e",
@@ -1384,6 +1573,15 @@
     "yomi": "TANAKA MIRIA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "10期",
+      "name": {
+        "ja": "10期生",
+        "ko": "10기생",
+        "en": "10th Gen"
+      },
+      "order": 10
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_tanaka_miria",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/08_tanaka_miria_fKeo2nd9.jpg",
@@ -1425,7 +1623,7 @@
       "将来の夢": "女優選抜メンバーになる"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:08"
+    "updated_at": "2026-08-23 16:51:07"
   },
   {
     "id": "nakagawa_tomoka_e788642d",
@@ -1435,6 +1633,15 @@
     "yomi": "NAKAGAWA TOMOKA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "10期",
+      "name": {
+        "ja": "10期生",
+        "ko": "10기생",
+        "en": "10th Gen"
+      },
+      "order": 10
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_nakagawa_tomoka",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/09_nakagawa_tomoka_fKeo2nd9.jpg",
@@ -1476,7 +1683,7 @@
       "将来の夢": "NMB48のセンターになる和歌山の星になる"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:08"
+    "updated_at": "2026-08-23 16:51:07"
   },
   {
     "id": "nishijima_rio_eeea8286",
@@ -1486,6 +1693,15 @@
     "yomi": "NISHIJIMA RIO",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "9期",
+      "name": {
+        "ja": "9期生",
+        "ko": "9기생",
+        "en": "9th Gen"
+      },
+      "order": 9
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_nishijima_rio",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/10_nishijima_rio_fKeo2nd9.jpg",
@@ -1548,7 +1764,7 @@
         "url": "https://nishijimario-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:09"
+    "updated_at": "2026-08-23 16:51:08"
   },
   {
     "id": "nishida_honoka_205dea6d",
@@ -1558,6 +1774,15 @@
     "yomi": "NISHIDA HONOKA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "9期",
+      "name": {
+        "ja": "9期生",
+        "ko": "9기생",
+        "en": "9th Gen"
+      },
+      "order": 9
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_nishida_honoka",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/11_nishida_honoka_fKeo2nd9.jpg",
@@ -1620,7 +1845,7 @@
         "url": "https://nishidahonoka-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:09"
+    "updated_at": "2026-08-23 16:51:08"
   },
   {
     "id": "haga_rei_bf498d20",
@@ -1630,6 +1855,15 @@
     "yomi": "HAGA REI",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "9期",
+      "name": {
+        "ja": "9期生",
+        "ko": "9기생",
+        "en": "9th Gen"
+      },
+      "order": 9
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_haga_rei",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/13_haga_rei_fKeo2nd9.jpg",
@@ -1688,7 +1922,7 @@
         "url": "https://www.showroom-live.com/r/48_REI_HAGA\n"
       }
     ],
-    "updated_at": "2026-08-22 22:59:10"
+    "updated_at": "2026-08-23 16:51:09"
   },
   {
     "id": "hirayama_mai_a5f8e922",
@@ -1698,6 +1932,15 @@
     "yomi": "HIRAYAMA MAI",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "7期",
+      "name": {
+        "ja": "7期生",
+        "ko": "7기생",
+        "en": "7th Gen"
+      },
+      "order": 7
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_hirayama_mai",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/hirayama_mai.jpg",
@@ -1764,7 +2007,7 @@
         "url": "https://hirayamamai-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:10"
+    "updated_at": "2026-08-23 16:51:09"
   },
   {
     "id": "fukuno_ami_73e60458",
@@ -1774,6 +2017,15 @@
     "yomi": "FUKUNO AMI",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "8期",
+      "name": {
+        "ja": "8期生",
+        "ko": "8기생",
+        "en": "8th Gen"
+      },
+      "order": 8
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_fukuno_ami",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/fukuno_ami.jpg",
@@ -1840,7 +2092,7 @@
         "url": "https://fukunoami-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:11"
+    "updated_at": "2026-08-23 16:51:10"
   },
   {
     "id": "matsuoka_sakura_791781d4",
@@ -1850,6 +2102,15 @@
     "yomi": "MATSUOKA SAKURA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "8期",
+      "name": {
+        "ja": "8期生",
+        "ko": "8기생",
+        "en": "8th Gen"
+      },
+      "order": 8
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_matsuoka_sakura",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/matsuoka_sakura.jpg",
@@ -1912,7 +2173,7 @@
         "url": "https://matsuokasakura-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:11"
+    "updated_at": "2026-08-23 16:51:10"
   },
   {
     "id": "matsumoto_mihina_7256d406",
@@ -1922,6 +2183,15 @@
     "yomi": "MATSUMOTO MIHINA",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "8期",
+      "name": {
+        "ja": "8期生",
+        "ko": "8기생",
+        "en": "8th Gen"
+      },
+      "order": 8
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_matsumoto_mihina",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/matsumoto_mihina.jpg",
@@ -1980,7 +2250,7 @@
         "url": "https://matsumotomihina-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:12"
+    "updated_at": "2026-08-23 16:51:11"
   },
   {
     "id": "mikamo_kurumi_8dba0323",
@@ -1990,6 +2260,15 @@
     "yomi": "MIKAMO KURUMI",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "10期",
+      "name": {
+        "ja": "10期生",
+        "ko": "10기생",
+        "en": "10th Gen"
+      },
+      "order": 10
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_mikamo_kurumi",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/11_mikamo_kurumi_fKeo2nd9.jpg",
@@ -2031,7 +2310,7 @@
       "将来の夢": "NMB48で京セラドームでライブをする！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:13"
+    "updated_at": "2026-08-23 16:51:11"
   },
   {
     "id": "miyazaki_sae_293fa59f",
@@ -2041,6 +2320,15 @@
     "yomi": "MIYAZAKI SAE",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "10期",
+      "name": {
+        "ja": "10期生",
+        "ko": "10기생",
+        "en": "10th Gen"
+      },
+      "order": 10
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_miyazaki_sae",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/12_miyazaki_sae_fKeo2nd9.jpg",
@@ -2082,7 +2370,7 @@
       "将来の夢": "センターになる！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:13"
+    "updated_at": "2026-08-23 16:51:12"
   },
   {
     "id": "miyahara_konon_f484463b",
@@ -2092,6 +2380,15 @@
     "yomi": "MIYAHARA KONON",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "10期",
+      "name": {
+        "ja": "10期生",
+        "ko": "10기생",
+        "en": "10th Gen"
+      },
+      "order": 10
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_miyahara_konon",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/13_miyahara_konon_fKeo2nd9.jpg",
@@ -2133,7 +2430,7 @@
       "将来の夢": "たくさんの人に夢や希望を与えられる女優になる"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:14"
+    "updated_at": "2026-08-23 16:51:12"
   },
   {
     "id": "miyamoto_ami_d1832929",
@@ -2143,6 +2440,15 @@
     "yomi": "MIYAMOTO AMI",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "9期",
+      "name": {
+        "ja": "9期生",
+        "ko": "9기생",
+        "en": "9th Gen"
+      },
+      "order": 9
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_miyamoto_ami",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/16_miyamoto_ami_fKeo2nd9.jpg",
@@ -2205,7 +2511,7 @@
         "url": "https://miyamotoami-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:14"
+    "updated_at": "2026-08-23 16:51:13"
   },
   {
     "id": "yamaguchi_mio_768539d7",
@@ -2215,6 +2521,15 @@
     "yomi": "YAMAGUCHI MIO",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "10期",
+      "name": {
+        "ja": "10期生",
+        "ko": "10기생",
+        "en": "10th Gen"
+      },
+      "order": 10
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_yamaguchi_mio",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/15_yamaguchi_mio_fKeo2nd9.jpg",
@@ -2256,7 +2571,7 @@
       "将来の夢": "NMB48でセンターになる"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:15"
+    "updated_at": "2026-08-23 16:51:13"
   },
   {
     "id": "murai_yuuri_8c05dd83",
@@ -2266,6 +2581,15 @@
     "yomi": "MURAI YUURI",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "10期",
+      "name": {
+        "ja": "10期生",
+        "ko": "10기생",
+        "en": "10th Gen"
+      },
+      "order": 10
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_murai_yuuri",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/14_murai_yuuri_fKeo2nd9.jpg",
@@ -2307,7 +2631,7 @@
       "将来の夢": "選抜メンバーになって歌番組に出演する"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:15"
+    "updated_at": "2026-08-23 16:51:14"
   },
   {
     "id": "yoshimi_ayane_66185c47",
@@ -2317,6 +2641,15 @@
     "yomi": "YOSHIMI AYANE",
     "member_type": "정규생",
     "status": "正規生",
+    "generation": {
+      "raw": "9期",
+      "name": {
+        "ja": "9期生",
+        "ko": "9기생",
+        "en": "9th Gen"
+      },
+      "order": 9
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_yoshimi_ayane",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/17_yoshimi_ayane_fKeo2nd9.jpg",
@@ -2375,7 +2708,7 @@
         "url": "https://yoshimiayane-rooms.fanpla.jp/"
       }
     ],
-    "updated_at": "2026-08-22 22:59:16"
+    "updated_at": "2026-08-23 16:51:15"
   },
   {
     "id": "akamatsu_sora_bef4eef4",
@@ -2385,6 +2718,15 @@
     "yomi": "AKAMATSU SORA",
     "member_type": "연구생",
     "status": "研究生",
+    "generation": {
+      "raw": "11期",
+      "name": {
+        "ja": "11期生",
+        "ko": "11기생",
+        "en": "11th Gen"
+      },
+      "order": 11
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_akamatsu_sora",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/01_akamatsu_sora_fKeo2nd9.jpg",
@@ -2426,7 +2768,7 @@
       "将来の夢": "女優やモデルなどさまざまなところで活躍できるアイドルになってたくさんの人に知ってもらうこと！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:16"
+    "updated_at": "2026-08-23 16:51:15"
   },
   {
     "id": "sakurai_himari_7b66be04",
@@ -2436,6 +2778,15 @@
     "yomi": "SAKURAI HIMARI",
     "member_type": "연구생",
     "status": "研究生",
+    "generation": {
+      "raw": "11期",
+      "name": {
+        "ja": "11期生",
+        "ko": "11기생",
+        "en": "11th Gen"
+      },
+      "order": 11
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_sakurai_himari",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/03_sakurai_himari_fKeo2nd9.jpg",
@@ -2473,7 +2824,7 @@
       "将来の夢": "NMB48で全国ツアーをする！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:17"
+    "updated_at": "2026-08-23 16:51:16"
   },
   {
     "id": "zenke_yurika_e8979f20",
@@ -2483,6 +2834,15 @@
     "yomi": "ZENKE YURIKA",
     "member_type": "연구생",
     "status": "研究生",
+    "generation": {
+      "raw": "11期",
+      "name": {
+        "ja": "11期生",
+        "ko": "11기생",
+        "en": "11th Gen"
+      },
+      "order": 11
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_zenke_yurika",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/04_zenke_yurika_fKeo2nd9.jpg",
@@ -2524,7 +2884,7 @@
       "将来の夢": "国民的アイドルになること。誰かの憧れの存在になりたい。"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:17"
+    "updated_at": "2026-08-23 16:51:16"
   },
   {
     "id": "takahashi_juna_b8719149",
@@ -2534,6 +2894,15 @@
     "yomi": "TAKAHASHI JUNA",
     "member_type": "연구생",
     "status": "研究生",
+    "generation": {
+      "raw": "11期",
+      "name": {
+        "ja": "11期生",
+        "ko": "11기생",
+        "en": "11th Gen"
+      },
+      "order": 11
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_takahashi_juna",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/05_takahashi_juna_fKeo2nd9.jpg",
@@ -2575,7 +2944,7 @@
       "将来の夢": "いろんな場所でたくさんの人に元気を与えられるアイドル"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:18"
+    "updated_at": "2026-08-23 16:51:17"
   },
   {
     "id": "tanaka_rei_c3015de1",
@@ -2585,6 +2954,15 @@
     "yomi": "TANAKA REI",
     "member_type": "연구생",
     "status": "研究生",
+    "generation": {
+      "raw": "11期",
+      "name": {
+        "ja": "11期生",
+        "ko": "11기생",
+        "en": "11th Gen"
+      },
+      "order": 11
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_tanaka_rei",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/06_tanaka_rei_fKeo2nd9.jpg",
@@ -2626,7 +3004,7 @@
       "将来の夢": "日ハム（野球）の始球式に出たい"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:18"
+    "updated_at": "2026-08-23 16:51:17"
   },
   {
     "id": "taniguchi_shino_1e0d3b69",
@@ -2636,6 +3014,15 @@
     "yomi": "TANIGUCHI SHINO",
     "member_type": "연구생",
     "status": "研究生",
+    "generation": {
+      "raw": "11期",
+      "name": {
+        "ja": "11期生",
+        "ko": "11기생",
+        "en": "11th Gen"
+      },
+      "order": 11
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_taniguchi_shino",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/07_taniguchi_shino_fKeo2nd9.jpg",
@@ -2677,7 +3064,7 @@
       "将来の夢": "たくさんの人に「NMB48にいて良かった」と思ってもらえるようなメンバーになりたい"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:19"
+    "updated_at": "2026-08-23 16:51:18"
   },
   {
     "id": "nishizumi_misaki_eb59e4c9",
@@ -2687,6 +3074,15 @@
     "yomi": "NISHIZUMI MISAKI",
     "member_type": "연구생",
     "status": "研究生",
+    "generation": {
+      "raw": "11期",
+      "name": {
+        "ja": "11期生",
+        "ko": "11기생",
+        "en": "11th Gen"
+      },
+      "order": 11
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_nishizumi_misaki",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/08_nishizumi_misaki_fKeo2nd9.jpg",
@@ -2728,7 +3124,7 @@
       "将来の夢": "たくさんの人に愛されるアイドル！センターに立つこと！"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:19"
+    "updated_at": "2026-08-23 16:51:18"
   },
   {
     "id": "fukuhara_kotomi_c00a9850",
@@ -2738,6 +3134,15 @@
     "yomi": "FUKUHARA KOTOMI",
     "member_type": "연구생",
     "status": "研究生",
+    "generation": {
+      "raw": "11期",
+      "name": {
+        "ja": "11期生",
+        "ko": "11기생",
+        "en": "11th Gen"
+      },
+      "order": 11
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_fukuhara_kotomi",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/09_fukuhara_kotomi_fKeo2nd9.jpg",
@@ -2775,7 +3180,7 @@
       "将来の夢": "ことみんを見てると笑顔になるわー！と言ってもらえるようなアイドル"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:20"
+    "updated_at": "2026-08-23 16:51:19"
   },
   {
     "id": "yabuuchi_hinata_13809c00",
@@ -2785,6 +3190,15 @@
     "yomi": "YABUUCHI HINATA",
     "member_type": "연구생",
     "status": "研究生",
+    "generation": {
+      "raw": "11期",
+      "name": {
+        "ja": "11期生",
+        "ko": "11기생",
+        "en": "11th Gen"
+      },
+      "order": 11
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_yabuuchi_hinata",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/10_yabuuchi_hinata_fKeo2nd9.jpg",
@@ -2826,7 +3240,7 @@
       "将来の夢": "紅白歌合戦に出場したい"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:20"
+    "updated_at": "2026-08-23 16:51:19"
   },
   {
     "id": "wada_kotone_0de2410c",
@@ -2836,6 +3250,15 @@
     "yomi": "WADA KOTONE",
     "member_type": "연구생",
     "status": "研究生",
+    "generation": {
+      "raw": "11期",
+      "name": {
+        "ja": "11期生",
+        "ko": "11기생",
+        "en": "11th Gen"
+      },
+      "order": 11
+    },
     "is_graduated": false,
     "detail_url": "https://spn.nmb48.com/feature/member_wada_kotone",
     "thumbnail_url": "https://spn.nmb48.com/image/profile/11_wada_kotone_fKeo2nd9.jpg",
@@ -2877,6 +3300,6 @@
       "将来の夢": "誰かの心の拠り所になれるアイドル"
     },
     "sns": [],
-    "updated_at": "2026-08-22 22:59:21"
+    "updated_at": "2026-08-23 16:51:20"
   }
 ]
