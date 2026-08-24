@@ -644,41 +644,8 @@
       "yoshimi_ayane_66185c47"
     ],
     "special_notes": [],
-    "fany_performance_id": 51256,
-    "ticket_sales": [
-      {
-        "sales_id": 64018,
-        "sales_name": "一般発売",
-        "period_start": "2026/08/23(日) 10:00",
-        "period_end": "2026/08/24(月) 16:00",
-        "status": "先着発売中",
-        "url": "https://ticket.fany.lol/reception/64018/51256"
-      },
-      {
-        "sales_id": 64015,
-        "sales_name": "NMB48 Mobile抽選先行",
-        "period_start": "2026/08/14(金) 12:00",
-        "period_end": "2026/08/16(日) 12:00",
-        "status": "抽選受付終了",
-        "url": "https://ticket.fany.lol/reception/64015/51256"
-      },
-      {
-        "sales_id": 64016,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/08/18(火) 12:00",
-        "period_end": "2026/08/20(木) 12:00",
-        "status": "抽選受付終了",
-        "url": "https://ticket.fany.lol/reception/64016/51256"
-      },
-      {
-        "sales_id": 64017,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/08/18(火) 12:00",
-        "period_end": "2026/08/20(木) 12:00",
-        "status": "抽選受付終了",
-        "url": "https://ticket.fany.lol/reception/64017/51256"
-      }
-    ]
+    "fany_performance_id": null,
+    "ticket_sales": []
   },
   {
     "id": "show_2026-08-25_1830_2",
@@ -1133,7 +1100,7 @@
     "entry_id": "12975994558",
     "entry_title": "8月31日～9月6日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12975994558.html",
-    "pub_date": "Sat, 22 Aug 2026 20:35:00 +0900",
+    "pub_date": "Mon, 24 Aug 2026 22:20:00 +0900",
     "date": "2026-08-31",
     "year_month": "2026-08",
     "date_display": "2026年8月31日(月)",
