@@ -720,41 +720,8 @@
       "yabuuchi_hinata_13809c00"
     ],
     "special_notes": [],
-    "fany_performance_id": 51258,
-    "ticket_sales": [
-      {
-        "sales_id": 64030,
-        "sales_name": "一般発売",
-        "period_start": "2026/08/23(日) 10:00",
-        "period_end": "2026/08/26(水) 16:00",
-        "status": "先着発売中",
-        "url": "https://ticket.fany.lol/reception/64030/51258"
-      },
-      {
-        "sales_id": 64021,
-        "sales_name": "NMB48 Mobile抽選先行",
-        "period_start": "2026/08/14(金) 12:00",
-        "period_end": "2026/08/16(日) 12:00",
-        "status": "抽選受付終了",
-        "url": "https://ticket.fany.lol/reception/64021/51258"
-      },
-      {
-        "sales_id": 64024,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/08/18(火) 12:00",
-        "period_end": "2026/08/20(木) 12:00",
-        "status": "抽選受付終了",
-        "url": "https://ticket.fany.lol/reception/64024/51258"
-      },
-      {
-        "sales_id": 64027,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/08/18(火) 12:00",
-        "period_end": "2026/08/20(木) 12:00",
-        "status": "抽選受付終了",
-        "url": "https://ticket.fany.lol/reception/64027/51258"
-      }
-    ]
+    "fany_performance_id": null,
+    "ticket_sales": []
   },
   {
     "id": "show_2026-08-27_1830_4",
@@ -869,7 +836,7 @@
         "sales_name": "一般発売",
         "period_start": "2026/08/26(水) 10:00",
         "period_end": "2026/08/28(金) 16:00",
-        "status": "先着発売前",
+        "status": "先着発売中",
         "url": "https://ticket.fany.lol/reception/63962/51248"
       },
       {
@@ -951,7 +918,7 @@
         "sales_name": "一般発売",
         "period_start": "2026/08/26(水) 10:00",
         "period_end": "2026/08/29(土) 11:30",
-        "status": "先着発売前",
+        "status": "先着発売中",
         "url": "https://ticket.fany.lol/reception/64013/51249"
       },
       {
@@ -1033,7 +1000,7 @@
         "sales_name": "一般発売",
         "period_start": "2026/08/26(水) 10:00",
         "period_end": "2026/08/29(土) 15:30",
-        "status": "先着発売前",
+        "status": "先着発売中",
         "url": "https://ticket.fany.lol/reception/64014/51250"
       },
       {
