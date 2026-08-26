@@ -1155,19 +1155,25 @@ body {
 @media (max-width: 1024px) {
     /* Layout Adjustments */
     .left-panel {
+        display: none;
         position: fixed;
         top: 0;
-        left: -100%;
-        width: 88%;
-        max-width: 360px;
+        left: 0;
+        width: 86%;
+        max-width: 320px;
+        min-width: 0;
         height: 100vh;
         z-index: 2000;
         padding: 20px 16px 40px 16px;
         box-shadow: 4px 0 24px rgba(0,0,0,0.25);
+        transform: translateX(-100%);
+        transition: transform var(--transition-normal);
+        overflow-x: hidden;
     }
 
     .left-panel.drawer-active {
-        left: 0;
+        display: flex;
+        transform: translateX(0);
     }
 
     .drawer-close-btn {
