@@ -15,6 +15,7 @@ import json
 import os
 import re
 import sys
+import time
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 from typing import Any, Dict, List, Optional, Tuple
@@ -47,6 +48,9 @@ HEADERS = {
         "Chrome/124.0.0.0 Safari/537.36"
     ),
     "Accept-Language": "ja,ko-KR;q=0.9,ko;q=0.8,en-US;q=0.7,en;q=0.6",
+    "Cache-Control": "no-cache, no-store, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
 }
 
 
@@ -124,11 +128,12 @@ def load_existing_monthly_schedules(
 
 def get_allowed_entry_ids(session: requests.Session) -> Dict[str, Dict[str, Any]]:
     """Fetch recent blog entries metadata from Ameba API and filter by theme_id."""
-    print(f"[*] Ameba Blog API 요청 중: {BLOG_API_URL}")
+    api_url = f"{BLOG_API_URL}&_t={int(time.time())}"
+    print(f"[*] Ameba Blog API 요청 중: {api_url}")
     allowed_entries: Dict[str, Dict[str, Any]] = {}
 
     try:
-        response = session.get(BLOG_API_URL, headers=HEADERS, timeout=15)
+        response = session.get(api_url, headers=HEADERS, timeout=15)
         response.raise_for_status()
         data = response.json()
 
@@ -164,7 +169,7 @@ def fetch_fany_ticket_data(session: requests.Session) -> Dict[Tuple[str, str], D
     total_fetched = 0
 
     while True:
-        url = FANY_SEARCH_URL.format(offset=offset)
+        url = FANY_SEARCH_URL.format(offset=offset) + f"&_t={int(time.time())}"
         try:
             res = session.get(url, headers=HEADERS, timeout=15)
             res.raise_for_status()
@@ -228,6 +233,27 @@ def fetch_fany_ticket_data(session: requests.Session) -> Dict[Tuple[str, str], D
 
     print(f"[*] FANY 티켓에서 총 {total_fetched}개 공연 티켓 정보 수집 완료.")
     return fany_shows
+
+
+def fetch_entry_html(session: requests.Session, entry_url: str) -> Optional[str]:
+    """Directly fetch the live Ameba blog entry page to bypass RSS caching/delays."""
+    try:
+        url_with_cachebust = f"{entry_url}?_t={int(time.time())}"
+        resp = session.get(url_with_cachebust, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        resp.encoding = "utf-8"
+        soup = BeautifulSoup(resp.text, "html.parser")
+        body = (
+            soup.find("div", {"id": "entryBody"})
+            or soup.find("div", class_=lambda c: c and "skin-entryBody" in c)
+            or soup.find("div", class_="articleText")
+            or soup.find("article")
+        )
+        if body:
+            return str(body)
+    except Exception as e:
+        print(f"    [!] 원본 블로그 페이지 직접 수집 실패 ({entry_url}): {e}")
+    return None
 
 
 def parse_schedule_description(
@@ -419,10 +445,11 @@ def run_schedule_scraper() -> Dict[str, List[Dict[str, Any]]]:
     # 3. Fetch official FANY ticket information
     fany_ticket_db = fetch_fany_ticket_data(session)
 
-    # 4. Fetch and parse RSS feed
-    print(f"\n[*] RSS 피드 요청 중: {RSS_URL}")
+    # 4. Fetch and parse RSS feed with cache-busting
+    rss_url = f"{RSS_URL}?_t={int(time.time())}"
+    print(f"\n[*] RSS 피드 요청 중: {rss_url}")
     try:
-        response = session.get(RSS_URL, headers=HEADERS, timeout=15)
+        response = session.get(rss_url, headers=HEADERS, timeout=15)
         response.raise_for_status()
         response.encoding = "utf-8"
     except Exception as e:
@@ -474,6 +501,28 @@ def run_schedule_scraper() -> Dict[str, List[Dict[str, Any]]]:
             entry_title=title,
             entry_url=link,
         )
+
+        # Fallback to direct live blog page HTML if any members are undecided or parsing returned 0 shows
+        has_undecided = any(show.get("is_members_undecided") for show in parsed_shows)
+        if has_undecided or not parsed_shows:
+            print(f"    [*] 멤버 미정 또는 상세 확인 필요 -> 원본 블로그 페이지 직접 요청 ({link})")
+            live_html = fetch_entry_html(session, link)
+            if live_html:
+                live_shows = parse_schedule_description(
+                    description_html=live_html,
+                    pub_datetime=pub_dt,
+                    member_db=member_db,
+                    fany_ticket_db=fany_ticket_db,
+                    entry_id=entry_id,
+                    entry_title=title,
+                    entry_url=link,
+                )
+                if live_shows:
+                    live_undecided = sum(1 for s in live_shows if s.get("is_members_undecided"))
+                    orig_undecided = sum(1 for s in parsed_shows if s.get("is_members_undecided"))
+                    if live_undecided < orig_undecided or not parsed_shows:
+                        print(f"    [✓] 원본 블로그 직접 조회로 최신 멤버 정보 반영 완료! (미정 {orig_undecided}건 -> {live_undecided}건)")
+                        parsed_shows = live_shows
 
         print(f"    -> {len(parsed_shows)}개의 공연 일정을 추출했습니다.")
         for show in parsed_shows:
