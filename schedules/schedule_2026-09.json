@@ -37,22 +37,6 @@
     "fany_performance_id": 51738,
     "ticket_sales": [
       {
-        "sales_id": 64275,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/08/25(火) 12:00",
-        "period_end": "2026/08/27(木) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/64275/51738"
-      },
-      {
-        "sales_id": 64276,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/08/25(火) 12:00",
-        "period_end": "2026/08/27(木) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/64276/51738"
-      },
-      {
         "sales_id": 64277,
         "sales_name": "一般発売",
         "period_start": "2026/08/30(日) 10:00",
@@ -67,6 +51,22 @@
         "period_end": "2026/08/23(日) 12:00",
         "status": "抽選受付終了",
         "url": "https://ticket.fany.lol/reception/64274/51738"
+      },
+      {
+        "sales_id": 64275,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/08/25(火) 12:00",
+        "period_end": "2026/08/27(木) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/64275/51738"
+      },
+      {
+        "sales_id": 64276,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/08/25(火) 12:00",
+        "period_end": "2026/08/27(木) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/64276/51738"
       }
     ]
   },
@@ -108,22 +108,6 @@
     "fany_performance_id": 51758,
     "ticket_sales": [
       {
-        "sales_id": 64308,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/08/25(火) 12:00",
-        "period_end": "2026/08/27(木) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/64308/51758"
-      },
-      {
-        "sales_id": 64310,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/08/25(火) 12:00",
-        "period_end": "2026/08/27(木) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/64310/51758"
-      },
-      {
         "sales_id": 64312,
         "sales_name": "一般発売",
         "period_start": "2026/08/30(日) 10:00",
@@ -138,6 +122,22 @@
         "period_end": "2026/08/23(日) 12:00",
         "status": "抽選受付終了",
         "url": "https://ticket.fany.lol/reception/64306/51758"
+      },
+      {
+        "sales_id": 64308,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/08/25(火) 12:00",
+        "period_end": "2026/08/27(木) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/64308/51758"
+      },
+      {
+        "sales_id": 64310,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/08/25(火) 12:00",
+        "period_end": "2026/08/27(木) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/64310/51758"
       }
     ]
   },
@@ -179,22 +179,6 @@
     "fany_performance_id": 51760,
     "ticket_sales": [
       {
-        "sales_id": 64309,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/08/25(火) 12:00",
-        "period_end": "2026/08/27(木) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/64309/51760"
-      },
-      {
-        "sales_id": 64311,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/08/25(火) 12:00",
-        "period_end": "2026/08/27(木) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/64311/51760"
-      },
-      {
         "sales_id": 64313,
         "sales_name": "一般発売",
         "period_start": "2026/08/30(日) 10:00",
@@ -209,6 +193,22 @@
         "period_end": "2026/08/23(日) 12:00",
         "status": "抽選受付終了",
         "url": "https://ticket.fany.lol/reception/64307/51760"
+      },
+      {
+        "sales_id": 64309,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/08/25(火) 12:00",
+        "period_end": "2026/08/27(木) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/64309/51760"
+      },
+      {
+        "sales_id": 64311,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/08/25(火) 12:00",
+        "period_end": "2026/08/27(木) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/64311/51760"
       }
     ]
   },
@@ -594,7 +594,7 @@
     "entry_id": "12976661214",
     "entry_title": "9月7日～12日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12976661214.html",
-    "pub_date": "Mon, 24 Aug 2026 14:30:00 +0900",
+    "pub_date": "Thu, 27 Aug 2026 22:00:00 +0900",
     "date": "2026-09-07",
     "year_month": "2026-09",
     "date_display": "2026年9月7日(月)",
@@ -603,12 +603,27 @@
     "title": "情熱！めっちゃ楽舞友",
     "full_title": "「情熱！めっちゃ楽舞友」公演",
     "event_type": "",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
-    "special_notes": [
-      "※出演メンバーは決定次第お知らせいたします。"
+    "is_members_undecided": false,
+    "members_raw": "池田典愛、泉綾乃、板垣心和、内田愛彩、木根彩呂花、坂下真心、桜田彩叶、竹田京加、中川朋香、西島梨央、西田帆花、平山真衣、松岡さくら、松本海日菜、宮本杏海、善家侑莉花",
+    "members": [
+      "ikeda_tenna_b664d319",
+      "izumi_ayano_449f220f",
+      "itagaki_koyori_9c921151",
+      "uchida_aisha_c556d182",
+      "kine_iroha_5de22a82",
+      "sakashita_mako_eace6ab1",
+      "sakurada_ayaka_0f654b92",
+      "takeda_kyoka_15efbecb",
+      "nakagawa_tomoka_e788642d",
+      "nishijima_rio_eeea8286",
+      "nishida_honoka_205dea6d",
+      "hirayama_mai_a5f8e922",
+      "matsuoka_sakura_791781d4",
+      "matsumoto_mihina_7256d406",
+      "miyamoto_ami_d1832929",
+      "zenke_yurika_e8979f20"
     ],
+    "special_notes": [],
     "fany_performance_id": 52573,
     "ticket_sales": [
       {
@@ -650,7 +665,7 @@
     "entry_id": "12976661214",
     "entry_title": "9月7日～12日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12976661214.html",
-    "pub_date": "Mon, 24 Aug 2026 14:30:00 +0900",
+    "pub_date": "Thu, 27 Aug 2026 22:00:00 +0900",
     "date": "2026-09-08",
     "year_month": "2026-09",
     "date_display": "2026年9月8日(火)",
@@ -659,12 +674,27 @@
     "title": "無限大ノック",
     "full_title": "「無限大ノック」公演",
     "event_type": "",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
-    "special_notes": [
-      "※出演メンバーは決定次第お知らせいたします。"
+    "is_members_undecided": false,
+    "members_raw": "石山千尋、内田愛彩、岡腰星来、澁谷愛紗南、高橋ことね、竹田京加、田中ミリア、中川朋香、宮崎紗衣、村井悠莉、山口美桜、善家侑莉花、高橋樹奈、田中れい、西住美咲妃、藪内陽花",
+    "members": [
+      "ishiyama_chihiro_764a26dd",
+      "uchida_aisha_c556d182",
+      "okagoshi_seira_173a7799",
+      "shibuya_asana_97969ded",
+      "takahashi_kotone_5c194c42",
+      "takeda_kyoka_15efbecb",
+      "tanaka_miria_dd56eb4e",
+      "nakagawa_tomoka_e788642d",
+      "miyazaki_sae_293fa59f",
+      "murai_yuuri_8c05dd83",
+      "yamaguchi_mio_768539d7",
+      "zenke_yurika_e8979f20",
+      "takahashi_juna_b8719149",
+      "tanaka_rei_c3015de1",
+      "nishizumi_misaki_eb59e4c9",
+      "yabuuchi_hinata_13809c00"
     ],
+    "special_notes": [],
     "fany_performance_id": 52580,
     "ticket_sales": [
       {
@@ -706,7 +736,7 @@
     "entry_id": "12976661214",
     "entry_title": "9月7日～12日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12976661214.html",
-    "pub_date": "Mon, 24 Aug 2026 14:30:00 +0900",
+    "pub_date": "Thu, 27 Aug 2026 22:00:00 +0900",
     "date": "2026-09-09",
     "year_month": "2026-09",
     "date_display": "2026年9月9日(水)",
@@ -715,12 +745,27 @@
     "title": "青春！恋のDestination",
     "full_title": "「青春！恋のDestination」公演",
     "event_type": "",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
-    "special_notes": [
-      "※出演メンバーは決定次第お知らせいたします。"
+    "is_members_undecided": false,
+    "members_raw": "青原優花、池帆乃香、石山千尋、泉綾乃、衣笠彩実、塩月希依音、澁谷愛紗南、高橋ことね、龍本弥生、田中美空、西田帆花、松岡さくら、村井悠莉、吉見純音、善家侑莉花、田中れい",
+    "members": [
+      "aobara_yuka_dec50853",
+      "ike_honoka_8ba7d98e",
+      "ishiyama_chihiro_764a26dd",
+      "izumi_ayano_449f220f",
+      "kinugasa_ayami_0b95ac10",
+      "shiotsuki_keito_6c5554d2",
+      "shibuya_asana_97969ded",
+      "takahashi_kotone_5c194c42",
+      "tatsumoto_yayoi_8c564fd8",
+      "tanaka_misora_9ad35a72",
+      "nishida_honoka_205dea6d",
+      "matsuoka_sakura_791781d4",
+      "murai_yuuri_8c05dd83",
+      "yoshimi_ayane_66185c47",
+      "zenke_yurika_e8979f20",
+      "tanaka_rei_c3015de1"
     ],
+    "special_notes": [],
     "fany_performance_id": 52582,
     "ticket_sales": [
       {
@@ -762,7 +807,7 @@
     "entry_id": "12976661214",
     "entry_title": "9月7日～12日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12976661214.html",
-    "pub_date": "Mon, 24 Aug 2026 14:30:00 +0900",
+    "pub_date": "Thu, 27 Aug 2026 22:00:00 +0900",
     "date": "2026-09-10",
     "year_month": "2026-09",
     "date_display": "2026年9月10日(木)",
@@ -771,12 +816,27 @@
     "title": "ここにだって天使はいる",
     "full_title": "「ここにだって天使はいる」公演",
     "event_type": "",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
-    "special_notes": [
-      "※出演メンバーは決定次第お知らせいたします。"
+    "is_members_undecided": false,
+    "members_raw": "青原優花、池帆乃香、石山千尋、泉綾乃、板垣心和、衣笠彩実、坂下真心、坂田心咲、高橋ことね、竹田京加、龍本弥生、田中美空、田中ミリア、福野杏実、松岡さくら、松本海日菜",
+    "members": [
+      "aobara_yuka_dec50853",
+      "ike_honoka_8ba7d98e",
+      "ishiyama_chihiro_764a26dd",
+      "izumi_ayano_449f220f",
+      "itagaki_koyori_9c921151",
+      "kinugasa_ayami_0b95ac10",
+      "sakashita_mako_eace6ab1",
+      "sakata_misaki_38cb0d10",
+      "takahashi_kotone_5c194c42",
+      "takeda_kyoka_15efbecb",
+      "tatsumoto_yayoi_8c564fd8",
+      "tanaka_misora_9ad35a72",
+      "tanaka_miria_dd56eb4e",
+      "fukuno_ami_73e60458",
+      "matsuoka_sakura_791781d4",
+      "matsumoto_mihina_7256d406"
     ],
+    "special_notes": [],
     "fany_performance_id": 52583,
     "ticket_sales": [
       {
@@ -818,7 +878,7 @@
     "entry_id": "12976661214",
     "entry_title": "9月7日～12日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12976661214.html",
-    "pub_date": "Mon, 24 Aug 2026 14:30:00 +0900",
+    "pub_date": "Thu, 27 Aug 2026 22:00:00 +0900",
     "date": "2026-09-11",
     "year_month": "2026-09",
     "date_display": "2026年9月11日(金)",
@@ -841,7 +901,7 @@
     "entry_id": "12976661214",
     "entry_title": "9月7日～12日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12976661214.html",
-    "pub_date": "Mon, 24 Aug 2026 14:30:00 +0900",
+    "pub_date": "Thu, 27 Aug 2026 22:00:00 +0900",
     "date": "2026-09-12",
     "year_month": "2026-09",
     "date_display": "2026年9月12日(土)",
@@ -874,7 +934,7 @@
     "entry_id": "12976661214",
     "entry_title": "9月7日～12日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12976661214.html",
-    "pub_date": "Mon, 24 Aug 2026 14:30:00 +0900",
+    "pub_date": "Thu, 27 Aug 2026 22:00:00 +0900",
     "date": "2026-09-12",
     "year_month": "2026-09",
     "date_display": "2026年9月12日(土)",
