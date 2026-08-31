@@ -900,7 +900,7 @@
         "sales_name": "NMB48 Mobile抽選先行",
         "period_start": "2026/08/31(月) 12:00",
         "period_end": "2026/09/02(水) 12:00",
-        "status": "抽選受付前",
+        "status": "抽選受付中",
         "url": "https://ticket.fany.lol/reception/66287/52751"
       },
       {
@@ -982,7 +982,7 @@
         "sales_name": "NMB48 Mobile抽選先行",
         "period_start": "2026/08/31(月) 12:00",
         "period_end": "2026/09/02(水) 12:00",
-        "status": "抽選受付前",
+        "status": "抽選受付中",
         "url": "https://ticket.fany.lol/reception/66305/52755"
       },
       {
@@ -1064,7 +1064,7 @@
         "sales_name": "NMB48 Mobile抽選先行",
         "period_start": "2026/08/31(月) 12:00",
         "period_end": "2026/09/02(水) 12:00",
-        "status": "抽選受付前",
+        "status": "抽選受付中",
         "url": "https://ticket.fany.lol/reception/66306/52756"
       },
       {
@@ -1092,5 +1092,111 @@
         "url": "https://ticket.fany.lol/reception/66312/52756"
       }
     ]
+  },
+  {
+    "id": "show_2026-09-19_1400_1",
+    "entry_id": "12977326074",
+    "entry_title": "9月19日、20日 NMB48劇場公演スケジュール",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12977326074.html",
+    "pub_date": "Mon, 31 Aug 2026 13:30:00 +0900",
+    "date": "2026-09-19",
+    "year_month": "2026-09",
+    "date_display": "2026年9月19日(土)",
+    "day_of_week": "土",
+    "time": "14:00",
+    "title": "青春！恋のDestination",
+    "full_title": "「青春！恋のDestination」公演【ファミリー・グループ歓迎】",
+    "event_type": "ファミリー・グループ歓迎",
+    "is_members_undecided": true,
+    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
+    "members": [],
+    "special_notes": [],
+    "fany_performance_id": null,
+    "ticket_sales": []
+  },
+  {
+    "id": "show_2026-09-19_1800_2",
+    "entry_id": "12977326074",
+    "entry_title": "9月19日、20日 NMB48劇場公演スケジュール",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12977326074.html",
+    "pub_date": "Mon, 31 Aug 2026 13:30:00 +0900",
+    "date": "2026-09-19",
+    "year_month": "2026-09",
+    "date_display": "2026年9月19日(土)",
+    "day_of_week": "土",
+    "time": "18:00",
+    "title": "青春！恋のDestination",
+    "full_title": "「青春！恋のDestination」公演",
+    "event_type": "",
+    "is_members_undecided": true,
+    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
+    "members": [],
+    "special_notes": [],
+    "fany_performance_id": null,
+    "ticket_sales": []
+  },
+  {
+    "id": "show_2026-09-20_1400_3",
+    "entry_id": "12977326074",
+    "entry_title": "9月19日、20日 NMB48劇場公演スケジュール",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12977326074.html",
+    "pub_date": "Mon, 31 Aug 2026 13:30:00 +0900",
+    "date": "2026-09-20",
+    "year_month": "2026-09",
+    "date_display": "2026年9月20日(日)",
+    "day_of_week": "日",
+    "time": "14:00",
+    "title": "無限大ノック",
+    "full_title": "「無限大ノック」公演",
+    "event_type": "",
+    "is_members_undecided": true,
+    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
+    "members": [],
+    "special_notes": [
+      "※一般先行(抽選)にて完売となりました場合、一般発売(先着)はございません。",
+      "※一般発売(先着)にて受付期限内までに完売となりました場合、その時点で受付終了となります。",
+      "※一般発売(先着)については、残券があった場合でも各公演開演２時間30分前で受付終了。以降は劇場チケットカウンターにて当日券の発売を行います。その際改めて発表されます「当日券 販売のお知らせ」ブログをご確認ください。",
+      "※小中高生割引料金のチケットを購入されるお客様は当日、必ず学生証をご持参ください。また、同行者様とご一緒にご入場ください。",
+      "※終演が19:00を超える公演に関しまして、16歳未満のお客様は保護者同伴の場合のみご観覧いただけます。",
+      "※平日の通常公演限定となります。（平日でも生誕祭、卒業公演、特別公演等は対象外となります。予めご了承ください。）",
+      "※当日中にお引き換えください。後日のお渡しは致しかねます。",
+      "※ご応募方法は通常通りです。応募枠も問いません。",
+      "※当キャンペーンは予告なく終了する場合がございます。",
+      "💡NMB48劇場のチケットの取り方を動画で簡単解説！"
+    ],
+    "fany_performance_id": null,
+    "ticket_sales": []
+  },
+  {
+    "id": "show_2026-09-20_1800_4",
+    "entry_id": "12977326074",
+    "entry_title": "9月19日、20日 NMB48劇場公演スケジュール",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12977326074.html",
+    "pub_date": "Mon, 31 Aug 2026 13:30:00 +0900",
+    "date": "2026-09-20",
+    "year_month": "2026-09",
+    "date_display": "2026年9月20日(日)",
+    "day_of_week": "日",
+    "time": "18:00",
+    "title": "無限大ノック",
+    "full_title": "「無限大ノック」公演",
+    "event_type": "",
+    "is_members_undecided": true,
+    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
+    "members": [],
+    "special_notes": [
+      "※一般先行(抽選)にて完売となりました場合、一般発売(先着)はございません。",
+      "※一般発売(先着)にて受付期限内までに完売となりました場合、その時点で受付終了となります。",
+      "※一般発売(先着)については、残券があった場合でも各公演開演２時間30分前で受付終了。以降は劇場チケットカウンターにて当日券の発売を行います。その際改めて発表されます「当日券 販売のお知らせ」ブログをご確認ください。",
+      "※小中高生割引料金のチケットを購入されるお客様は当日、必ず学生証をご持参ください。また、同行者様とご一緒にご入場ください。",
+      "※終演が19:00を超える公演に関しまして、16歳未満のお客様は保護者同伴の場合のみご観覧いただけます。",
+      "※平日の通常公演限定となります。（平日でも生誕祭、卒業公演、特別公演等は対象外となります。予めご了承ください。）",
+      "※当日中にお引き換えください。後日のお渡しは致しかねます。",
+      "※ご応募方法は通常通りです。応募枠も問いません。",
+      "※当キャンペーンは予告なく終了する場合がございます。",
+      "💡NMB48劇場のチケットの取り方を動画で簡単解説！"
+    ],
+    "fany_performance_id": null,
+    "ticket_sales": []
   }
 ]
