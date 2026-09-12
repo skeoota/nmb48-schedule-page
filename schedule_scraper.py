@@ -311,6 +311,11 @@ def parse_schedule_description(
         current_date_shows.clear()
 
     for line in lines:
+        # Stop parsing when reaching ticket application / sales info sections
+        if re.search(r"^■\s*(?:チケット|応募|申込|発売|配信|入場|注意事項)", line) or "チケット申込期間" in line or "チケット販売期間" in line or "誕生月のお客様歓迎" in line:
+            flush_date_shows()
+            break
+
         # Check if line is a Date line: e.g. 8月31日(月) or 9月1日(火)
         date_match = date_pattern.match(line)
         if date_match and not line.startswith("申込期間") and not line.startswith("当落発表") and "開演" not in line:
@@ -547,11 +552,25 @@ def run_schedule_scraper() -> Dict[str, List[Dict[str, Any]]]:
             if current_dt >= existing_dt:
                 combined_notes = list(set(existing.get("special_notes", []) + show.get("special_notes", [])))
                 show["special_notes"] = combined_notes
+                # Preserve members if current lacks it but existing has confirmed members
+                if not show.get("members") and existing.get("members"):
+                    show["members"] = existing["members"]
+                    show["members_raw"] = existing["members_raw"]
+                    show["is_members_undecided"] = False
                 # Preserve ticket sales if current lacks it
                 if not show.get("ticket_sales") and existing.get("ticket_sales"):
                     show["ticket_sales"] = existing["ticket_sales"]
                     show["fany_performance_id"] = existing.get("fany_performance_id")
                 merged_schedules_map[key] = show
+            else:
+                # Existing is newer; but preserve members from show if existing lacks confirmed members
+                if not existing.get("members") and show.get("members"):
+                    existing["members"] = show["members"]
+                    existing["members_raw"] = show["members_raw"]
+                    existing["is_members_undecided"] = False
+                if not existing.get("ticket_sales") and show.get("ticket_sales"):
+                    existing["ticket_sales"] = show["ticket_sales"]
+                    existing["fany_performance_id"] = show.get("fany_performance_id")
 
     unique_schedules = list(merged_schedules_map.values())
     print(f"\n[*] 중복 및 멤버 변경 공지 병합 완료: 총 {len(all_schedules)}개 -> 고유 {len(unique_schedules)}개 공연")
@@ -589,6 +608,15 @@ def run_schedule_scraper() -> Dict[str, List[Dict[str, Any]]]:
             if key in month_map:
                 # Update existing performance with latest info
                 old_show = month_map[key]
+                # If new_show has no members but old_show already has confirmed members, preserve them
+                if not new_show.get("members") and old_show.get("members"):
+                    new_show["members"] = old_show["members"]
+                    new_show["members_raw"] = old_show["members_raw"]
+                    new_show["is_members_undecided"] = False
+                # If new_show has no ticket_sales but old_show has them, preserve them
+                if not new_show.get("ticket_sales") and old_show.get("ticket_sales"):
+                    new_show["ticket_sales"] = old_show["ticket_sales"]
+                    new_show["fany_performance_id"] = old_show.get("fany_performance_id")
                 old_show.update(new_show)
                 month_map[key] = old_show
                 updated_count += 1
