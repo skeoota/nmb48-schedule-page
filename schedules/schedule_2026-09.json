@@ -1540,5 +1540,51 @@
     ],
     "fany_performance_id": null,
     "ticket_sales": []
+  },
+  {
+    "id": "show_2026-09-28_1845_1",
+    "entry_id": "12978534107",
+    "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
+    "pub_date": "Mon, 14 Sep 2026 12:00:00 +0900",
+    "date": "2026-09-28",
+    "year_month": "2026-09",
+    "date_display": "2026年9月28日(月)",
+    "day_of_week": "月",
+    "time": "18:45",
+    "title": "無限大ノック",
+    "full_title": "「無限大ノック」公演",
+    "event_type": "",
+    "is_members_undecided": true,
+    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
+    "members": [],
+    "special_notes": [
+      "※出演メンバーは決定次第お知らせいたします。"
+    ],
+    "fany_performance_id": null,
+    "ticket_sales": []
+  },
+  {
+    "id": "show_2026-09-30_1830_2",
+    "entry_id": "12978534107",
+    "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
+    "pub_date": "Mon, 14 Sep 2026 12:00:00 +0900",
+    "date": "2026-09-30",
+    "year_month": "2026-09",
+    "date_display": "2026年9月30日(水)",
+    "day_of_week": "水",
+    "time": "18:30",
+    "title": "ここにだって天使はいる",
+    "full_title": "「ここにだって天使はいる」公演",
+    "event_type": "",
+    "is_members_undecided": true,
+    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
+    "members": [],
+    "special_notes": [
+      "※出演メンバーは決定次第お知らせいたします。"
+    ],
+    "fany_performance_id": null,
+    "ticket_sales": []
   }
 ]
