@@ -4,7 +4,7 @@
     "entry_id": "12978534107",
     "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
-    "pub_date": "Mon, 14 Sep 2026 12:00:00 +0900",
+    "pub_date": "Sat, 19 Sep 2026 14:50:00 +0900",
     "date": "2026-10-01",
     "year_month": "2026-10",
     "date_display": "2026年10月1日(木)",
@@ -13,12 +13,27 @@
     "title": "青春！恋のDestination",
     "full_title": "「青春！恋のDestination」公演",
     "event_type": "",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
-    "special_notes": [
-      "※出演メンバーは決定次第お知らせいたします。"
+    "is_members_undecided": false,
+    "members_raw": "青原優花、池田典愛、石山千尋、泉綾乃、衣笠彩実、塩月希依音、高橋ことね、龍本弥生、西島梨央、西田帆花、松本海日菜、宮崎紗衣、山口美桜、吉見純音、善家侑莉花、田中れい",
+    "members": [
+      "aobara_yuka_dec50853",
+      "ikeda_tenna_b664d319",
+      "ishiyama_chihiro_764a26dd",
+      "izumi_ayano_449f220f",
+      "kinugasa_ayami_0b95ac10",
+      "shiotsuki_keito_6c5554d2",
+      "takahashi_kotone_5c194c42",
+      "tatsumoto_yayoi_8c564fd8",
+      "nishijima_rio_eeea8286",
+      "nishida_honoka_205dea6d",
+      "matsumoto_mihina_7256d406",
+      "miyazaki_sae_293fa59f",
+      "yamaguchi_mio_768539d7",
+      "yoshimi_ayane_66185c47",
+      "zenke_yurika_e8979f20",
+      "tanaka_rei_c3015de1"
     ],
+    "special_notes": [],
     "fany_performance_id": 53796,
     "ticket_sales": [
       {
@@ -60,7 +75,7 @@
     "entry_id": "12978534107",
     "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
-    "pub_date": "Mon, 14 Sep 2026 12:00:00 +0900",
+    "pub_date": "Sat, 19 Sep 2026 14:50:00 +0900",
     "date": "2026-10-02",
     "year_month": "2026-10",
     "date_display": "2026年10月2日(金)",
@@ -75,15 +90,48 @@
     "special_notes": [
       "※出演メンバーは決定次第お知らせいたします。"
     ],
-    "fany_performance_id": null,
-    "ticket_sales": []
+    "fany_performance_id": 54060,
+    "ticket_sales": [
+      {
+        "sales_id": 68019,
+        "sales_name": "NMB48 Mobile抽選先行",
+        "period_start": "2026/09/21(月・祝) 12:00",
+        "period_end": "2026/09/23(水・祝) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/68019/54060"
+      },
+      {
+        "sales_id": 68020,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/09/25(金) 12:00",
+        "period_end": "2026/09/27(日) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/68020/54060"
+      },
+      {
+        "sales_id": 68021,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/09/25(金) 12:00",
+        "period_end": "2026/09/27(日) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/68021/54060"
+      },
+      {
+        "sales_id": 68022,
+        "sales_name": "一般発売",
+        "period_start": "2026/09/30(水) 10:00",
+        "period_end": "2026/10/02(金) 16:15",
+        "status": "先着発売前",
+        "url": "https://ticket.fany.lol/reception/68022/54060"
+      }
+    ]
   },
   {
     "id": "show_2026-10-03_1400_5",
     "entry_id": "12978534107",
     "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
-    "pub_date": "Mon, 14 Sep 2026 12:00:00 +0900",
+    "pub_date": "Sat, 19 Sep 2026 14:50:00 +0900",
     "date": "2026-10-03",
     "year_month": "2026-10",
     "date_display": "2026年10月3日(土)",
@@ -98,15 +146,48 @@
     "special_notes": [
       "※出演メンバーは決定次第お知らせいたします。"
     ],
-    "fany_performance_id": null,
-    "ticket_sales": []
+    "fany_performance_id": 54062,
+    "ticket_sales": [
+      {
+        "sales_id": 68037,
+        "sales_name": "NMB48 Mobile抽選先行",
+        "period_start": "2026/09/21(月・祝) 12:00",
+        "period_end": "2026/09/23(水・祝) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/68037/54062"
+      },
+      {
+        "sales_id": 68040,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/09/25(金) 12:00",
+        "period_end": "2026/09/27(日) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/68040/54062"
+      },
+      {
+        "sales_id": 68043,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/09/25(金) 12:00",
+        "period_end": "2026/09/27(日) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/68043/54062"
+      },
+      {
+        "sales_id": 68046,
+        "sales_name": "一般発売",
+        "period_start": "2026/09/30(水) 10:00",
+        "period_end": "2026/10/03(土) 11:30",
+        "status": "先着発売前",
+        "url": "https://ticket.fany.lol/reception/68046/54062"
+      }
+    ]
   },
   {
     "id": "show_2026-10-03_1800_6",
     "entry_id": "12978534107",
     "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
-    "pub_date": "Mon, 14 Sep 2026 12:00:00 +0900",
+    "pub_date": "Sat, 19 Sep 2026 14:50:00 +0900",
     "date": "2026-10-03",
     "year_month": "2026-10",
     "date_display": "2026年10月3日(土)",
@@ -121,15 +202,48 @@
     "special_notes": [
       "※出演メンバーは決定次第お知らせいたします。"
     ],
-    "fany_performance_id": null,
-    "ticket_sales": []
+    "fany_performance_id": 54064,
+    "ticket_sales": [
+      {
+        "sales_id": 68038,
+        "sales_name": "NMB48 Mobile抽選先行",
+        "period_start": "2026/09/21(月・祝) 12:00",
+        "period_end": "2026/09/23(水・祝) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/68038/54064"
+      },
+      {
+        "sales_id": 68041,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/09/25(金) 12:00",
+        "period_end": "2026/09/27(日) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/68041/54064"
+      },
+      {
+        "sales_id": 68044,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/09/25(金) 12:00",
+        "period_end": "2026/09/27(日) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/68044/54064"
+      },
+      {
+        "sales_id": 68047,
+        "sales_name": "一般発売",
+        "period_start": "2026/09/30(水) 10:00",
+        "period_end": "2026/10/03(土) 15:30",
+        "status": "先着発売前",
+        "url": "https://ticket.fany.lol/reception/68047/54064"
+      }
+    ]
   },
   {
     "id": "show_2026-10-04_1400_7",
     "entry_id": "12978534107",
     "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
-    "pub_date": "Mon, 14 Sep 2026 12:00:00 +0900",
+    "pub_date": "Sat, 19 Sep 2026 14:50:00 +0900",
     "date": "2026-10-04",
     "year_month": "2026-10",
     "date_display": "2026年10月4日(日)",
@@ -146,15 +260,48 @@
       "※特製卒業記念グッズ付",
       "※出演メンバーは決定次第お知らせいたします。"
     ],
-    "fany_performance_id": null,
-    "ticket_sales": []
+    "fany_performance_id": 54065,
+    "ticket_sales": [
+      {
+        "sales_id": 68039,
+        "sales_name": "NMB48 Mobile抽選先行",
+        "period_start": "2026/09/21(月・祝) 12:00",
+        "period_end": "2026/09/23(水・祝) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/68039/54065"
+      },
+      {
+        "sales_id": 68042,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/09/25(金) 12:00",
+        "period_end": "2026/09/27(日) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/68042/54065"
+      },
+      {
+        "sales_id": 68045,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/09/25(金) 12:00",
+        "period_end": "2026/09/27(日) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/68045/54065"
+      },
+      {
+        "sales_id": 68048,
+        "sales_name": "一般発売",
+        "period_start": "2026/09/30(水) 10:00",
+        "period_end": "2026/10/04(日) 11:30",
+        "status": "先着発売前",
+        "url": "https://ticket.fany.lol/reception/68048/54065"
+      }
+    ]
   },
   {
     "id": "show_2026-10-04_1800_8",
     "entry_id": "12978534107",
     "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
-    "pub_date": "Mon, 14 Sep 2026 12:00:00 +0900",
+    "pub_date": "Sat, 19 Sep 2026 14:50:00 +0900",
     "date": "2026-10-04",
     "year_month": "2026-10",
     "date_display": "2026年10月4日(日)",
@@ -171,7 +318,40 @@
       "※特製卒業記念グッズ付",
       "※出演メンバーは決定次第お知らせいたします。"
     ],
-    "fany_performance_id": null,
-    "ticket_sales": []
+    "fany_performance_id": 53733,
+    "ticket_sales": [
+      {
+        "sales_id": 67468,
+        "sales_name": "NMB48 Mobile抽選先行",
+        "period_start": "2026/09/21(月・祝) 12:00",
+        "period_end": "2026/09/23(水・祝) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/67468/53733"
+      },
+      {
+        "sales_id": 67469,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/09/25(金) 12:00",
+        "period_end": "2026/09/27(日) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/67469/53733"
+      },
+      {
+        "sales_id": 67470,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/09/25(金) 12:00",
+        "period_end": "2026/09/27(日) 12:00",
+        "status": "抽選受付前",
+        "url": "https://ticket.fany.lol/reception/67470/53733"
+      },
+      {
+        "sales_id": 67471,
+        "sales_name": "一般発売",
+        "period_start": "2026/09/30(水) 10:00",
+        "period_end": "2026/10/04(日) 15:30",
+        "status": "先着発売前",
+        "url": "https://ticket.fany.lol/reception/67471/53733"
+      }
+    ]
   }
 ]
