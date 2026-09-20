@@ -4,7 +4,7 @@
     "entry_id": "12978534107",
     "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
-    "pub_date": "Sat, 19 Sep 2026 14:50:00 +0900",
+    "pub_date": "Sun, 20 Sep 2026 21:05:00 +0900",
     "date": "2026-10-01",
     "year_month": "2026-10",
     "date_display": "2026年10月1日(木)",
@@ -37,14 +37,6 @@
     "fany_performance_id": 53796,
     "ticket_sales": [
       {
-        "sales_id": 67583,
-        "sales_name": "NMB48 Mobile抽選先行",
-        "period_start": "2026/09/18(金) 12:00",
-        "period_end": "2026/09/20(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/67583/53796"
-      },
-      {
         "sales_id": 67584,
         "sales_name": "●FANY IDプレミアムメンバー抽選先行",
         "period_start": "2026/09/22(火) 12:00",
@@ -67,6 +59,14 @@
         "period_end": "2026/10/01(木) 16:00",
         "status": "先着発売前",
         "url": "https://ticket.fany.lol/reception/67586/53796"
+      },
+      {
+        "sales_id": 67583,
+        "sales_name": "NMB48 Mobile抽選先行",
+        "period_start": "2026/09/18(金) 12:00",
+        "period_end": "2026/09/20(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/67583/53796"
       }
     ]
   },
@@ -75,7 +75,7 @@
     "entry_id": "12978534107",
     "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
-    "pub_date": "Sat, 19 Sep 2026 14:50:00 +0900",
+    "pub_date": "Sun, 20 Sep 2026 21:05:00 +0900",
     "date": "2026-10-02",
     "year_month": "2026-10",
     "date_display": "2026年10月2日(金)",
@@ -84,12 +84,27 @@
     "title": "無限大ノック",
     "full_title": "「無限大ノック」公演",
     "event_type": "",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
-    "special_notes": [
-      "※出演メンバーは決定次第お知らせいたします。"
+    "is_members_undecided": false,
+    "members_raw": "石山千尋、岡腰星来、木根彩呂花、澁谷愛紗南、高橋ことね、中川朋香、宮崎紗衣、村井悠莉、山口美桜、桜井ひまり、善家侑莉花、高橋樹奈、田中れい、谷口詩乃、西住美咲妃、藪内陽花",
+    "members": [
+      "ishiyama_chihiro_764a26dd",
+      "okagoshi_seira_173a7799",
+      "kine_iroha_5de22a82",
+      "shibuya_asana_97969ded",
+      "takahashi_kotone_5c194c42",
+      "nakagawa_tomoka_e788642d",
+      "miyazaki_sae_293fa59f",
+      "murai_yuuri_8c05dd83",
+      "yamaguchi_mio_768539d7",
+      "sakurai_himari_7b66be04",
+      "zenke_yurika_e8979f20",
+      "takahashi_juna_b8719149",
+      "tanaka_rei_c3015de1",
+      "taniguchi_shino_1e0d3b69",
+      "nishizumi_misaki_eb59e4c9",
+      "yabuuchi_hinata_13809c00"
     ],
+    "special_notes": [],
     "fany_performance_id": 54060,
     "ticket_sales": [
       {
@@ -131,7 +146,7 @@
     "entry_id": "12978534107",
     "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
-    "pub_date": "Sat, 19 Sep 2026 14:50:00 +0900",
+    "pub_date": "Sun, 20 Sep 2026 21:05:00 +0900",
     "date": "2026-10-03",
     "year_month": "2026-10",
     "date_display": "2026年10月3日(土)",
@@ -140,12 +155,27 @@
     "title": "情熱！めっちゃ楽舞友",
     "full_title": "「情熱！めっちゃ楽舞友」公演【遠方のお客様歓迎】",
     "event_type": "遠方のお客様歓迎",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
-    "special_notes": [
-      "※出演メンバーは決定次第お知らせいたします。"
+    "is_members_undecided": false,
+    "members_raw": "池田典愛、泉綾乃、板垣心和、木根彩呂花、坂下真心、坂田心咲、竹田京加、田中ミリア、中川朋香、西島梨央、西田帆花、松岡さくら、宮本杏海、村井悠莉、山口美桜、西住美咲妃",
+    "members": [
+      "ikeda_tenna_b664d319",
+      "izumi_ayano_449f220f",
+      "itagaki_koyori_9c921151",
+      "kine_iroha_5de22a82",
+      "sakashita_mako_eace6ab1",
+      "sakata_misaki_38cb0d10",
+      "takeda_kyoka_15efbecb",
+      "tanaka_miria_dd56eb4e",
+      "nakagawa_tomoka_e788642d",
+      "nishijima_rio_eeea8286",
+      "nishida_honoka_205dea6d",
+      "matsuoka_sakura_791781d4",
+      "miyamoto_ami_d1832929",
+      "murai_yuuri_8c05dd83",
+      "yamaguchi_mio_768539d7",
+      "nishizumi_misaki_eb59e4c9"
     ],
+    "special_notes": [],
     "fany_performance_id": 54062,
     "ticket_sales": [
       {
@@ -187,7 +217,7 @@
     "entry_id": "12978534107",
     "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
-    "pub_date": "Sat, 19 Sep 2026 14:50:00 +0900",
+    "pub_date": "Sun, 20 Sep 2026 21:05:00 +0900",
     "date": "2026-10-03",
     "year_month": "2026-10",
     "date_display": "2026年10月3日(土)",
@@ -196,12 +226,27 @@
     "title": "情熱！めっちゃ楽舞友",
     "full_title": "「情熱！めっちゃ楽舞友」公演",
     "event_type": "",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
-    "special_notes": [
-      "※出演メンバーは決定次第お知らせいたします。"
+    "is_members_undecided": false,
+    "members_raw": "池田典愛、泉綾乃、板垣心和、木根彩呂花、坂下真心、坂田心咲、竹田京加、田中ミリア、中川朋香、西島梨央、西田帆花、松岡さくら、宮本杏海、村井悠莉、山口美桜、西住美咲妃",
+    "members": [
+      "ikeda_tenna_b664d319",
+      "izumi_ayano_449f220f",
+      "itagaki_koyori_9c921151",
+      "kine_iroha_5de22a82",
+      "sakashita_mako_eace6ab1",
+      "sakata_misaki_38cb0d10",
+      "takeda_kyoka_15efbecb",
+      "tanaka_miria_dd56eb4e",
+      "nakagawa_tomoka_e788642d",
+      "nishijima_rio_eeea8286",
+      "nishida_honoka_205dea6d",
+      "matsuoka_sakura_791781d4",
+      "miyamoto_ami_d1832929",
+      "murai_yuuri_8c05dd83",
+      "yamaguchi_mio_768539d7",
+      "nishizumi_misaki_eb59e4c9"
     ],
+    "special_notes": [],
     "fany_performance_id": 54064,
     "ticket_sales": [
       {
@@ -243,7 +288,7 @@
     "entry_id": "12978534107",
     "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
-    "pub_date": "Sat, 19 Sep 2026 14:50:00 +0900",
+    "pub_date": "Sun, 20 Sep 2026 21:05:00 +0900",
     "date": "2026-10-04",
     "year_month": "2026-10",
     "date_display": "2026年10月4日(日)",
@@ -252,13 +297,29 @@
     "title": "ここにだって天使はいる",
     "full_title": "「ここにだって天使はいる」公演",
     "event_type": "",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
+    "is_members_undecided": false,
+    "members_raw": "池帆乃香、泉綾乃、板垣心和、衣笠彩実、坂下真心、坂田心咲、桜田彩叶、塩月希依音、高橋ことね、竹田京加、西田帆花、福野杏実、松岡さくら、宮崎紗衣、宮本杏海、吉見純音",
+    "members": [
+      "ike_honoka_8ba7d98e",
+      "izumi_ayano_449f220f",
+      "itagaki_koyori_9c921151",
+      "kinugasa_ayami_0b95ac10",
+      "sakashita_mako_eace6ab1",
+      "sakata_misaki_38cb0d10",
+      "sakurada_ayaka_0f654b92",
+      "shiotsuki_keito_6c5554d2",
+      "takahashi_kotone_5c194c42",
+      "takeda_kyoka_15efbecb",
+      "nishida_honoka_205dea6d",
+      "fukuno_ami_73e60458",
+      "matsuoka_sakura_791781d4",
+      "miyazaki_sae_293fa59f",
+      "miyamoto_ami_d1832929",
+      "yoshimi_ayane_66185c47"
+    ],
     "special_notes": [
       "※本公演では「NMB48 ROOMS会員先行」を実施いたします。",
-      "※特製卒業記念グッズ付",
-      "※出演メンバーは決定次第お知らせいたします。"
+      "※特製卒業記念グッズ付"
     ],
     "fany_performance_id": 54065,
     "ticket_sales": [
@@ -301,7 +362,7 @@
     "entry_id": "12978534107",
     "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
-    "pub_date": "Sat, 19 Sep 2026 14:50:00 +0900",
+    "pub_date": "Sun, 20 Sep 2026 21:05:00 +0900",
     "date": "2026-10-04",
     "year_month": "2026-10",
     "date_display": "2026年10月4日(日)",
@@ -310,13 +371,29 @@
     "title": "ここにだって天使はいる",
     "full_title": "「ここにだって天使はいる」公演【吉見純音 卒業公演】",
     "event_type": "吉見純音 卒業公演",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
+    "is_members_undecided": false,
+    "members_raw": "池帆乃香、泉綾乃、板垣心和、衣笠彩実、坂下真心、坂田心咲、桜田彩叶、塩月希依音、高橋ことね、竹田京加、西田帆花、福野杏実、松岡さくら、宮崎紗衣、宮本杏海、吉見純音",
+    "members": [
+      "ike_honoka_8ba7d98e",
+      "izumi_ayano_449f220f",
+      "itagaki_koyori_9c921151",
+      "kinugasa_ayami_0b95ac10",
+      "sakashita_mako_eace6ab1",
+      "sakata_misaki_38cb0d10",
+      "sakurada_ayaka_0f654b92",
+      "shiotsuki_keito_6c5554d2",
+      "takahashi_kotone_5c194c42",
+      "takeda_kyoka_15efbecb",
+      "nishida_honoka_205dea6d",
+      "fukuno_ami_73e60458",
+      "matsuoka_sakura_791781d4",
+      "miyazaki_sae_293fa59f",
+      "miyamoto_ami_d1832929",
+      "yoshimi_ayane_66185c47"
+    ],
     "special_notes": [
       "※本公演では「NMB48 ROOMS会員先行」を実施いたします。",
-      "※特製卒業記念グッズ付",
-      "※出演メンバーは決定次第お知らせいたします。"
+      "※特製卒業記念グッズ付"
     ],
     "fany_performance_id": 53733,
     "ticket_sales": [
