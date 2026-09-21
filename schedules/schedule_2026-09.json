@@ -979,10 +979,10 @@
   },
   {
     "id": "show_2026-09-21_1400_1",
-    "entry_id": "12978029611",
-    "entry_title": "9月21日～27日 NMB48劇場公演スケジュール",
-    "entry_url": "https://ameblo.jp/nmb48/entry-12978029611.html",
-    "pub_date": "Wed, 16 Sep 2026 10:05:00 +0900",
+    "entry_id": "12979326548",
+    "entry_title": "本日9月21日公演 出演メンバー変更のお知らせ",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12979326548.html",
+    "pub_date": "Mon, 21 Sep 2026 09:37:49 +0900",
     "date": "2026-09-21",
     "year_month": "2026-09",
     "date_display": "2026年9月21日(月)",
@@ -992,7 +992,7 @@
     "full_title": "「情熱！めっちゃ楽舞友」公演【遠方のお客様歓迎】",
     "event_type": "遠方のお客様歓迎",
     "is_members_undecided": false,
-    "members_raw": "池田典愛、泉綾乃、板垣心和、木根彩呂花、坂下真心、坂田心咲、桜田彩叶、竹田京加、田中美空、中川朋香、西島梨央、西田帆花、平山真衣、松岡さくら、松本海日菜、宮本杏海",
+    "members_raw": "池田典愛、泉綾乃、板垣心和、木根彩呂花、坂下真心、坂田心咲、竹田京加、田中美空、中川朋香、西島梨央、西田帆花、平山真衣、松岡さくら、松本海日菜、宮本杏海、善家侑莉花",
     "members": [
       "ikeda_tenna_b664d319",
       "izumi_ayano_449f220f",
@@ -1000,7 +1000,6 @@
       "kine_iroha_5de22a82",
       "sakashita_mako_eace6ab1",
       "sakata_misaki_38cb0d10",
-      "sakurada_ayaka_0f654b92",
       "takeda_kyoka_15efbecb",
       "tanaka_misora_9ad35a72",
       "nakagawa_tomoka_e788642d",
@@ -1009,9 +1008,12 @@
       "hirayama_mai_a5f8e922",
       "matsuoka_sakura_791781d4",
       "matsumoto_mihina_7256d406",
-      "miyamoto_ami_d1832929"
+      "miyamoto_ami_d1832929",
+      "zenke_yurika_e8979f20"
     ],
-    "special_notes": [],
+    "special_notes": [
+      "※桜田彩叶が体調不良の為休演。善家侑莉花が出演いたします。"
+    ],
     "fany_performance_id": 53481,
     "ticket_sales": [
       {
@@ -1050,10 +1052,10 @@
   },
   {
     "id": "show_2026-09-21_1800_2",
-    "entry_id": "12978029611",
-    "entry_title": "9月21日～27日 NMB48劇場公演スケジュール",
-    "entry_url": "https://ameblo.jp/nmb48/entry-12978029611.html",
-    "pub_date": "Wed, 16 Sep 2026 10:05:00 +0900",
+    "entry_id": "12979326548",
+    "entry_title": "本日9月21日公演 出演メンバー変更のお知らせ",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12979326548.html",
+    "pub_date": "Mon, 21 Sep 2026 09:37:49 +0900",
     "date": "2026-09-21",
     "year_month": "2026-09",
     "date_display": "2026年9月21日(月)",
@@ -1063,7 +1065,7 @@
     "full_title": "「情熱！めっちゃ楽舞友」公演",
     "event_type": "",
     "is_members_undecided": false,
-    "members_raw": "池田典愛、泉綾乃、板垣心和、木根彩呂花、坂下真心、坂田心咲、桜田彩叶、竹田京加、田中美空、中川朋香、西島梨央、西田帆花、平山真衣、松岡さくら、松本海日菜、宮本杏海",
+    "members_raw": "池田典愛、泉綾乃、板垣心和、木根彩呂花、坂下真心、坂田心咲、竹田京加、田中美空、中川朋香、西島梨央、西田帆花、平山真衣、松岡さくら、松本海日菜、宮本杏海、善家侑莉花",
     "members": [
       "ikeda_tenna_b664d319",
       "izumi_ayano_449f220f",
@@ -1071,7 +1073,6 @@
       "kine_iroha_5de22a82",
       "sakashita_mako_eace6ab1",
       "sakata_misaki_38cb0d10",
-      "sakurada_ayaka_0f654b92",
       "takeda_kyoka_15efbecb",
       "tanaka_misora_9ad35a72",
       "nakagawa_tomoka_e788642d",
@@ -1080,9 +1081,12 @@
       "hirayama_mai_a5f8e922",
       "matsuoka_sakura_791781d4",
       "matsumoto_mihina_7256d406",
-      "miyamoto_ami_d1832929"
+      "miyamoto_ami_d1832929",
+      "zenke_yurika_e8979f20"
     ],
-    "special_notes": [],
+    "special_notes": [
+      "※桜田彩叶が体調不良の為休演。善家侑莉花が出演いたします。"
+    ],
     "fany_performance_id": 53483,
     "ticket_sales": [
       {
