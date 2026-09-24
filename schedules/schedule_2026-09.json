@@ -1583,22 +1583,6 @@
     "fany_performance_id": 53792,
     "ticket_sales": [
       {
-        "sales_id": 67572,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/09/22(火) 12:00",
-        "period_end": "2026/09/24(木) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/67572/53792"
-      },
-      {
-        "sales_id": 67573,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/09/22(火) 12:00",
-        "period_end": "2026/09/24(木) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/67573/53792"
-      },
-      {
         "sales_id": 67574,
         "sales_name": "一般発売",
         "period_start": "2026/09/27(日) 10:00",
@@ -1613,6 +1597,22 @@
         "period_end": "2026/09/20(日) 12:00",
         "status": "抽選受付終了",
         "url": "https://ticket.fany.lol/reception/67571/53792"
+      },
+      {
+        "sales_id": 67572,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/09/22(火) 12:00",
+        "period_end": "2026/09/24(木) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/67572/53792"
+      },
+      {
+        "sales_id": 67573,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/09/22(火) 12:00",
+        "period_end": "2026/09/24(木) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/67573/53792"
       }
     ]
   },
@@ -1654,22 +1654,6 @@
     "fany_performance_id": 53795,
     "ticket_sales": [
       {
-        "sales_id": 67580,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/09/22(火) 12:00",
-        "period_end": "2026/09/24(木) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/67580/53795"
-      },
-      {
-        "sales_id": 67581,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/09/22(火) 12:00",
-        "period_end": "2026/09/24(木) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/67581/53795"
-      },
-      {
         "sales_id": 67582,
         "sales_name": "一般発売",
         "period_start": "2026/09/27(日) 10:00",
@@ -1684,6 +1668,22 @@
         "period_end": "2026/09/20(日) 12:00",
         "status": "抽選受付終了",
         "url": "https://ticket.fany.lol/reception/67579/53795"
+      },
+      {
+        "sales_id": 67580,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/09/22(火) 12:00",
+        "period_end": "2026/09/24(木) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/67580/53795"
+      },
+      {
+        "sales_id": 67581,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/09/22(火) 12:00",
+        "period_end": "2026/09/24(木) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/67581/53795"
       }
     ]
   }
