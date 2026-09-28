@@ -1547,10 +1547,10 @@
   },
   {
     "id": "show_2026-09-28_1845_1",
-    "entry_id": "12978534107",
-    "entry_title": "9月28日～10月4日 NMB48劇場公演スケジュール",
-    "entry_url": "https://ameblo.jp/nmb48/entry-12978534107.html",
-    "pub_date": "Sun, 20 Sep 2026 21:05:00 +0900",
+    "entry_id": "12980002196",
+    "entry_title": "本日9月28日公演 出演メンバー変更のお知らせ",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12980002196.html",
+    "pub_date": "Mon, 28 Sep 2026 10:44:22 +0900",
     "date": "2026-09-28",
     "year_month": "2026-09",
     "date_display": "2026年9月28日(月)",
@@ -1560,16 +1560,16 @@
     "full_title": "「無限大ノック」公演",
     "event_type": "",
     "is_members_undecided": false,
-    "members_raw": "石山千尋、内田愛彩、岡腰星来、木根彩呂花、澁谷愛紗南、竹田京加、田中ミリア、中川朋香、山口美桜、赤松昊、桜井ひまり、善家侑莉花、高橋樹奈、田中れい、谷口詩乃、西住美咲妃",
+    "members_raw": "石山千尋、内田愛彩、岡腰星来、澁谷愛紗南、竹田京加、田中ミリア、中川朋香、村井悠莉、山口美桜、赤松昊、桜井ひまり、善家侑莉花、高橋樹奈、田中れい、谷口詩乃、西住美咲妃",
     "members": [
       "ishiyama_chihiro_764a26dd",
       "uchida_aisha_c556d182",
       "okagoshi_seira_173a7799",
-      "kine_iroha_5de22a82",
       "shibuya_asana_97969ded",
       "takeda_kyoka_15efbecb",
       "tanaka_miria_dd56eb4e",
       "nakagawa_tomoka_e788642d",
+      "murai_yuuri_8c05dd83",
       "yamaguchi_mio_768539d7",
       "akamatsu_sora_bef4eef4",
       "sakurai_himari_7b66be04",
@@ -1579,7 +1579,9 @@
       "taniguchi_shino_1e0d3b69",
       "nishizumi_misaki_eb59e4c9"
     ],
-    "special_notes": [],
+    "special_notes": [
+      "※木根彩呂花が体調不良の為休演。村井悠莉が出演いたします。"
+    ],
     "fany_performance_id": 53792,
     "ticket_sales": [
       {
