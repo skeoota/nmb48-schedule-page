@@ -311,8 +311,8 @@ def parse_schedule_description(
         current_date_shows.clear()
 
     for line in lines:
-        # Stop parsing when reaching ticket application / sales info sections
-        if re.search(r"^■\s*(?:チケット|応募|申込|発売|配信|入場|注意事項)", line) or "チケット申込期間" in line or "チケット販売期間" in line or "誕生月のお客様歓迎" in line:
+        # Stop parsing when reaching ticket application / sales section (e.g. ■チケット申込期間, ■チケット販売, etc.)
+        if re.search(r"^■\s*(?:チケット|応募|申込期間|販売期間|発売期間)", line) or line.startswith("■チケット申込期間") or line.startswith("■ チケット申込期間") or line.startswith("■チケット販売"):
             flush_date_shows()
             break
 

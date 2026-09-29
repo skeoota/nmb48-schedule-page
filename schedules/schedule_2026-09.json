@@ -1304,7 +1304,8 @@
     "special_notes": [
       "※両公演、歌唱披露はございません。",
       "※お見送り会有り",
-      "※モニター観覧の実施はございません。終演後に写真販売を実施いたします。"
+      "※モニター観覧の実施はございません。終演後に写真販売を実施いたします。",
+      "※『誕生月のお客様歓迎キャンペーン』の実施はございません。"
     ],
     "fany_performance_id": 52975,
     "ticket_sales": [
@@ -1375,7 +1376,8 @@
     "special_notes": [
       "※両公演、歌唱披露はございません。",
       "※お見送り会有り",
-      "※モニター観覧の実施はございません。終演後に写真販売を実施いたします。"
+      "※モニター観覧の実施はございません。終演後に写真販売を実施いたします。",
+      "※『誕生月のお客様歓迎キャンペーン』の実施はございません。"
     ],
     "fany_performance_id": 52980,
     "ticket_sales": [
@@ -1418,7 +1420,7 @@
     "entry_id": "12978029611",
     "entry_title": "9月21日～27日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978029611.html",
-    "pub_date": "Thu, 10 Sep 2026 21:20:00 +0900",
+    "pub_date": "Wed, 16 Sep 2026 10:05:00 +0900",
     "date": "2026-09-24",
     "year_month": "2026-09",
     "date_display": "2026年9月24日(木)",
@@ -1481,7 +1483,7 @@
     "entry_id": "12978029611",
     "entry_title": "9月21日～27日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978029611.html",
-    "pub_date": "Thu, 10 Sep 2026 21:20:00 +0900",
+    "pub_date": "Wed, 16 Sep 2026 10:05:00 +0900",
     "date": "2026-09-25",
     "year_month": "2026-09",
     "date_display": "2026年9月25日(金)",
@@ -1490,12 +1492,27 @@
     "title": "青春！恋のDestination",
     "full_title": "「青春！恋のDestination」公演",
     "event_type": "",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
-    "special_notes": [
-      "※出演メンバーは決定次第お知らせいたします。"
+    "is_members_undecided": false,
+    "members_raw": "池帆乃香、石山千尋、新澤菜央、高橋ことね、竹田京加、田中美空、田中ミリア、中川朋香、西島梨央、西田帆花、松本海日菜、宮崎紗衣、宮本杏海、山口美桜、吉見純音、善家侑莉花",
+    "members": [
+      "ike_honoka_8ba7d98e",
+      "ishiyama_chihiro_764a26dd",
+      "shinzawa_nao_e5dbe82d",
+      "takahashi_kotone_5c194c42",
+      "takeda_kyoka_15efbecb",
+      "tanaka_misora_9ad35a72",
+      "tanaka_miria_dd56eb4e",
+      "nakagawa_tomoka_e788642d",
+      "nishijima_rio_eeea8286",
+      "nishida_honoka_205dea6d",
+      "matsumoto_mihina_7256d406",
+      "miyazaki_sae_293fa59f",
+      "miyamoto_ami_d1832929",
+      "yamaguchi_mio_768539d7",
+      "yoshimi_ayane_66185c47",
+      "zenke_yurika_e8979f20"
     ],
+    "special_notes": [],
     "fany_performance_id": null,
     "ticket_sales": []
   },
@@ -1504,7 +1521,7 @@
     "entry_id": "12978029611",
     "entry_title": "9月21日～27日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978029611.html",
-    "pub_date": "Thu, 10 Sep 2026 21:20:00 +0900",
+    "pub_date": "Wed, 16 Sep 2026 10:05:00 +0900",
     "date": "2026-09-27",
     "year_month": "2026-09",
     "date_display": "2026年9月27日(日)",
@@ -1513,12 +1530,27 @@
     "title": "情熱！めっちゃ楽舞友",
     "full_title": "「情熱！めっちゃ楽舞友」公演【ファミリー・グループ歓迎】",
     "event_type": "ファミリー・グループ歓迎",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
-    "special_notes": [
-      "※出演メンバーは決定次第お知らせいたします。"
+    "is_members_undecided": false,
+    "members_raw": "池田典愛、泉綾乃、板垣心和、木根彩呂花、坂下真心、坂田心咲、竹田京加、中川朋香、西島梨央、西田帆花、平山真衣、松岡さくら、松本海日菜、宮本杏海、吉見純音、西住美咲妃",
+    "members": [
+      "ikeda_tenna_b664d319",
+      "izumi_ayano_449f220f",
+      "itagaki_koyori_9c921151",
+      "kine_iroha_5de22a82",
+      "sakashita_mako_eace6ab1",
+      "sakata_misaki_38cb0d10",
+      "takeda_kyoka_15efbecb",
+      "nakagawa_tomoka_e788642d",
+      "nishijima_rio_eeea8286",
+      "nishida_honoka_205dea6d",
+      "hirayama_mai_a5f8e922",
+      "matsuoka_sakura_791781d4",
+      "matsumoto_mihina_7256d406",
+      "miyamoto_ami_d1832929",
+      "yoshimi_ayane_66185c47",
+      "nishizumi_misaki_eb59e4c9"
     ],
+    "special_notes": [],
     "fany_performance_id": null,
     "ticket_sales": []
   },
@@ -1527,7 +1559,7 @@
     "entry_id": "12978029611",
     "entry_title": "9月21日～27日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12978029611.html",
-    "pub_date": "Thu, 10 Sep 2026 21:20:00 +0900",
+    "pub_date": "Wed, 16 Sep 2026 10:05:00 +0900",
     "date": "2026-09-27",
     "year_month": "2026-09",
     "date_display": "2026年9月27日(日)",
@@ -1536,12 +1568,27 @@
     "title": "情熱！めっちゃ楽舞友",
     "full_title": "「情熱！めっちゃ楽舞友」公演",
     "event_type": "",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
-    "special_notes": [
-      "※出演メンバーは決定次第お知らせいたします。"
+    "is_members_undecided": false,
+    "members_raw": "池田典愛、泉綾乃、板垣心和、木根彩呂花、坂下真心、坂田心咲、竹田京加、中川朋香、西島梨央、西田帆花、平山真衣、松岡さくら、松本海日菜、宮本杏海、吉見純音、西住美咲妃",
+    "members": [
+      "ikeda_tenna_b664d319",
+      "izumi_ayano_449f220f",
+      "itagaki_koyori_9c921151",
+      "kine_iroha_5de22a82",
+      "sakashita_mako_eace6ab1",
+      "sakata_misaki_38cb0d10",
+      "takeda_kyoka_15efbecb",
+      "nakagawa_tomoka_e788642d",
+      "nishijima_rio_eeea8286",
+      "nishida_honoka_205dea6d",
+      "hirayama_mai_a5f8e922",
+      "matsuoka_sakura_791781d4",
+      "matsumoto_mihina_7256d406",
+      "miyamoto_ami_d1832929",
+      "yoshimi_ayane_66185c47",
+      "nishizumi_misaki_eb59e4c9"
     ],
+    "special_notes": [],
     "fany_performance_id": null,
     "ticket_sales": []
   },
