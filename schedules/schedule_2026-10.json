@@ -615,7 +615,7 @@
         "sales_name": "●FANY IDプレミアムメンバー抽選先行",
         "period_start": "2026/10/02(金) 12:00",
         "period_end": "2026/10/04(日) 12:00",
-        "status": "抽選受付前",
+        "status": "抽選受付中",
         "url": "https://ticket.fany.lol/reception/69254/54776"
       },
       {
@@ -623,7 +623,7 @@
         "sales_name": "FANY IDメンバー抽選先行",
         "period_start": "2026/10/02(金) 12:00",
         "period_end": "2026/10/04(日) 12:00",
-        "status": "抽選受付前",
+        "status": "抽選受付中",
         "url": "https://ticket.fany.lol/reception/69255/54776"
       },
       {
@@ -686,7 +686,7 @@
         "sales_name": "●FANY IDプレミアムメンバー抽選先行",
         "period_start": "2026/10/02(金) 12:00",
         "period_end": "2026/10/04(日) 12:00",
-        "status": "抽選受付前",
+        "status": "抽選受付中",
         "url": "https://ticket.fany.lol/reception/69260/54779"
       },
       {
@@ -694,7 +694,7 @@
         "sales_name": "FANY IDメンバー抽選先行",
         "period_start": "2026/10/02(金) 12:00",
         "period_end": "2026/10/04(日) 12:00",
-        "status": "抽選受付前",
+        "status": "抽選受付中",
         "url": "https://ticket.fany.lol/reception/69261/54779"
       },
       {
@@ -757,7 +757,7 @@
         "sales_name": "●FANY IDプレミアムメンバー抽選先行",
         "period_start": "2026/10/02(金) 12:00",
         "period_end": "2026/10/04(日) 12:00",
-        "status": "抽選受付前",
+        "status": "抽選受付中",
         "url": "https://ticket.fany.lol/reception/69266/54790"
       },
       {
@@ -765,7 +765,7 @@
         "sales_name": "FANY IDメンバー抽選先行",
         "period_start": "2026/10/02(金) 12:00",
         "period_end": "2026/10/04(日) 12:00",
-        "status": "抽選受付前",
+        "status": "抽選受付中",
         "url": "https://ticket.fany.lol/reception/69267/54790"
       },
       {
@@ -828,7 +828,7 @@
         "sales_name": "●FANY IDプレミアムメンバー抽選先行",
         "period_start": "2026/10/02(金) 12:00",
         "period_end": "2026/10/04(日) 12:00",
-        "status": "抽選受付前",
+        "status": "抽選受付中",
         "url": "https://ticket.fany.lol/reception/69278/54791"
       },
       {
@@ -836,7 +836,7 @@
         "sales_name": "FANY IDメンバー抽選先行",
         "period_start": "2026/10/02(金) 12:00",
         "period_end": "2026/10/04(日) 12:00",
-        "status": "抽選受付前",
+        "status": "抽選受付中",
         "url": "https://ticket.fany.lol/reception/69279/54791"
       },
       {
@@ -862,7 +862,7 @@
     "entry_id": "12980020870",
     "entry_title": "10月12日、14日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12980020870.html",
-    "pub_date": "Mon, 28 Sep 2026 15:00:00 +0900",
+    "pub_date": "Fri, 02 Oct 2026 17:40:00 +0900",
     "date": "2026-10-12",
     "year_month": "2026-10",
     "date_display": "2026年10月12日(月)",
@@ -871,9 +871,26 @@
     "title": "青春！恋のDestination",
     "full_title": "「青春！恋のDestination」公演【遠方のお客様歓迎】",
     "event_type": "遠方のお客様歓迎",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
+    "is_members_undecided": false,
+    "members_raw": "青原優花、池帆乃香、石山千尋、内田愛彩、衣笠彩実、塩月希依音、新澤菜央、高橋ことね、龍本弥生、田中美空、中川朋香、西島梨央、西田帆花、松本海日菜、村井悠莉、善家侑莉花",
+    "members": [
+      "aobara_yuka_dec50853",
+      "ike_honoka_8ba7d98e",
+      "ishiyama_chihiro_764a26dd",
+      "uchida_aisha_c556d182",
+      "kinugasa_ayami_0b95ac10",
+      "shiotsuki_keito_6c5554d2",
+      "shinzawa_nao_e5dbe82d",
+      "takahashi_kotone_5c194c42",
+      "tatsumoto_yayoi_8c564fd8",
+      "tanaka_misora_9ad35a72",
+      "nakagawa_tomoka_e788642d",
+      "nishijima_rio_eeea8286",
+      "nishida_honoka_205dea6d",
+      "matsumoto_mihina_7256d406",
+      "murai_yuuri_8c05dd83",
+      "zenke_yurika_e8979f20"
+    ],
     "special_notes": [],
     "fany_performance_id": 55070,
     "ticket_sales": [
@@ -882,7 +899,7 @@
         "sales_name": "NMB48 Mobile抽選先行",
         "period_start": "2026/10/02(金) 12:00",
         "period_end": "2026/10/04(日) 12:00",
-        "status": "抽選受付前",
+        "status": "抽選受付中",
         "url": "https://ticket.fany.lol/reception/69969/55070"
       },
       {
@@ -916,7 +933,7 @@
     "entry_id": "12980020870",
     "entry_title": "10月12日、14日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12980020870.html",
-    "pub_date": "Mon, 28 Sep 2026 15:00:00 +0900",
+    "pub_date": "Fri, 02 Oct 2026 17:40:00 +0900",
     "date": "2026-10-12",
     "year_month": "2026-10",
     "date_display": "2026年10月12日(月)",
@@ -925,9 +942,26 @@
     "title": "青春！恋のDestination",
     "full_title": "「青春！恋のDestination」公演",
     "event_type": "",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
+    "is_members_undecided": false,
+    "members_raw": "青原優花、池帆乃香、石山千尋、内田愛彩、衣笠彩実、塩月希依音、新澤菜央、高橋ことね、龍本弥生、田中美空、中川朋香、西島梨央、西田帆花、松本海日菜、村井悠莉、善家侑莉花",
+    "members": [
+      "aobara_yuka_dec50853",
+      "ike_honoka_8ba7d98e",
+      "ishiyama_chihiro_764a26dd",
+      "uchida_aisha_c556d182",
+      "kinugasa_ayami_0b95ac10",
+      "shiotsuki_keito_6c5554d2",
+      "shinzawa_nao_e5dbe82d",
+      "takahashi_kotone_5c194c42",
+      "tatsumoto_yayoi_8c564fd8",
+      "tanaka_misora_9ad35a72",
+      "nakagawa_tomoka_e788642d",
+      "nishijima_rio_eeea8286",
+      "nishida_honoka_205dea6d",
+      "matsumoto_mihina_7256d406",
+      "murai_yuuri_8c05dd83",
+      "zenke_yurika_e8979f20"
+    ],
     "special_notes": [],
     "fany_performance_id": 55071,
     "ticket_sales": [
@@ -936,7 +970,7 @@
         "sales_name": "NMB48 Mobile抽選先行",
         "period_start": "2026/10/02(金) 12:00",
         "period_end": "2026/10/04(日) 12:00",
-        "status": "抽選受付前",
+        "status": "抽選受付中",
         "url": "https://ticket.fany.lol/reception/70001/55071"
       },
       {
@@ -970,7 +1004,7 @@
     "entry_id": "12980020870",
     "entry_title": "10月12日、14日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12980020870.html",
-    "pub_date": "Mon, 28 Sep 2026 15:00:00 +0900",
+    "pub_date": "Fri, 02 Oct 2026 17:40:00 +0900",
     "date": "2026-10-14",
     "year_month": "2026-10",
     "date_display": "2026年10月14日(水)",
@@ -979,9 +1013,26 @@
     "title": "情熱！めっちゃ楽舞友",
     "full_title": "「情熱！めっちゃ楽舞友」公演",
     "event_type": "",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
+    "is_members_undecided": false,
+    "members_raw": "池田典愛、泉綾乃、板垣心和、坂下真心、坂田心咲、桜田彩叶、竹田京加、西島梨央、西田帆花、平山真衣、松岡さくら、松本海日菜、宮本杏海、村井悠莉、赤松昊、善家侑莉花",
+    "members": [
+      "ikeda_tenna_b664d319",
+      "izumi_ayano_449f220f",
+      "itagaki_koyori_9c921151",
+      "sakashita_mako_eace6ab1",
+      "sakata_misaki_38cb0d10",
+      "sakurada_ayaka_0f654b92",
+      "takeda_kyoka_15efbecb",
+      "nishijima_rio_eeea8286",
+      "nishida_honoka_205dea6d",
+      "hirayama_mai_a5f8e922",
+      "matsuoka_sakura_791781d4",
+      "matsumoto_mihina_7256d406",
+      "miyamoto_ami_d1832929",
+      "murai_yuuri_8c05dd83",
+      "akamatsu_sora_bef4eef4",
+      "zenke_yurika_e8979f20"
+    ],
     "special_notes": [],
     "fany_performance_id": 55073,
     "ticket_sales": [
@@ -990,7 +1041,7 @@
         "sales_name": "NMB48 Mobile抽選先行",
         "period_start": "2026/10/02(金) 12:00",
         "period_end": "2026/10/04(日) 12:00",
-        "status": "抽選受付前",
+        "status": "抽選受付中",
         "url": "https://ticket.fany.lol/reception/70005/55073"
       },
       {
