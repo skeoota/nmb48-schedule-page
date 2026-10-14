@@ -1002,11 +1002,11 @@
     ]
   },
   {
-    "id": "show_2026-10-14_1830_3",
-    "entry_id": "12980020870",
-    "entry_title": "10月12日、14日 NMB48劇場公演スケジュール",
-    "entry_url": "https://ameblo.jp/nmb48/entry-12980020870.html",
-    "pub_date": "Fri, 02 Oct 2026 17:40:00 +0900",
+    "id": "show_2026-10-14_1830_1",
+    "entry_id": "12981539329",
+    "entry_title": "本日10月14日公演 出演メンバー変更のお知らせ",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12981539329.html",
+    "pub_date": "Wed, 14 Oct 2026 11:11:15 +0900",
     "date": "2026-10-14",
     "year_month": "2026-10",
     "date_display": "2026年10月14日(水)",
@@ -1016,11 +1016,12 @@
     "full_title": "「情熱！めっちゃ楽舞友」公演",
     "event_type": "",
     "is_members_undecided": false,
-    "members_raw": "池田典愛、泉綾乃、板垣心和、坂下真心、坂田心咲、桜田彩叶、竹田京加、西島梨央、西田帆花、平山真衣、松岡さくら、松本海日菜、宮本杏海、村井悠莉、赤松昊、善家侑莉花",
+    "members_raw": "池田典愛、泉綾乃、板垣心和、木根彩呂花、坂下真心、坂田心咲、桜田彩叶、竹田京加、西島梨央、西田帆花、平山真衣、松岡さくら、松本海日菜、宮本杏海、村井悠莉、善家侑莉花",
     "members": [
       "ikeda_tenna_b664d319",
       "izumi_ayano_449f220f",
       "itagaki_koyori_9c921151",
+      "kine_iroha_5de22a82",
       "sakashita_mako_eace6ab1",
       "sakata_misaki_38cb0d10",
       "sakurada_ayaka_0f654b92",
@@ -1032,10 +1033,11 @@
       "matsumoto_mihina_7256d406",
       "miyamoto_ami_d1832929",
       "murai_yuuri_8c05dd83",
-      "akamatsu_sora_bef4eef4",
       "zenke_yurika_e8979f20"
     ],
-    "special_notes": [],
+    "special_notes": [
+      "※赤松昊が体調不良の為休演、木根彩呂花が出演いたします。"
+    ],
     "fany_performance_id": 55073,
     "ticket_sales": [
       {
