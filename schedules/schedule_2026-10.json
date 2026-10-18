@@ -1116,7 +1116,7 @@
         "sales_name": "一般発売",
         "period_start": "2026/10/18(日) 10:00",
         "period_end": "2026/10/20(火) 16:00",
-        "status": "先着発売前",
+        "status": "先着発売中",
         "url": "https://ticket.fany.lol/reception/70381/55387"
       },
       {
@@ -1187,7 +1187,7 @@
         "sales_name": "一般発売",
         "period_start": "2026/10/18(日) 10:00",
         "period_end": "2026/10/21(水) 16:15",
-        "status": "先着発売前",
+        "status": "先着発売中",
         "url": "https://ticket.fany.lol/reception/70401/55388"
       },
       {
@@ -1258,7 +1258,7 @@
         "sales_name": "一般発売",
         "period_start": "2026/10/18(日) 10:00",
         "period_end": "2026/10/22(木) 16:00",
-        "status": "先着発売前",
+        "status": "先着発売中",
         "url": "https://ticket.fany.lol/reception/70402/55390"
       },
       {
@@ -1321,22 +1321,6 @@
     "fany_performance_id": 55408,
     "ticket_sales": [
       {
-        "sales_id": 70461,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/10/16(金) 12:00",
-        "period_end": "2026/10/18(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/70461/55408"
-      },
-      {
-        "sales_id": 70462,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/10/16(金) 12:00",
-        "period_end": "2026/10/18(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/70462/55408"
-      },
-      {
         "sales_id": 70463,
         "sales_name": "一般発売",
         "period_start": "2026/10/21(水) 10:00",
@@ -1351,6 +1335,22 @@
         "period_end": "2026/10/14(水) 12:00",
         "status": "抽選受付終了",
         "url": "https://ticket.fany.lol/reception/70460/55408"
+      },
+      {
+        "sales_id": 70461,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/10/16(金) 12:00",
+        "period_end": "2026/10/18(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/70461/55408"
+      },
+      {
+        "sales_id": 70462,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/10/16(金) 12:00",
+        "period_end": "2026/10/18(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/70462/55408"
       }
     ]
   },
@@ -1388,22 +1388,6 @@
     "fany_performance_id": 55412,
     "ticket_sales": [
       {
-        "sales_id": 70478,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/10/16(金) 12:00",
-        "period_end": "2026/10/18(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/70478/55412"
-      },
-      {
-        "sales_id": 70480,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/10/16(金) 12:00",
-        "period_end": "2026/10/18(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/70480/55412"
-      },
-      {
         "sales_id": 70482,
         "sales_name": "一般発売",
         "period_start": "2026/10/21(水) 10:00",
@@ -1418,6 +1402,22 @@
         "period_end": "2026/10/14(水) 12:00",
         "status": "抽選受付終了",
         "url": "https://ticket.fany.lol/reception/70476/55412"
+      },
+      {
+        "sales_id": 70478,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/10/16(金) 12:00",
+        "period_end": "2026/10/18(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/70478/55412"
+      },
+      {
+        "sales_id": 70480,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/10/16(金) 12:00",
+        "period_end": "2026/10/18(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/70480/55412"
       }
     ]
   },
@@ -1459,22 +1459,6 @@
     "fany_performance_id": 55536,
     "ticket_sales": [
       {
-        "sales_id": 70725,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/10/16(金) 12:00",
-        "period_end": "2026/10/18(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/70725/55536"
-      },
-      {
-        "sales_id": 70726,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/10/16(金) 12:00",
-        "period_end": "2026/10/18(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/70726/55536"
-      },
-      {
         "sales_id": 70727,
         "sales_name": "一般発売",
         "period_start": "2026/10/21(水) 10:00",
@@ -1489,6 +1473,22 @@
         "period_end": "2026/10/14(水) 12:00",
         "status": "抽選受付終了",
         "url": "https://ticket.fany.lol/reception/70724/55536"
+      },
+      {
+        "sales_id": 70725,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/10/16(金) 12:00",
+        "period_end": "2026/10/18(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/70725/55536"
+      },
+      {
+        "sales_id": 70726,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/10/16(金) 12:00",
+        "period_end": "2026/10/18(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/70726/55536"
       }
     ]
   },
@@ -1530,22 +1530,6 @@
     "fany_performance_id": 55544,
     "ticket_sales": [
       {
-        "sales_id": 70742,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/10/16(金) 12:00",
-        "period_end": "2026/10/18(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/70742/55544"
-      },
-      {
-        "sales_id": 70743,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/10/16(金) 12:00",
-        "period_end": "2026/10/18(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/70743/55544"
-      },
-      {
         "sales_id": 70744,
         "sales_name": "一般発売",
         "period_start": "2026/10/21(水) 10:00",
@@ -1560,6 +1544,22 @@
         "period_end": "2026/10/14(水) 12:00",
         "status": "抽選受付終了",
         "url": "https://ticket.fany.lol/reception/70741/55544"
+      },
+      {
+        "sales_id": 70742,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/10/16(金) 12:00",
+        "period_end": "2026/10/18(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/70742/55544"
+      },
+      {
+        "sales_id": 70743,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/10/16(金) 12:00",
+        "period_end": "2026/10/18(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/70743/55544"
       }
     ]
   },
@@ -1601,14 +1601,6 @@
     "fany_performance_id": 55547,
     "ticket_sales": [
       {
-        "sales_id": 70751,
-        "sales_name": "NMB48 Mobile二次抽選先行",
-        "period_start": "2026/10/16(金) 12:00",
-        "period_end": "2026/10/18(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/70751/55547"
-      },
-      {
         "sales_id": 70750,
         "sales_name": "一般発売",
         "period_start": "2026/10/21(水) 10:00",
@@ -1623,6 +1615,14 @@
         "period_end": "2026/10/14(水) 12:00",
         "status": "抽選受付終了",
         "url": "https://ticket.fany.lol/reception/70749/55547"
+      },
+      {
+        "sales_id": 70751,
+        "sales_name": "NMB48 Mobile二次抽選先行",
+        "period_start": "2026/10/16(金) 12:00",
+        "period_end": "2026/10/18(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/70751/55547"
       }
     ]
   },
@@ -1664,22 +1664,6 @@
     "fany_performance_id": 55545,
     "ticket_sales": [
       {
-        "sales_id": 70746,
-        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
-        "period_start": "2026/10/16(金) 12:00",
-        "period_end": "2026/10/18(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/70746/55545"
-      },
-      {
-        "sales_id": 70747,
-        "sales_name": "FANY IDメンバー抽選先行",
-        "period_start": "2026/10/16(金) 12:00",
-        "period_end": "2026/10/18(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/70747/55545"
-      },
-      {
         "sales_id": 70748,
         "sales_name": "一般発売",
         "period_start": "2026/10/21(水) 10:00",
@@ -1694,6 +1678,22 @@
         "period_end": "2026/10/14(水) 12:00",
         "status": "抽選受付終了",
         "url": "https://ticket.fany.lol/reception/70745/55545"
+      },
+      {
+        "sales_id": 70746,
+        "sales_name": "●FANY IDプレミアムメンバー抽選先行",
+        "period_start": "2026/10/16(金) 12:00",
+        "period_end": "2026/10/18(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/70746/55545"
+      },
+      {
+        "sales_id": 70747,
+        "sales_name": "FANY IDメンバー抽選先行",
+        "period_start": "2026/10/16(金) 12:00",
+        "period_end": "2026/10/18(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/70747/55545"
       }
     ]
   },
@@ -1702,7 +1702,7 @@
     "entry_id": "12981349633",
     "entry_title": "10月26日～11月1日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12981349633.html",
-    "pub_date": "Sat, 17 Oct 2026 09:40:00 +0900",
+    "pub_date": "Sun, 18 Oct 2026 11:55:00 +0900",
     "date": "2026-10-26",
     "year_month": "2026-10",
     "date_display": "2026年10月26日(月)",
@@ -1735,14 +1735,6 @@
     "fany_performance_id": 56008,
     "ticket_sales": [
       {
-        "sales_id": 71104,
-        "sales_name": "NMB48 Mobile抽選先行",
-        "period_start": "2026/10/16(金) 12:00",
-        "period_end": "2026/10/18(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/71104/56008"
-      },
-      {
         "sales_id": 71105,
         "sales_name": "●FANY IDプレミアムメンバー抽選先行",
         "period_start": "2026/10/20(火) 12:00",
@@ -1765,6 +1757,14 @@
         "period_end": "2026/10/26(月) 16:00",
         "status": "先着発売前",
         "url": "https://ticket.fany.lol/reception/71107/56008"
+      },
+      {
+        "sales_id": 71104,
+        "sales_name": "NMB48 Mobile抽選先行",
+        "period_start": "2026/10/16(金) 12:00",
+        "period_end": "2026/10/18(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/71104/56008"
       }
     ]
   },
@@ -1773,7 +1773,7 @@
     "entry_id": "12981349633",
     "entry_title": "10月26日～11月1日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12981349633.html",
-    "pub_date": "Sat, 17 Oct 2026 09:40:00 +0900",
+    "pub_date": "Sun, 18 Oct 2026 11:55:00 +0900",
     "date": "2026-10-28",
     "year_month": "2026-10",
     "date_display": "2026年10月28日(水)",
@@ -1809,14 +1809,6 @@
     "fany_performance_id": 55389,
     "ticket_sales": [
       {
-        "sales_id": 70374,
-        "sales_name": "NMB48 Mobile抽選先行",
-        "period_start": "2026/10/16(金) 12:00",
-        "period_end": "2026/10/18(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/70374/55389"
-      },
-      {
         "sales_id": 70375,
         "sales_name": "●FANY IDプレミアムメンバー抽選先行",
         "period_start": "2026/10/20(火) 12:00",
@@ -1839,6 +1831,14 @@
         "period_end": "2026/10/28(水) 16:00",
         "status": "先着発売前",
         "url": "https://ticket.fany.lol/reception/70377/55389"
+      },
+      {
+        "sales_id": 70374,
+        "sales_name": "NMB48 Mobile抽選先行",
+        "period_start": "2026/10/16(金) 12:00",
+        "period_end": "2026/10/18(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/70374/55389"
       }
     ]
   },
@@ -1847,7 +1847,7 @@
     "entry_id": "12981349633",
     "entry_title": "10月26日～11月1日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12981349633.html",
-    "pub_date": "Sat, 17 Oct 2026 09:40:00 +0900",
+    "pub_date": "Sun, 18 Oct 2026 11:55:00 +0900",
     "date": "2026-10-29",
     "year_month": "2026-10",
     "date_display": "2026年10月29日(木)",
@@ -1880,14 +1880,6 @@
     "fany_performance_id": 56010,
     "ticket_sales": [
       {
-        "sales_id": 71110,
-        "sales_name": "NMB48 Mobile抽選先行",
-        "period_start": "2026/10/16(金) 12:00",
-        "period_end": "2026/10/18(日) 12:00",
-        "status": "抽選受付中",
-        "url": "https://ticket.fany.lol/reception/71110/56010"
-      },
-      {
         "sales_id": 71111,
         "sales_name": "●FANY IDプレミアムメンバー抽選先行",
         "period_start": "2026/10/20(火) 12:00",
@@ -1910,6 +1902,14 @@
         "period_end": "2026/10/29(木) 16:00",
         "status": "先着発売前",
         "url": "https://ticket.fany.lol/reception/71113/56010"
+      },
+      {
+        "sales_id": 71110,
+        "sales_name": "NMB48 Mobile抽選先行",
+        "period_start": "2026/10/16(金) 12:00",
+        "period_end": "2026/10/18(日) 12:00",
+        "status": "抽選受付終了",
+        "url": "https://ticket.fany.lol/reception/71110/56010"
       }
     ]
   },
@@ -1918,7 +1918,7 @@
     "entry_id": "12981349633",
     "entry_title": "10月26日～11月1日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12981349633.html",
-    "pub_date": "Sat, 17 Oct 2026 09:40:00 +0900",
+    "pub_date": "Sun, 18 Oct 2026 11:55:00 +0900",
     "date": "2026-10-30",
     "year_month": "2026-10",
     "date_display": "2026年10月30日(金)",
@@ -1976,7 +1976,7 @@
     "entry_id": "12981349633",
     "entry_title": "10月26日～11月1日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12981349633.html",
-    "pub_date": "Sat, 17 Oct 2026 09:40:00 +0900",
+    "pub_date": "Sun, 18 Oct 2026 11:55:00 +0900",
     "date": "2026-10-31",
     "year_month": "2026-10",
     "date_display": "2026年10月31日(土)",
@@ -1985,13 +1985,29 @@
     "title": "無限大ノック",
     "full_title": "「無限大ノック」公演【福原琴美 生誕祭】",
     "event_type": "福原琴美 生誕祭",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
+    "is_members_undecided": false,
+    "members_raw": "石山千尋、岡腰星来、澁谷愛紗南、高橋ことね、竹田京加、田中ミリア、村井悠莉、赤松昊、桜井ひまり、高橋樹奈、田中れい、谷口詩乃、西住美咲妃、福原琴美、藪内陽花、和田承子",
+    "members": [
+      "ishiyama_chihiro_764a26dd",
+      "okagoshi_seira_173a7799",
+      "shibuya_asana_97969ded",
+      "takahashi_kotone_5c194c42",
+      "takeda_kyoka_15efbecb",
+      "tanaka_miria_dd56eb4e",
+      "murai_yuuri_8c05dd83",
+      "akamatsu_sora_bef4eef4",
+      "sakurai_himari_7b66be04",
+      "takahashi_juna_b8719149",
+      "tanaka_rei_c3015de1",
+      "taniguchi_shino_1e0d3b69",
+      "nishizumi_misaki_eb59e4c9",
+      "fukuhara_kotomi_c00a9850",
+      "yabuuchi_hinata_13809c00",
+      "wada_kotone_0de2410c"
+    ],
     "special_notes": [
       "※本公演では「NMB48 ROOMS会員先行」を実施いたします。",
-      "※来場者限定メッセージ入りL版写真付き",
-      "※出演メンバーは決定次第お知らせいたします。"
+      "※来場者限定メッセージ入りL版写真付き"
     ],
     "fany_performance_id": 55414,
     "ticket_sales": [
@@ -2034,7 +2050,7 @@
     "entry_id": "12981349633",
     "entry_title": "10月26日～11月1日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12981349633.html",
-    "pub_date": "Sat, 17 Oct 2026 09:40:00 +0900",
+    "pub_date": "Sun, 18 Oct 2026 11:55:00 +0900",
     "date": "2026-10-31",
     "year_month": "2026-10",
     "date_display": "2026年10月31日(土)",
@@ -2043,13 +2059,29 @@
     "title": "無限大ノック",
     "full_title": "「無限大ノック」公演【高橋樹奈 生誕祭】",
     "event_type": "高橋樹奈 生誕祭",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
+    "is_members_undecided": false,
+    "members_raw": "石山千尋、岡腰星来、澁谷愛紗南、高橋ことね、竹田京加、田中ミリア、村井悠莉、赤松昊、桜井ひまり、高橋樹奈、田中れい、谷口詩乃、西住美咲妃、福原琴美、藪内陽花、和田承子",
+    "members": [
+      "ishiyama_chihiro_764a26dd",
+      "okagoshi_seira_173a7799",
+      "shibuya_asana_97969ded",
+      "takahashi_kotone_5c194c42",
+      "takeda_kyoka_15efbecb",
+      "tanaka_miria_dd56eb4e",
+      "murai_yuuri_8c05dd83",
+      "akamatsu_sora_bef4eef4",
+      "sakurai_himari_7b66be04",
+      "takahashi_juna_b8719149",
+      "tanaka_rei_c3015de1",
+      "taniguchi_shino_1e0d3b69",
+      "nishizumi_misaki_eb59e4c9",
+      "fukuhara_kotomi_c00a9850",
+      "yabuuchi_hinata_13809c00",
+      "wada_kotone_0de2410c"
+    ],
     "special_notes": [
       "※本公演では「NMB48 ROOMS会員先行」を実施いたします。",
-      "※来場者限定メッセージ入りL版写真付き",
-      "※出演メンバーは決定次第お知らせいたします。"
+      "※来場者限定メッセージ入りL版写真付き"
     ],
     "fany_performance_id": 55432,
     "ticket_sales": [
