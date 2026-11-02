@@ -187,7 +187,7 @@
     "ticket_sales": []
   },
   {
-    "id": "show_2026-11-03_1800_2",
+    "id": "show_2026-11-03_1800_1",
     "entry_id": "12982015911",
     "entry_title": "11月3日～11月8日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12982015911.html",
@@ -228,7 +228,7 @@
     "ticket_sales": []
   },
   {
-    "id": "show_2026-11-04_1830_3",
+    "id": "show_2026-11-04_1830_2",
     "entry_id": "12982015911",
     "entry_title": "11月3日～11月8日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12982015911.html",
@@ -269,7 +269,7 @@
     "ticket_sales": []
   },
   {
-    "id": "show_2026-11-05_1830_4",
+    "id": "show_2026-11-05_1830_3",
     "entry_id": "12982015911",
     "entry_title": "11月3日～11月8日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12982015911.html",
@@ -304,7 +304,7 @@
     "ticket_sales": []
   },
   {
-    "id": "show_2026-11-06_1830_5",
+    "id": "show_2026-11-06_1830_4",
     "entry_id": "12982015911",
     "entry_title": "11月3日～11月8日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12982015911.html",
@@ -345,7 +345,7 @@
     "ticket_sales": []
   },
   {
-    "id": "show_2026-11-07_1400_6",
+    "id": "show_2026-11-07_1400_5",
     "entry_id": "12982015911",
     "entry_title": "11月3日～11月8日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12982015911.html",
@@ -386,7 +386,7 @@
     "ticket_sales": []
   },
   {
-    "id": "show_2026-11-07_1800_7",
+    "id": "show_2026-11-07_1800_6",
     "entry_id": "12982015911",
     "entry_title": "11月3日～11月8日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12982015911.html",
@@ -427,7 +427,7 @@
     "ticket_sales": []
   },
   {
-    "id": "show_2026-11-08_1400_8",
+    "id": "show_2026-11-08_1400_7",
     "entry_id": "12982015911",
     "entry_title": "11月3日～11月8日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12982015911.html",
@@ -468,7 +468,7 @@
     "ticket_sales": []
   },
   {
-    "id": "show_2026-11-08_1800_9",
+    "id": "show_2026-11-08_1800_8",
     "entry_id": "12982015911",
     "entry_title": "11月3日～11月8日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12982015911.html",
@@ -763,6 +763,173 @@
     "special_notes": [
       "※本公演では「NMB48 ROOMS会員先行」を実施いたします。",
       "※来場者限定メッセージ入りL版写真付き"
+    ],
+    "fany_performance_id": null,
+    "ticket_sales": []
+  },
+  {
+    "id": "show_2026-11-17_1845_1",
+    "entry_id": "12983294631",
+    "entry_title": "11月17日～11月22日 NMB48劇場公演スケジュール",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12983294631.html",
+    "pub_date": "Mon, 02 Nov 2026 15:00:00 +0900",
+    "date": "2026-11-17",
+    "year_month": "2026-11",
+    "date_display": "2026年11月17日(火)",
+    "day_of_week": "火",
+    "time": "18:45",
+    "title": "無限大ノック",
+    "full_title": "「無限大ノック」公演",
+    "event_type": "",
+    "is_members_undecided": true,
+    "members_raw": "※出演メンバーは決まり次第、お知らせいたします。",
+    "members": [],
+    "special_notes": [],
+    "fany_performance_id": null,
+    "ticket_sales": []
+  },
+  {
+    "id": "show_2026-11-19_1830_2",
+    "entry_id": "12983294631",
+    "entry_title": "11月17日～11月22日 NMB48劇場公演スケジュール",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12983294631.html",
+    "pub_date": "Mon, 02 Nov 2026 15:00:00 +0900",
+    "date": "2026-11-19",
+    "year_month": "2026-11",
+    "date_display": "2026年11月19日(木)",
+    "day_of_week": "木",
+    "time": "18:30",
+    "title": "青春！恋のDestination",
+    "full_title": "「青春！恋のDestination」公演 【高橋ことね 卒業公演】",
+    "event_type": "高橋ことね 卒業公演",
+    "is_members_undecided": true,
+    "members_raw": "※出演メンバーは決まり次第、お知らせいたします。",
+    "members": [],
+    "special_notes": [
+      "※本公演では「NMB48 ROOMS会員先行」を実施いたします。",
+      "※特製卒業記念グッズ付"
+    ],
+    "fany_performance_id": null,
+    "ticket_sales": []
+  },
+  {
+    "id": "show_2026-11-20_1830_3",
+    "entry_id": "12983294631",
+    "entry_title": "11月17日～11月22日 NMB48劇場公演スケジュール",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12983294631.html",
+    "pub_date": "Mon, 02 Nov 2026 15:00:00 +0900",
+    "date": "2026-11-20",
+    "year_month": "2026-11",
+    "date_display": "2026年11月20日(金)",
+    "day_of_week": "金",
+    "time": "18:30",
+    "title": "無限大ノック",
+    "full_title": "「無限大ノック」公演 【田中れい 生誕祭】",
+    "event_type": "田中れい 生誕祭",
+    "is_members_undecided": true,
+    "members_raw": "※出演メンバーは決まり次第、お知らせいたします。",
+    "members": [],
+    "special_notes": [
+      "※本公演では「NMB48 ROOMS会員先行」を実施いたします。",
+      "※来場者限定メッセージ入りL版写真付き"
+    ],
+    "fany_performance_id": null,
+    "ticket_sales": []
+  },
+  {
+    "id": "show_2026-11-21_1400_4",
+    "entry_id": "12983294631",
+    "entry_title": "11月17日～11月22日 NMB48劇場公演スケジュール",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12983294631.html",
+    "pub_date": "Mon, 02 Nov 2026 15:00:00 +0900",
+    "date": "2026-11-21",
+    "year_month": "2026-11",
+    "date_display": "2026年11月21日(土)",
+    "day_of_week": "土",
+    "time": "14:00",
+    "title": "情熱！めっちゃ楽舞友",
+    "full_title": "「情熱！めっちゃ楽舞友」公演 【遠方のお客様歓迎】",
+    "event_type": "遠方のお客様歓迎",
+    "is_members_undecided": true,
+    "members_raw": "※出演メンバーは決まり次第、お知らせいたします。",
+    "members": [],
+    "special_notes": [],
+    "fany_performance_id": null,
+    "ticket_sales": []
+  },
+  {
+    "id": "show_2026-11-21_1800_5",
+    "entry_id": "12983294631",
+    "entry_title": "11月17日～11月22日 NMB48劇場公演スケジュール",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12983294631.html",
+    "pub_date": "Mon, 02 Nov 2026 15:00:00 +0900",
+    "date": "2026-11-21",
+    "year_month": "2026-11",
+    "date_display": "2026年11月21日(土)",
+    "day_of_week": "土",
+    "time": "18:00",
+    "title": "情熱！めっちゃ楽舞友",
+    "full_title": "「情熱！めっちゃ楽舞友」公演",
+    "event_type": "",
+    "is_members_undecided": true,
+    "members_raw": "※出演メンバーは決まり次第、お知らせいたします。",
+    "members": [],
+    "special_notes": [],
+    "fany_performance_id": null,
+    "ticket_sales": []
+  },
+  {
+    "id": "show_2026-11-22_1400_6",
+    "entry_id": "12983294631",
+    "entry_title": "11月17日～11月22日 NMB48劇場公演スケジュール",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12983294631.html",
+    "pub_date": "Mon, 02 Nov 2026 15:00:00 +0900",
+    "date": "2026-11-22",
+    "year_month": "2026-11",
+    "date_display": "2026年11月22日(日)",
+    "day_of_week": "日",
+    "time": "14:00",
+    "title": "無限大ノック",
+    "full_title": "「無限大ノック」公演 【岡腰星来 生誕祭】",
+    "event_type": "岡腰星来 生誕祭",
+    "is_members_undecided": true,
+    "members_raw": "※出演メンバーは決まり次第、お知らせいたします。",
+    "members": [],
+    "special_notes": [
+      "※本公演では「NMB48 ROOMS会員先行」を実施いたします。",
+      "※来場者限定メッセージ入りL版写真付き",
+      "※平日の通常公演限定となります。（平日に開催される生誕祭、卒業公演、特別公演等は対象外となります。）",
+      "※当日中にお引き換えください。後日のお渡しは致しかねます。",
+      "※応募方法は通常通りです。応募枠も問いません。",
+      "※当キャンペーンは予告なく終了する場合がございます。"
+    ],
+    "fany_performance_id": null,
+    "ticket_sales": []
+  },
+  {
+    "id": "show_2026-11-22_1800_7",
+    "entry_id": "12983294631",
+    "entry_title": "11月17日～11月22日 NMB48劇場公演スケジュール",
+    "entry_url": "https://ameblo.jp/nmb48/entry-12983294631.html",
+    "pub_date": "Mon, 02 Nov 2026 15:00:00 +0900",
+    "date": "2026-11-22",
+    "year_month": "2026-11",
+    "date_display": "2026年11月22日(日)",
+    "day_of_week": "日",
+    "time": "18:00",
+    "title": "無限大ノック",
+    "full_title": "「無限大ノック」公演 【谷口詩乃 生誕祭】",
+    "event_type": "谷口詩乃 生誕祭",
+    "is_members_undecided": true,
+    "members_raw": "※出演メンバーは決まり次第、お知らせいたします。",
+    "members": [],
+    "special_notes": [
+      "※本公演では「NMB48 ROOMS会員先行」を実施いたします。",
+      "※来場者限定メッセージ入りL版写真付き",
+      "※平日の通常公演限定となります。（平日に開催される生誕祭、卒業公演、特別公演等は対象外となります。）",
+      "※当日中にお引き換えください。後日のお渡しは致しかねます。",
+      "※応募方法は通常通りです。応募枠も問いません。",
+      "※当キャンペーンは予告なく終了する場合がございます。"
     ],
     "fany_performance_id": null,
     "ticket_sales": []
