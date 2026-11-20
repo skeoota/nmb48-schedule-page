@@ -1504,7 +1504,7 @@
     "entry_id": "12984569324",
     "entry_title": "11月30日～12月6日 NMB48劇場公演スケジュール",
     "entry_url": "https://ameblo.jp/nmb48/entry-12984569324.html",
-    "pub_date": "Thu, 19 Nov 2026 16:00:00 +0900",
+    "pub_date": "Fri, 20 Nov 2026 21:50:00 +0900",
     "date": "2026-11-30",
     "year_month": "2026-11",
     "date_display": "2026年11月30日(月)",
@@ -1513,12 +1513,27 @@
     "title": "情熱！めっちゃ楽舞友",
     "full_title": "「情熱！めっちゃ楽舞友」公演",
     "event_type": "",
-    "is_members_undecided": true,
-    "members_raw": "※出演メンバーは決まり次第お知らせいたします。",
-    "members": [],
-    "special_notes": [
-      "※出演メンバーは決定次第お知らせいたします。"
+    "is_members_undecided": false,
+    "members_raw": "池田典愛、板垣心和、内田愛彩、衣笠彩実、木根彩呂花、桜田彩叶、竹田京加、龍本弥生、田中美空、西田帆花、松岡さくら、松本海日菜、宮本杏海、村井悠莉、山口美桜、善家侑莉花",
+    "members": [
+      "ikeda_tenna_b664d319",
+      "itagaki_koyori_9c921151",
+      "uchida_aisha_c556d182",
+      "kinugasa_ayami_0b95ac10",
+      "kine_iroha_5de22a82",
+      "sakurada_ayaka_0f654b92",
+      "takeda_kyoka_15efbecb",
+      "tatsumoto_yayoi_8c564fd8",
+      "tanaka_misora_9ad35a72",
+      "nishida_honoka_205dea6d",
+      "matsuoka_sakura_791781d4",
+      "matsumoto_mihina_7256d406",
+      "miyamoto_ami_d1832929",
+      "murai_yuuri_8c05dd83",
+      "yamaguchi_mio_768539d7",
+      "zenke_yurika_e8979f20"
     ],
+    "special_notes": [],
     "fany_performance_id": null,
     "ticket_sales": []
   }
